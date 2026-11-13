@@ -76,21 +76,23 @@ class MainActivity : AppCompatActivity() {
 
     private fun refresh() {
         val shizukuRunning = Shizuku.pingBinder()
-        val shizuku = when {
-            !shizukuRunning -> "not running"
-            !app.hasShizukuPermission() -> "running, permission not granted"
-            else -> "ready"
-        }
+        val shizuku = getString(
+            when {
+                !shizukuRunning -> R.string.shizuku_not_running
+                !app.hasShizukuPermission() -> R.string.shizuku_no_permission
+                else -> R.string.shizuku_ready
+            }
+        )
         val grab = try {
-            app.grabService?.status() ?: "not connected"
+            app.grabService?.status() ?: getString(R.string.grab_not_connected)
         } catch (_: RemoteException) {
-            "not connected"
+            getString(R.string.grab_not_connected)
         }
         val accessibility = isAccessibilityEnabled()
-        statusView.text = "Shizuku: $shizuku\nGrab service: $grab\n" +
-                "Accessibility fallback: ${if (accessibility) "on" else "off"}\n\n" +
-                "While the grab service is running the remote’s d-pad works without showing a cursor. " +
-                "Otherwise the accessibility fallback handles it, but the cursor still appears."
+        statusView.text = getString(
+            R.string.status_text, shizuku, grab,
+            getString(if (accessibility) R.string.state_on else R.string.state_off)
+        )
 
         // Only offer the setup steps that are still outstanding
         grantButton.visibility = if (shizukuRunning && !app.hasShizukuPermission()) View.VISIBLE else View.GONE

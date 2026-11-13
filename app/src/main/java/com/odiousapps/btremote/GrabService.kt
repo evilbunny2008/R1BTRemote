@@ -105,11 +105,13 @@ class GrabService(context: Context) : IGrabService.Stub() {
                     val type = buf.getShort(off + 16).toInt()
                     val code = buf.getShort(off + 18).toInt()
                     val value = buf.getInt(off + 20)
-                    when {
-                        type == EV_ABS && code == ABS_X -> x = value
-                        type == EV_ABS && code == ABS_Y -> y = value
-                        type == EV_KEY && code == BTN_TOUCH -> touching = value != 0
-                        type == EV_SYN && code == SYN_REPORT -> {
+                    when (type) {
+                        EV_ABS -> when (code) {
+                            ABS_X -> x = value
+                            ABS_Y -> y = value
+                        }
+                        EV_KEY -> if (code == BTN_TOUCH) touching = value != 0
+                        EV_SYN -> if (code == SYN_REPORT) {
                             // Judge whole frames: a frame's key and axis events arrive in any order.
                             // The release frame can carry the remote's "park" position, so ignore it.
                             if (touching && !wasTouching) {

@@ -4,4 +4,11 @@
     <string name="grant_shizuku">Grant Shizuku permission</string>
     <string name="open_accessibility">Open accessibility settings</string>
     <string name="refresh">Refresh</string>
+    <string name="shizuku_not_running">not running</string>
+    <string name="shizuku_no_permission">running, permission not granted</string>
+    <string name="shizuku_ready">ready</string>
+    <string name="grab_not_connected">not connected</string>
+    <string name="state_on">on</string>
+    <string name="state_off">off</string>
+    <string name="status_text">Shizuku: %1$s\nGrab service: %2$s\nAccessibility fallback: %3$s\n\nWhile the grab service is running the remote’s d-pad works without showing a cursor. Otherwise, the accessibility fallback handles it, but the cursor still appears.</string>
 </resources>
