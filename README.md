@@ -40,7 +40,7 @@ steps you haven't done yet.
 
 - Android 14 (API 34) or newer
 - A Beauty-R1 Bluetooth remote, [available on AliExpress](https://www.aliexpress.com/item/1005008089171343.html) (it shows up as `Beauty-R1`)
-- Optional but recommended: Shizuku
+- Optional but recommended: [Shizuku](https://github.com/evilbunny2008/Shizuku/releases/latest)
 
 ## Installation
 
