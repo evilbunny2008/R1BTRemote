@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">R1 BT Remote</string>
+    <string name="service_description">Turns the Beauty-R1 remote’s swipe buttons into next, previous, volume and play/pause.</string>
+    <string name="grant_shizuku">Grant Shizuku permission</string>
+    <string name="open_accessibility">Open accessibility settings</string>
+    <string name="refresh">Refresh</string>
+</resources>
