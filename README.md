@@ -50,26 +50,15 @@ steps you haven't done yet.
    [github.com/evilbunny2008/Shizuku/releases/latest](https://github.com/evilbunny2008/Shizuku/releases/latest)
    and start it, following the instructions in the Shizuku app (wireless debugging
    on unrooted phones, or root).
-4. Open R1BTRemote:
+4. Open R1 BT Remote:
    - Tap **Grant Shizuku permission** and allow it. The status should change to
      *Grab service: grabbed /dev/input/eventN* once the remote is connected.
    - If you're not using Shizuku, or want a fallback for when it isn't running, tap
      **Open accessibility settings** and turn on **R1 BT Remote**.
 5. Press a button on the remote to check it works.
 
-Shizuku has to be started again after each reboot on unrooted phones. Until then,
+Shizuku has to be started again after each reboot on unrooted phones. While Shizuku starts,
 the accessibility fallback (if it's turned on) keeps the remote working.
-
-## Building
-
-Open the project in Android Studio, or build from the command line:
-
-```sh
-./gradlew assembleDebug
-```
-
-The build includes a small native library (`app/src/main/cpp`), so the Android NDK
-and CMake need to be installed through the SDK Manager.
 
 ## Licence
 
