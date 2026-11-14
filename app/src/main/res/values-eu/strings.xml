@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 urruneko kontrolaren irristatze-botoiak hurrengo, aurreko, bolumen eta erreproduzitu/pausatu bihurtzen ditu.</string>
+	<string name="grant_shizuku">Eman Shizuku baimena</string>
+	<string name="open_accessibility">Ireki erabilerraztasun-ezarpenak</string>
+	<string name="refresh">Freskatu</string>
+	<string name="shizuku_not_running">ez dago martxan</string>
+	<string name="shizuku_no_permission">martxan, baimenik eman gabe</string>
+	<string name="shizuku_ready">prest</string>
+	<string name="grab_not_connected">konektatu gabe</string>
+	<string name="state_on">aktibatuta</string>
+	<string name="state_off">desaktibatuta</string>
+	<string name="status_text">Shizuku: %1$s\nHarrapatze-zerbitzua: %2$s\nErabilerraztasunaren ordezkoa: %3$s\n\nHarrapatze-zerbitzua martxan dagoen bitartean, urruneko kontrolaren norabide-botoiek kurtsorerik erakutsi gabe funtzionatzen dute. Bestela, erabilerraztasunaren ordezkoak kudeatzen du, baina kurtsorea agertzen da oraindik.</string>
+</resources>

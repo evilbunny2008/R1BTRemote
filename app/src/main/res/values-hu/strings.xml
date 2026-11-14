@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">A Beauty-R1 távirányító húzógombjait következő, előző, hangerő és lejátszás/szünet gombokká alakítja.</string>
+	<string name="grant_shizuku">Shizuku-engedély megadása</string>
+	<string name="open_accessibility">Kisegítő lehetőségek beállításainak megnyitása</string>
+	<string name="refresh">Frissítés</string>
+	<string name="shizuku_not_running">nem fut</string>
+	<string name="shizuku_no_permission">fut, engedély nincs megadva</string>
+	<string name="shizuku_ready">kész</string>
+	<string name="grab_not_connected">nincs csatlakoztatva</string>
+	<string name="state_on">be</string>
+	<string name="state_off">ki</string>
+	<string name="status_text">Shizuku: %1$s\nElfogó szolgáltatás: %2$s\nKisegítő tartalékmegoldás: %3$s\n\nAmíg az elfogó szolgáltatás fut, a távirányító irányítógombjai kurzor megjelenítése nélkül működnek. Ellenkező esetben a kisegítő tartalékmegoldás kezeli őket, de a kurzor továbbra is megjelenik.</string>
+</resources>

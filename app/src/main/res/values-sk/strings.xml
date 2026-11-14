@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Mení tlačidlá na potiahnutie na diaľkovom ovládači Beauty-R1 na ďalšie, predchádzajúce, hlasitosť a prehrať/pozastaviť.</string>
+	<string name="grant_shizuku">Udeliť povolenie Shizuku</string>
+	<string name="open_accessibility">Otvoriť nastavenia dostupnosti</string>
+	<string name="refresh">Obnoviť</string>
+	<string name="shizuku_not_running">nie je spustené</string>
+	<string name="shizuku_no_permission">spustené, povolenie neudelené</string>
+	<string name="shizuku_ready">pripravené</string>
+	<string name="grab_not_connected">nepripojené</string>
+	<string name="state_on">zap.</string>
+	<string name="state_off">vyp.</string>
+	<string name="status_text">Shizuku: %1$s\nSlužba zachytávania: %2$s\nZáložné riešenie cez dostupnosť: %3$s\n\nKým je služba zachytávania spustená, smerové tlačidlá diaľkového ovládača fungujú bez zobrazenia kurzora. Inak ich obsluhuje záložné riešenie cez dostupnosť, ale kurzor sa stále zobrazuje.</string>
+</resources>

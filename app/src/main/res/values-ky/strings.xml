@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 пультунун сүрүү баскычтарын кийинки, мурунку, үн деңгээли жана ойнотуу/тыным баскычтарына айлантат.</string>
+	<string name="grant_shizuku">Shizuku уруксатын берүү</string>
+	<string name="open_accessibility">Атайын мүмкүнчүлүктөр жөндөөлөрүн ачуу</string>
+	<string name="refresh">Жаңыртуу</string>
+	<string name="shizuku_not_running">иштеген жок</string>
+	<string name="shizuku_no_permission">иштеп жатат, уруксат берилген жок</string>
+	<string name="shizuku_ready">даяр</string>
+	<string name="grab_not_connected">туташкан жок</string>
+	<string name="state_on">күйүк</string>
+	<string name="state_off">өчүк</string>
+	<string name="status_text">Shizuku: %1$s\nКармап алуу кызматы: %2$s\nАтайын мүмкүнчүлүктөр аркылуу запас: %3$s\n\nКармап алуу кызматы иштеп турганда, пульттун багыт баскычтары курсорду көрсөтпөстөн иштейт. Антпесе аны атайын мүмкүнчүлүктөр аркылуу запас иштетет, бирок курсор баары бир пайда болот.</string>
+</resources>

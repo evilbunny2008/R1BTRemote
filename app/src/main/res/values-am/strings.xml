@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">የBeauty-R1 ሪሞት የማንሸራተቻ አዝራሮችን ወደ ቀጣይ፣ ቀዳሚ፣ ድምፅ እና አጫውት/ለአፍታ አቁም ይቀይራል።</string>
+	<string name="grant_shizuku">የShizuku ፈቃድ ስጥ</string>
+	<string name="open_accessibility">የተደራሽነት ቅንብሮችን ክፈት</string>
+	<string name="refresh">አድስ</string>
+	<string name="shizuku_not_running">እየሰራ አይደለም</string>
+	<string name="shizuku_no_permission">እየሰራ ነው፣ ፈቃድ አልተሰጠም</string>
+	<string name="shizuku_ready">ዝግጁ</string>
+	<string name="grab_not_connected">አልተገናኘም</string>
+	<string name="state_on">በርቷል</string>
+	<string name="state_off">ጠፍቷል</string>
+	<string name="status_text">Shizuku: %1$s\nየመያዣ አገልግሎት: %2$s\nየተደራሽነት ምትክ: %3$s\n\nየመያዣ አገልግሎቱ እየሰራ እያለ የሪሞቱ አቅጣጫ አዝራሮች ጠቋሚ ሳያሳዩ ይሰራሉ። አለበለዚያ የተደራሽነት ምትኩ ያስተናግደዋል፣ ነገር ግን ጠቋሚው አሁንም ይታያል።</string>
+</resources>

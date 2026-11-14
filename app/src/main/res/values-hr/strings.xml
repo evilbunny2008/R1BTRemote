@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Pretvara tipke za prelazak prstom na daljinskom upravljaču Beauty-R1 u sljedeće, prethodno, glasnoću i reprodukciju/pauzu.</string>
+	<string name="grant_shizuku">Dodijeli dopuštenje za Shizuku</string>
+	<string name="open_accessibility">Otvori postavke pristupačnosti</string>
+	<string name="refresh">Osvježi</string>
+	<string name="shizuku_not_running">ne radi</string>
+	<string name="shizuku_no_permission">radi, dopuštenje nije dodijeljeno</string>
+	<string name="shizuku_ready">spremno</string>
+	<string name="grab_not_connected">nije povezano</string>
+	<string name="state_on">uklj.</string>
+	<string name="state_off">isklj.</string>
+	<string name="status_text">Shizuku: %1$s\nUsluga hvatanja: %2$s\nRezervna opcija pristupačnosti: %3$s\n\nDok usluga hvatanja radi, smjerne tipke daljinskog upravljača rade bez prikaza pokazivača. U suprotnom ih obrađuje rezervna opcija pristupačnosti, ali se pokazivač i dalje pojavljuje.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Ginagawang susunod, nakaraan, volume at i-play/i-pause ang mga swipe button ng remote na Beauty-R1.</string>
+	<string name="grant_shizuku">Ibigay ang pahintulot ng Shizuku</string>
+	<string name="open_accessibility">Buksan ang mga setting ng accessibility</string>
+	<string name="refresh">I-refresh</string>
+	<string name="shizuku_not_running">hindi tumatakbo</string>
+	<string name="shizuku_no_permission">tumatakbo, hindi naibigay ang pahintulot</string>
+	<string name="shizuku_ready">handa na</string>
+	<string name="grab_not_connected">hindi nakakonekta</string>
+	<string name="state_on">naka-on</string>
+	<string name="state_off">naka-off</string>
+	<string name="status_text">Shizuku: %1$s\nSerbisyo sa pag-grab: %2$s\nFallback ng accessibility: %3$s\n\nHabang tumatakbo ang serbisyo sa pag-grab, gumagana ang mga direction button ng remote nang hindi nagpapakita ng cursor. Kung hindi, ang fallback ng accessibility ang hahawak dito, pero lalabas pa rin ang cursor.</string>
+</resources>

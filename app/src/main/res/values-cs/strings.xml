@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Mění tlačítka pro přejetí na ovladači Beauty-R1 na další, předchozí, hlasitost a přehrát/pozastavit.</string>
+	<string name="grant_shizuku">Udělit oprávnění Shizuku</string>
+	<string name="open_accessibility">Otevřít nastavení přístupnosti</string>
+	<string name="refresh">Obnovit</string>
+	<string name="shizuku_not_running">není spuštěno</string>
+	<string name="shizuku_no_permission">spuštěno, oprávnění neuděleno</string>
+	<string name="shizuku_ready">připraveno</string>
+	<string name="grab_not_connected">nepřipojeno</string>
+	<string name="state_on">zap.</string>
+	<string name="state_off">vyp.</string>
+	<string name="status_text">Shizuku: %1$s\nSlužba zachycení: %2$s\nZáložní řešení přes přístupnost: %3$s\n\nKdyž je služba zachycení spuštěná, směrový ovladač dálkového ovládání funguje bez zobrazení kurzoru. Jinak jej obsluhuje záložní řešení přes přístupnost, ale kurzor se stále zobrazuje.</string>
+</resources>

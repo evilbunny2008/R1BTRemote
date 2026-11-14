@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 အဝေးထိန်း၏ ပွတ်ဆွဲခလုတ်များကို နောက်တစ်ခု၊ ယခင်၊ အသံအတိုးအကျယ်နှင့် ဖွင့်/ခဏရပ် အဖြစ် ပြောင်းပေးသည်။</string>
+	<string name="grant_shizuku">Shizuku ခွင့်ပြုချက် ပေးရန်</string>
+	<string name="open_accessibility">အများသုံးစွဲနိုင်မှု ဆက်တင်များ ဖွင့်ရန်</string>
+	<string name="refresh">ပြန်လည်စတင်ရန်</string>
+	<string name="shizuku_not_running">မလည်ပတ်ပါ</string>
+	<string name="shizuku_no_permission">လည်ပတ်နေသည်၊ ခွင့်ပြုချက် မပေးရသေးပါ</string>
+	<string name="shizuku_ready">အသင့်ဖြစ်ပြီ</string>
+	<string name="grab_not_connected">ချိတ်ဆက်မထားပါ</string>
+	<string name="state_on">ဖွင့်</string>
+	<string name="state_off">ပိတ်</string>
+	<string name="status_text">Shizuku: %1$s\nဖမ်းယူမှု ဝန်ဆောင်မှု: %2$s\nအများသုံးစွဲနိုင်မှု အရန်နည်းလမ်း: %3$s\n\nဖမ်းယူမှု ဝန်ဆောင်မှု လည်ပတ်နေစဉ် အဝေးထိန်း၏ ဦးတည်ချက်ခလုတ်များသည် ကာဆာမပြဘဲ အလုပ်လုပ်သည်။ သို့မဟုတ်ပါက အများသုံးစွဲနိုင်မှု အရန်နည်းလမ်းက ကိုင်တွယ်ပေးသော်လည်း ကာဆာ ပေါ်နေဆဲဖြစ်သည်။</string>
+</resources>

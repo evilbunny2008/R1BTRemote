@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">הופך את כפתורי ההחלקה של השלט Beauty-R1 לבא, קודם, עוצמת קול והפעלה/השהיה.</string>
+	<string name="grant_shizuku">הענקת הרשאת Shizuku</string>
+	<string name="open_accessibility">פתיחת הגדרות הנגישות</string>
+	<string name="refresh">רענון</string>
+	<string name="shizuku_not_running">לא פועל</string>
+	<string name="shizuku_no_permission">פועל, ההרשאה לא הוענקה</string>
+	<string name="shizuku_ready">מוכן</string>
+	<string name="grab_not_connected">לא מחובר</string>
+	<string name="state_on">מופעל</string>
+	<string name="state_off">כבוי</string>
+	<string name="status_text">Shizuku: %1$s\nשירות לכידה: %2$s\nחלופת נגישות: %3$s\n\nכל עוד שירות הלכידה פועל, מקשי הכיוונים של השלט עובדים בלי להציג סמן. אחרת, חלופת הנגישות מטפלת בכך, אבל הסמן עדיין מופיע.</string>
+</resources>

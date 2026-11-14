@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">دکمه‌های کشیدن کنترل از راه دور Beauty-R1 را به بعدی، قبلی، صدا و پخش/توقف موقت تبدیل می‌کند.</string>
+	<string name="grant_shizuku">اعطای مجوز Shizuku</string>
+	<string name="open_accessibility">باز کردن تنظیمات دسترس‌پذیری</string>
+	<string name="refresh">بازخوانی</string>
+	<string name="shizuku_not_running">در حال اجرا نیست</string>
+	<string name="shizuku_no_permission">در حال اجرا، مجوز داده نشده</string>
+	<string name="shizuku_ready">آماده</string>
+	<string name="grab_not_connected">متصل نیست</string>
+	<string name="state_on">روشن</string>
+	<string name="state_off">خاموش</string>
+	<string name="status_text">Shizuku: %1$s\nسرویس ضبط ورودی: %2$s\nجایگزین دسترس‌پذیری: %3$s\n\nتا وقتی سرویس ضبط ورودی در حال اجراست، دکمه‌های جهت‌نمای کنترل بدون نمایش نشانگر کار می‌کنند. در غیر این صورت، جایگزین دسترس‌پذیری آن را مدیریت می‌کند، اما نشانگر همچنان ظاهر می‌شود.</string>
+</resources>

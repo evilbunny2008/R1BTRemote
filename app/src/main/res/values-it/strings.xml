@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Trasforma i pulsanti di scorrimento del telecomando Beauty-R1 in successivo, precedente, volume e riproduci/pausa.</string>
+	<string name="grant_shizuku">Concedi l’autorizzazione Shizuku</string>
+	<string name="open_accessibility">Apri le impostazioni di accessibilità</string>
+	<string name="refresh">Aggiorna</string>
+	<string name="shizuku_not_running">non in esecuzione</string>
+	<string name="shizuku_no_permission">in esecuzione, autorizzazione non concessa</string>
+	<string name="shizuku_ready">pronto</string>
+	<string name="grab_not_connected">non connesso</string>
+	<string name="state_on">attivo</string>
+	<string name="state_off">disattivo</string>
+	<string name="status_text">Shizuku: %1$s\nServizio di acquisizione: %2$s\nAlternativa tramite accessibilità: %3$s\n\nMentre il servizio di acquisizione è in esecuzione, la croce direzionale del telecomando funziona senza mostrare alcun cursore. Altrimenti se ne occupa l’alternativa tramite accessibilità, ma il cursore appare comunque.</string>
+</resources>

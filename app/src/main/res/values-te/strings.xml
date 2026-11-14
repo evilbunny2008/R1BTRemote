@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 రిమోట్ స్వైప్ బటన్‌లను తదుపరి, మునుపటి, వాల్యూమ్ మరియు ప్లే/పాజ్‌గా మారుస్తుంది.</string>
+	<string name="grant_shizuku">Shizuku అనుమతిని మంజూరు చేయండి</string>
+	<string name="open_accessibility">యాక్సెసిబిలిటీ సెట్టింగ్‌లను తెరవండి</string>
+	<string name="refresh">రిఫ్రెష్ చేయండి</string>
+	<string name="shizuku_not_running">రన్ అవ్వడం లేదు</string>
+	<string name="shizuku_no_permission">రన్ అవుతోంది, అనుమతి మంజూరు కాలేదు</string>
+	<string name="shizuku_ready">సిద్ధంగా ఉంది</string>
+	<string name="grab_not_connected">కనెక్ట్ కాలేదు</string>
+	<string name="state_on">ఆన్</string>
+	<string name="state_off">ఆఫ్</string>
+	<string name="status_text">Shizuku: %1$s\nగ్రాబ్ సేవ: %2$s\nయాక్సెసిబిలిటీ ప్రత్యామ్నాయం: %3$s\n\nగ్రాబ్ సేవ రన్ అవుతున్నప్పుడు రిమోట్ దిశ బటన్‌లు కర్సర్ చూపకుండా పని చేస్తాయి. లేకపోతే యాక్సెసిబిలిటీ ప్రత్యామ్నాయం దాన్ని నిర్వహిస్తుంది, కానీ కర్సర్ ఇప్పటికీ కనిపిస్తుంది.</string>
+</resources>

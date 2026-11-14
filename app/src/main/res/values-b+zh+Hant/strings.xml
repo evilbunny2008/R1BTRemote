@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">將 Beauty-R1 遙控器的滑動按鈕轉換為下一首、上一首、音量及播放/暫停。</string>
+	<string name="grant_shizuku">授予 Shizuku 權限</string>
+	<string name="open_accessibility">開啟無障礙設定</string>
+	<string name="refresh">重新整理</string>
+	<string name="shizuku_not_running">未執行</string>
+	<string name="shizuku_no_permission">執行中，未授予權限</string>
+	<string name="shizuku_ready">就緒</string>
+	<string name="grab_not_connected">未連線</string>
+	<string name="state_on">開啟</string>
+	<string name="state_off">關閉</string>
+	<string name="status_text">Shizuku: %1$s\n擷取服務: %2$s\n無障礙備援: %3$s\n\n擷取服務執行時，遙控器的方向鍵可在不顯示游標的情況下運作。否則將由無障礙備援處理，但仍會出現游標。</string>
+</resources>

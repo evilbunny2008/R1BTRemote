@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Maakt van de veegknoppen van de Beauty-R1-afstandsbediening volgende, vorige, volume en afspelen/pauzeren.</string>
+	<string name="grant_shizuku">Shizuku-toestemming verlenen</string>
+	<string name="open_accessibility">Toegankelijkheidsinstellingen openen</string>
+	<string name="refresh">Vernieuwen</string>
+	<string name="shizuku_not_running">niet actief</string>
+	<string name="shizuku_no_permission">actief, toestemming niet verleend</string>
+	<string name="shizuku_ready">gereed</string>
+	<string name="grab_not_connected">niet verbonden</string>
+	<string name="state_on">aan</string>
+	<string name="state_off">uit</string>
+	<string name="status_text">Shizuku: %1$s\nOpvangservice: %2$s\nToegankelijkheidsterugval: %3$s\n\nZolang de opvangservice actief is, werken de richtingstoetsen van de afstandsbediening zonder dat er een cursor verschijnt. Anders handelt de toegankelijkheidsterugval het af, maar verschijnt de cursor nog steeds.</string>
+</resources>

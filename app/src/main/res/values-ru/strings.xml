@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Превращает кнопки прокрутки пульта Beauty-R1 в следующий, предыдущий, громкость и воспроизведение/паузу.</string>
+	<string name="grant_shizuku">Предоставить разрешение Shizuku</string>
+	<string name="open_accessibility">Открыть настройки специальных возможностей</string>
+	<string name="refresh">Обновить</string>
+	<string name="shizuku_not_running">не запущен</string>
+	<string name="shizuku_no_permission">запущен, разрешение не предоставлено</string>
+	<string name="shizuku_ready">готов</string>
+	<string name="grab_not_connected">не подключён</string>
+	<string name="state_on">вкл.</string>
+	<string name="state_off">выкл.</string>
+	<string name="status_text">Shizuku: %1$s\nСлужба перехвата: %2$s\nРезерв через спец. возможности: %3$s\n\nПока служба перехвата работает, кнопки навигации пульта работают без отображения курсора. В противном случае их обрабатывает резерв через специальные возможности, но курсор всё равно появляется.</string>
+</resources>

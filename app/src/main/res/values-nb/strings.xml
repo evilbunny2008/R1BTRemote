@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Gjør sveipeknappene på Beauty-R1-fjernkontrollen om til neste, forrige, volum og spill av/pause.</string>
+	<string name="grant_shizuku">Gi Shizuku-tillatelse</string>
+	<string name="open_accessibility">Åpne tilgjengelighetsinnstillinger</string>
+	<string name="refresh">Oppdater</string>
+	<string name="shizuku_not_running">kjører ikke</string>
+	<string name="shizuku_no_permission">kjører, tillatelse ikke gitt</string>
+	<string name="shizuku_ready">klar</string>
+	<string name="grab_not_connected">ikke tilkoblet</string>
+	<string name="state_on">på</string>
+	<string name="state_off">av</string>
+	<string name="status_text">Shizuku: %1$s\nOppfangingstjeneste: %2$s\nReserveløsning via tilgjengelighet: %3$s\n\nMens oppfangingstjenesten kjører, fungerer retningsknappene på fjernkontrollen uten å vise en markør. Ellers håndterer reserveløsningen via tilgjengelighet det, men markøren vises fortsatt.</string>
+</resources>

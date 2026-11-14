@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Menukar butang leret alat kawalan jauh Beauty-R1 kepada seterusnya, sebelumnya, kelantangan dan main/jeda.</string>
+	<string name="grant_shizuku">Berikan kebenaran Shizuku</string>
+	<string name="open_accessibility">Buka tetapan kebolehaksesan</string>
+	<string name="refresh">Muat semula</string>
+	<string name="shizuku_not_running">tidak berjalan</string>
+	<string name="shizuku_no_permission">berjalan, kebenaran tidak diberikan</string>
+	<string name="shizuku_ready">sedia</string>
+	<string name="grab_not_connected">tidak disambungkan</string>
+	<string name="state_on">hidup</string>
+	<string name="state_off">mati</string>
+	<string name="status_text">Shizuku: %1$s\nPerkhidmatan tangkapan: %2$s\nSandaran kebolehaksesan: %3$s\n\nSemasa perkhidmatan tangkapan berjalan, butang arah alat kawalan jauh berfungsi tanpa menunjukkan kursor. Jika tidak, sandaran kebolehaksesan akan mengendalikannya, tetapi kursor masih muncul.</string>
+</resources>

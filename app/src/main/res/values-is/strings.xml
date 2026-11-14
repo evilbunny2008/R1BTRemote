@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Breytir strokuhnöppum Beauty-R1-fjarstýringarinnar í næsta, fyrra, hljóðstyrk og spila/gera hlé.</string>
+	<string name="grant_shizuku">Veita Shizuku-heimild</string>
+	<string name="open_accessibility">Opna aðgengisstillingar</string>
+	<string name="refresh">Endurnýja</string>
+	<string name="shizuku_not_running">keyrir ekki</string>
+	<string name="shizuku_no_permission">keyrir, heimild ekki veitt</string>
+	<string name="shizuku_ready">tilbúið</string>
+	<string name="grab_not_connected">ekki tengt</string>
+	<string name="state_on">kveikt</string>
+	<string name="state_off">slökkt</string>
+	<string name="status_text">Shizuku: %1$s\nGripþjónusta: %2$s\nAðgengisvaraleið: %3$s\n\nÁ meðan gripþjónustan keyrir virka stefnuhnappar fjarstýringarinnar án þess að bendill birtist. Annars sér aðgengisvaraleiðin um þá, en bendillinn birtist samt.</string>
+</resources>

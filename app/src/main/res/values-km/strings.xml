@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">ប្ដូរប៊ូតុងអូសរបស់តេឡេបញ្ជា Beauty-R1 ទៅជា បន្ទាប់ មុន កម្រិតសំឡេង និងចាក់/ផ្អាក។</string>
+	<string name="grant_shizuku">ផ្ដល់ការអនុញ្ញាត Shizuku</string>
+	<string name="open_accessibility">បើកការកំណត់ភាពងាយស្រួល</string>
+	<string name="refresh">ផ្ទុកឡើងវិញ</string>
+	<string name="shizuku_not_running">មិនដំណើរការ</string>
+	<string name="shizuku_no_permission">កំពុងដំណើរការ មិនទាន់ផ្ដល់ការអនុញ្ញាត</string>
+	<string name="shizuku_ready">រួចរាល់</string>
+	<string name="grab_not_connected">មិនបានភ្ជាប់</string>
+	<string name="state_on">បើក</string>
+	<string name="state_off">បិទ</string>
+	<string name="status_text">Shizuku: %1$s\nសេវាចាប់យក: %2$s\nជម្រើសបម្រុងភាពងាយស្រួល: %3$s\n\nខណៈពេលសេវាចាប់យកកំពុងដំណើរការ ប៊ូតុងទិសដៅរបស់តេឡេបញ្ជាដំណើរការដោយមិនបង្ហាញទស្សន៍ទ្រនិច។ បើមិនដូច្នោះទេ ជម្រើសបម្រុងភាពងាយស្រួលនឹងគ្រប់គ្រងវា ប៉ុន្តែទស្សន៍ទ្រនិចនៅតែបង្ហាញ។</string>
+</resources>

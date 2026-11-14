@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Transforme les boutons de balayage de la télécommande Beauty-R1 en suivant, précédent, volume et lecture/pause.</string>
+	<string name="grant_shizuku">Accorder l’autorisation Shizuku</string>
+	<string name="open_accessibility">Ouvrir les paramètres d’accessibilité</string>
+	<string name="refresh">Actualiser</string>
+	<string name="shizuku_not_running">non démarré</string>
+	<string name="shizuku_no_permission">démarré, autorisation non accordée</string>
+	<string name="shizuku_ready">prêt</string>
+	<string name="grab_not_connected">non connecté</string>
+	<string name="state_on">activé</string>
+	<string name="state_off">désactivé</string>
+	<string name="status_text">Shizuku: %1$s\nService de capture: %2$s\nSolution de repli d’accessibilité: %3$s\n\nTant que le service de capture est actif, la croix directionnelle de la télécommande fonctionne sans afficher de curseur. Sinon, la solution de repli d’accessibilité prend le relais, mais le curseur apparaît toujours.</string>
+</resources>

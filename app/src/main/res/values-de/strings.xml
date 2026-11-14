@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Wandelt die Wischtasten der Beauty-R1-Fernbedienung in Weiter, Zurück, Lautstärke und Wiedergabe/Pause um.</string>
+	<string name="grant_shizuku">Shizuku-Berechtigung erteilen</string>
+	<string name="open_accessibility">Bedienungshilfen-Einstellungen öffnen</string>
+	<string name="refresh">Aktualisieren</string>
+	<string name="shizuku_not_running">läuft nicht</string>
+	<string name="shizuku_no_permission">läuft, Berechtigung nicht erteilt</string>
+	<string name="shizuku_ready">bereit</string>
+	<string name="grab_not_connected">nicht verbunden</string>
+	<string name="state_on">an</string>
+	<string name="state_off">aus</string>
+	<string name="status_text">Shizuku: %1$s\nErfassungsdienst: %2$s\nBedienungshilfen-Fallback: %3$s\n\nSolange der Erfassungsdienst läuft, funktioniert das Steuerkreuz der Fernbedienung, ohne einen Cursor anzuzeigen. Andernfalls übernimmt der Bedienungshilfen-Fallback, aber der Cursor erscheint weiterhin.</string>
+</resources>

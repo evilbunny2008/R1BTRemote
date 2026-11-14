@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Претвара дугмад за превлачење на даљинском управљачу Beauty-R1 у следеће, претходно, јачину звука и пусти/паузирај.</string>
+	<string name="grant_shizuku">Дај дозволу за Shizuku</string>
+	<string name="open_accessibility">Отвори подешавања приступачности</string>
+	<string name="refresh">Освежи</string>
+	<string name="shizuku_not_running">није покренуто</string>
+	<string name="shizuku_no_permission">покренуто, дозвола није дата</string>
+	<string name="shizuku_ready">спремно</string>
+	<string name="grab_not_connected">није повезано</string>
+	<string name="state_on">укључено</string>
+	<string name="state_off">искључено</string>
+	<string name="status_text">Shizuku: %1$s\nУслуга хватања: %2$s\nРезервна опција приступачности: %3$s\n\nДок услуга хватања ради, дугмад за смер на даљинском управљачу раде без приказивања курсора. У супротном, њима управља резервна опција приступачности, али се курсор и даље појављује.</string>
+</resources>

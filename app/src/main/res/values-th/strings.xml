@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">เปลี่ยนปุ่มปัดของรีโมต Beauty-R1 ให้เป็นถัดไป ก่อนหน้า ระดับเสียง และเล่น/หยุดชั่วคราว</string>
+	<string name="grant_shizuku">ให้สิทธิ์ Shizuku</string>
+	<string name="open_accessibility">เปิดการตั้งค่าการช่วยเหลือพิเศษ</string>
+	<string name="refresh">รีเฟรช</string>
+	<string name="shizuku_not_running">ไม่ได้ทำงาน</string>
+	<string name="shizuku_no_permission">กำลังทำงาน ยังไม่ได้ให้สิทธิ์</string>
+	<string name="shizuku_ready">พร้อม</string>
+	<string name="grab_not_connected">ไม่ได้เชื่อมต่อ</string>
+	<string name="state_on">เปิด</string>
+	<string name="state_off">ปิด</string>
+	<string name="status_text">Shizuku: %1$s\nบริการดักจับ: %2$s\nทางเลือกสำรองผ่านการช่วยเหลือพิเศษ: %3$s\n\nขณะที่บริการดักจับทำงาน ปุ่มทิศทางของรีโมตจะทำงานโดยไม่แสดงเคอร์เซอร์ มิฉะนั้นทางเลือกสำรองผ่านการช่วยเหลือพิเศษจะจัดการแทน แต่เคอร์เซอร์จะยังคงปรากฏ</string>
+</resources>

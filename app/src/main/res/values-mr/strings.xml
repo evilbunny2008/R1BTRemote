@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 रिमोटची स्वाइप बटणे पुढील, मागील, आवाज आणि प्ले/थांबवा मध्ये बदलते.</string>
+	<string name="grant_shizuku">Shizuku परवानगी द्या</string>
+	<string name="open_accessibility">अ‍ॅक्सेसिबिलिटी सेटिंग्ज उघडा</string>
+	<string name="refresh">रिफ्रेश करा</string>
+	<string name="shizuku_not_running">चालू नाही</string>
+	<string name="shizuku_no_permission">चालू आहे, परवानगी दिलेली नाही</string>
+	<string name="shizuku_ready">तयार</string>
+	<string name="grab_not_connected">कनेक्ट केलेले नाही</string>
+	<string name="state_on">चालू</string>
+	<string name="state_off">बंद</string>
+	<string name="status_text">Shizuku: %1$s\nग्रॅब सेवा: %2$s\nअ‍ॅक्सेसिबिलिटी पर्याय: %3$s\n\nग्रॅब सेवा चालू असताना रिमोटची दिशा बटणे कर्सर न दाखवता काम करतात. अन्यथा अ‍ॅक्सेसिबिलिटी पर्याय ते हाताळतो, परंतु कर्सर तरीही दिसतो.</string>
+</resources>

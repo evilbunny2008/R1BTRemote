@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 პულტის გადაფურცვლის ღილაკებს აქცევს შემდეგ, წინა, ხმის და დაკვრა/პაუზის ღილაკებად.</string>
+	<string name="grant_shizuku">Shizuku-ის ნებართვის მიცემა</string>
+	<string name="open_accessibility">მარტივი წვდომის პარამეტრების გახსნა</string>
+	<string name="refresh">განახლება</string>
+	<string name="shizuku_not_running">არ მუშაობს</string>
+	<string name="shizuku_no_permission">მუშაობს, ნებართვა არ არის მიცემული</string>
+	<string name="shizuku_ready">მზადაა</string>
+	<string name="grab_not_connected">არ არის დაკავშირებული</string>
+	<string name="state_on">ჩართ.</string>
+	<string name="state_off">გამორთ.</string>
+	<string name="status_text">Shizuku: %1$s\nჩაჭერის სერვისი: %2$s\nმარტივი წვდომის სარეზერვო ვარიანტი: %3$s\n\nსანამ ჩაჭერის სერვისი მუშაობს, პულტის მიმართულების ღილაკები კურსორის ჩვენების გარეშე მუშაობს. სხვა შემთხვევაში ამას მარტივი წვდომის სარეზერვო ვარიანტი ამუშავებს, მაგრამ კურსორი მაინც ჩნდება.</string>
+</resources>

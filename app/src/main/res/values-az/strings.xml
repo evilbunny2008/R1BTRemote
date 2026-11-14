@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 pultunun sürüşdürmə düymələrini növbəti, əvvəlki, səs və oynat/fasilə funksiyalarına çevirir.</string>
+	<string name="grant_shizuku">Shizuku icazəsi ver</string>
+	<string name="open_accessibility">Əlçatımlılıq ayarlarını aç</string>
+	<string name="refresh">Yenilə</string>
+	<string name="shizuku_not_running">işləmir</string>
+	<string name="shizuku_no_permission">işləyir, icazə verilməyib</string>
+	<string name="shizuku_ready">hazır</string>
+	<string name="grab_not_connected">qoşulmayıb</string>
+	<string name="state_on">aktiv</string>
+	<string name="state_off">deaktiv</string>
+	<string name="status_text">Shizuku: %1$s\nTutma xidməti: %2$s\nƏlçatımlılıq ehtiyatı: %3$s\n\nTutma xidməti işlədiyi müddətdə pultun istiqamət düymələri kursor göstərmədən işləyir. Əks halda bunu əlçatımlılıq ehtiyatı idarə edir, lakin kursor yenə də görünür.</string>
+</resources>

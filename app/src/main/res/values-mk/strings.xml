@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Ги претвора копчињата за повлекување на далечинскиот управувач Beauty-R1 во следно, претходно, јачина на звук и пушти/паузирај.</string>
+	<string name="grant_shizuku">Дај дозвола за Shizuku</string>
+	<string name="open_accessibility">Отвори ги поставките за пристапност</string>
+	<string name="refresh">Освежи</string>
+	<string name="shizuku_not_running">не работи</string>
+	<string name="shizuku_no_permission">работи, дозволата не е дадена</string>
+	<string name="shizuku_ready">подготвено</string>
+	<string name="grab_not_connected">не е поврзано</string>
+	<string name="state_on">вклучено</string>
+	<string name="state_off">исклучено</string>
+	<string name="status_text">Shizuku: %1$s\nУслуга за фаќање: %2$s\nРезервна опција преку пристапност: %3$s\n\nДодека работи услугата за фаќање, копчињата за насока на далечинскиот управувач работат без да прикажуваат покажувач. Во спротивно, со нив управува резервната опција преку пристапност, но покажувачот сепак се појавува.</string>
+</resources>

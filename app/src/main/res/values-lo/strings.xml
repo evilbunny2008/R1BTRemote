@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">ປ່ຽນປຸ່ມປັດຂອງຣີໂມດ Beauty-R1 ໃຫ້ເປັນ ຖັດໄປ, ກ່ອນໜ້າ, ລະດັບສຽງ ແລະ ຫຼິ້ນ/ຢຸດຊົ່ວຄາວ.</string>
+	<string name="grant_shizuku">ໃຫ້ສິດ Shizuku</string>
+	<string name="open_accessibility">ເປີດການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ</string>
+	<string name="refresh">ໂຫຼດຄືນໃໝ່</string>
+	<string name="shizuku_not_running">ບໍ່ໄດ້ເຮັດວຽກ</string>
+	<string name="shizuku_no_permission">ກຳລັງເຮັດວຽກ, ບໍ່ໄດ້ໃຫ້ສິດ</string>
+	<string name="shizuku_ready">ພ້ອມແລ້ວ</string>
+	<string name="grab_not_connected">ບໍ່ໄດ້ເຊື່ອມຕໍ່</string>
+	<string name="state_on">ເປີດ</string>
+	<string name="state_off">ປິດ</string>
+	<string name="status_text">Shizuku: %1$s\nບໍລິການຈັບປ້ອນຂໍ້ມູນ: %2$s\nທາງເລືອກສຳຮອງການຊ່ວຍເຂົ້າເຖິງ: %3$s\n\nໃນຂະນະທີ່ບໍລິການຈັບປ້ອນຂໍ້ມູນກຳລັງເຮັດວຽກ, ປຸ່ມທິດທາງຂອງຣີໂມດຈະເຮັດວຽກໂດຍບໍ່ສະແດງເຄີເຊີ. ຖ້າບໍ່ດັ່ງນັ້ນ, ທາງເລືອກສຳຮອງການຊ່ວຍເຂົ້າເຖິງຈະຈັດການມັນ, ແຕ່ເຄີເຊີຍັງຄົງປາກົດ.</string>
+</resources>

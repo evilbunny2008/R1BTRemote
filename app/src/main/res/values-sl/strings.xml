@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Spremeni gumbe za vlečenje na daljinskem upravljalniku Beauty-R1 v naslednje, prejšnje, glasnost in predvajaj/začasno ustavi.</string>
+	<string name="grant_shizuku">Podeli dovoljenje za Shizuku</string>
+	<string name="open_accessibility">Odpri nastavitve dostopnosti</string>
+	<string name="refresh">Osveži</string>
+	<string name="shizuku_not_running">ne deluje</string>
+	<string name="shizuku_no_permission">deluje, dovoljenje ni podeljeno</string>
+	<string name="shizuku_ready">pripravljeno</string>
+	<string name="grab_not_connected">ni povezano</string>
+	<string name="state_on">vklop</string>
+	<string name="state_off">izklop</string>
+	<string name="status_text">Shizuku: %1$s\nStoritev zajemanja: %2$s\nNadomestna rešitev prek dostopnosti: %3$s\n\nMedtem ko storitev zajemanja deluje, smerni gumbi daljinskega upravljalnika delujejo brez prikaza kazalca. Sicer jih obravnava nadomestna rešitev prek dostopnosti, vendar se kazalec še vedno prikaže.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Μετατρέπει τα κουμπιά σάρωσης του τηλεχειριστηρίου Beauty-R1 σε επόμενο, προηγούμενο, ένταση και αναπαραγωγή/παύση.</string>
+	<string name="grant_shizuku">Παραχώρηση άδειας Shizuku</string>
+	<string name="open_accessibility">Άνοιγμα ρυθμίσεων προσβασιμότητας</string>
+	<string name="refresh">Ανανέωση</string>
+	<string name="shizuku_not_running">δεν εκτελείται</string>
+	<string name="shizuku_no_permission">εκτελείται, η άδεια δεν έχει παραχωρηθεί</string>
+	<string name="shizuku_ready">έτοιμο</string>
+	<string name="grab_not_connected">δεν έχει συνδεθεί</string>
+	<string name="state_on">ενεργό</string>
+	<string name="state_off">ανενεργό</string>
+	<string name="status_text">Shizuku: %1$s\nΥπηρεσία δέσμευσης: %2$s\nΕναλλακτική μέσω προσβασιμότητας: %3$s\n\nΌσο εκτελείται η υπηρεσία δέσμευσης, τα κουμπιά κατεύθυνσης του τηλεχειριστηρίου λειτουργούν χωρίς να εμφανίζεται δείκτης. Διαφορετικά, τα χειρίζεται η εναλλακτική μέσω προσβασιμότητας, αλλά ο δείκτης εξακολουθεί να εμφανίζεται.</string>
+</resources>

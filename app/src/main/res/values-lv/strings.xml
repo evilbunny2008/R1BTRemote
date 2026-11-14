@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Pārvērš Beauty-R1 tālvadības pults vilkšanas pogas par nākamo, iepriekšējo, skaļumu un atskaņot/pauzēt.</string>
+	<string name="grant_shizuku">Piešķirt Shizuku atļauju</string>
+	<string name="open_accessibility">Atvērt pieejamības iestatījumus</string>
+	<string name="refresh">Atsvaidzināt</string>
+	<string name="shizuku_not_running">nedarbojas</string>
+	<string name="shizuku_no_permission">darbojas, atļauja nav piešķirta</string>
+	<string name="shizuku_ready">gatavs</string>
+	<string name="grab_not_connected">nav savienots</string>
+	<string name="state_on">ieslēgts</string>
+	<string name="state_off">izslēgts</string>
+	<string name="status_text">Shizuku: %1$s\nTveršanas pakalpojums: %2$s\nPieejamības rezerves risinājums: %3$s\n\nKamēr darbojas tveršanas pakalpojums, pults virziena pogas darbojas, nerādot kursoru. Pretējā gadījumā tās apstrādā pieejamības rezerves risinājums, taču kursors joprojām parādās.</string>
+</resources>

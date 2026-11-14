@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Paverčia Beauty-R1 nuotolinio valdymo pulto braukimo mygtukus į kitą, ankstesnį, garsumą ir leisti / pristabdyti.</string>
+	<string name="grant_shizuku">Suteikti Shizuku leidimą</string>
+	<string name="open_accessibility">Atidaryti pritaikymo neįgaliesiems nustatymus</string>
+	<string name="refresh">Atnaujinti</string>
+	<string name="shizuku_not_running">neveikia</string>
+	<string name="shizuku_no_permission">veikia, leidimas nesuteiktas</string>
+	<string name="shizuku_ready">parengta</string>
+	<string name="grab_not_connected">neprijungta</string>
+	<string name="state_on">įj.</string>
+	<string name="state_off">išj.</string>
+	<string name="status_text">Shizuku: %1$s\nPerėmimo paslauga: %2$s\nAtsarginis pritaikymo neįgaliesiems būdas: %3$s\n\nKol veikia perėmimo paslauga, pulto krypčių mygtukai veikia nerodydami žymeklio. Kitu atveju juos apdoroja atsarginis pritaikymo neįgaliesiems būdas, tačiau žymeklis vis tiek pasirodo.</string>
+</resources>

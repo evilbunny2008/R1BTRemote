@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 ਰਿਮੋਟ ਦੇ ਸਵਾਈਪ ਬਟਨਾਂ ਨੂੰ ਅਗਲਾ, ਪਿਛਲਾ, ਵੌਲਿਊਮ ਅਤੇ ਚਲਾਓ/ਰੋਕੋ ਵਿੱਚ ਬਦਲਦਾ ਹੈ।</string>
+	<string name="grant_shizuku">Shizuku ਇਜਾਜ਼ਤ ਦਿਓ</string>
+	<string name="open_accessibility">ਪਹੁੰਚਯੋਗਤਾ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ</string>
+	<string name="refresh">ਰਿਫ੍ਰੈਸ਼ ਕਰੋ</string>
+	<string name="shizuku_not_running">ਨਹੀਂ ਚੱਲ ਰਿਹਾ</string>
+	<string name="shizuku_no_permission">ਚੱਲ ਰਿਹਾ ਹੈ, ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੱਤੀ ਗਈ</string>
+	<string name="shizuku_ready">ਤਿਆਰ</string>
+	<string name="grab_not_connected">ਕਨੈਕਟ ਨਹੀਂ ਹੈ</string>
+	<string name="state_on">ਚਾਲੂ</string>
+	<string name="state_off">ਬੰਦ</string>
+	<string name="status_text">Shizuku: %1$s\nਗ੍ਰੈਬ ਸੇਵਾ: %2$s\nਪਹੁੰਚਯੋਗਤਾ ਬਦਲ: %3$s\n\nਜਦੋਂ ਗ੍ਰੈਬ ਸੇਵਾ ਚੱਲ ਰਹੀ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਰਿਮੋਟ ਦੇ ਦਿਸ਼ਾ ਬਟਨ ਕਰਸਰ ਦਿਖਾਏ ਬਿਨਾਂ ਕੰਮ ਕਰਦੇ ਹਨ। ਨਹੀਂ ਤਾਂ ਪਹੁੰਚਯੋਗਤਾ ਬਦਲ ਇਸਨੂੰ ਸੰਭਾਲਦਾ ਹੈ, ਪਰ ਕਰਸਰ ਫਿਰ ਵੀ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।</string>
+</resources>

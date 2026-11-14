@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Transforma os botões de deslizar do controle Beauty-R1 em próximo, anterior, volume e reproduzir/pausar.</string>
+	<string name="grant_shizuku">Conceder permissão do Shizuku</string>
+	<string name="open_accessibility">Abrir configurações de acessibilidade</string>
+	<string name="refresh">Atualizar</string>
+	<string name="shizuku_not_running">não está em execução</string>
+	<string name="shizuku_no_permission">em execução, permissão não concedida</string>
+	<string name="shizuku_ready">pronto</string>
+	<string name="grab_not_connected">não conectado</string>
+	<string name="state_on">ativado</string>
+	<string name="state_off">desativado</string>
+	<string name="status_text">Shizuku: %1$s\nServiço de captura: %2$s\nAlternativa de acessibilidade: %3$s\n\nEnquanto o serviço de captura está em execução, o direcional do controle funciona sem mostrar um cursor. Caso contrário, a alternativa de acessibilidade cuida disso, mas o cursor ainda aparece.</string>
+</resources>

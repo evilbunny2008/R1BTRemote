@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 пультінің сырғыту түймелерін келесі, алдыңғы, дыбыс деңгейі және ойнату/кідірту түймелеріне айналдырады.</string>
+	<string name="grant_shizuku">Shizuku рұқсатын беру</string>
+	<string name="open_accessibility">Арнайы мүмкіндіктер параметрлерін ашу</string>
+	<string name="refresh">Жаңарту</string>
+	<string name="shizuku_not_running">іске қосылмаған</string>
+	<string name="shizuku_no_permission">іске қосылған, рұқсат берілмеген</string>
+	<string name="shizuku_ready">дайын</string>
+	<string name="grab_not_connected">қосылмаған</string>
+	<string name="state_on">қосулы</string>
+	<string name="state_off">өшірулі</string>
+	<string name="status_text">Shizuku: %1$s\nҰстап алу қызметі: %2$s\nАрнайы мүмкіндіктер арқылы резерв: %3$s\n\nҰстап алу қызметі жұмыс істеп тұрғанда, пульттің бағыт түймелері курсорды көрсетпей жұмыс істейді. Әйтпесе оны арнайы мүмкіндіктер арқылы резерв өңдейді, бірақ курсор бәрібір пайда болады.</string>
+</resources>

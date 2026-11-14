@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 հեռակառավարման վահանակի սահեցման կոճակները դարձնում է հաջորդ, նախորդ, ձայնի ուժգնություն և նվագարկում/դադար։</string>
+	<string name="grant_shizuku">Տրամադրել Shizuku-ի թույլտվություն</string>
+	<string name="open_accessibility">Բացել հատուկ հնարավորությունների կարգավորումները</string>
+	<string name="refresh">Թարմացնել</string>
+	<string name="shizuku_not_running">աշխատում չէ</string>
+	<string name="shizuku_no_permission">աշխատում է, թույլտվություն տրված չէ</string>
+	<string name="shizuku_ready">պատրաստ է</string>
+	<string name="grab_not_connected">միացված չէ</string>
+	<string name="state_on">միացված</string>
+	<string name="state_off">անջատված</string>
+	<string name="status_text">Shizuku: %1$s\nՈրսման ծառայություն: %2$s\nՀատուկ հնարավորությունների պահուստային տարբերակ: %3$s\n\nՔանի դեռ որսման ծառայությունն աշխատում է, հեռակառավարման ուղղորդման կոճակներն աշխատում են առանց կուրսոր ցուցադրելու։ Հակառակ դեպքում դա կատարում է հատուկ հնարավորությունների պահուստային տարբերակը, բայց կուրսորը դեռ հայտնվում է։</string>
+</resources>

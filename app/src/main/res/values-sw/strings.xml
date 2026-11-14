@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Hubadilisha vitufe vya kutelezesha vya rimoti ya Beauty-R1 kuwa inayofuata, iliyotangulia, sauti na cheza/sitisha.</string>
+	<string name="grant_shizuku">Toa ruhusa ya Shizuku</string>
+	<string name="open_accessibility">Fungua mipangilio ya ufikivu</string>
+	<string name="refresh">Onyesha upya</string>
+	<string name="shizuku_not_running">haifanyi kazi</string>
+	<string name="shizuku_no_permission">inafanya kazi, ruhusa haijatolewa</string>
+	<string name="shizuku_ready">tayari</string>
+	<string name="grab_not_connected">haijaunganishwa</string>
+	<string name="state_on">imewashwa</string>
+	<string name="state_off">imezimwa</string>
+	<string name="status_text">Shizuku: %1$s\nHuduma ya kunasa: %2$s\nMbadala wa ufikivu: %3$s\n\nWakati huduma ya kunasa inafanya kazi, vitufe vya mwelekeo vya rimoti hufanya kazi bila kuonyesha kiteuzi. Vinginevyo, mbadala wa ufikivu hushughulikia hilo, lakini kiteuzi bado huonekana.</string>
+</resources>

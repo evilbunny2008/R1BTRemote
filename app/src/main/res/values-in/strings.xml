@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Mengubah tombol geser remote Beauty-R1 menjadi berikutnya, sebelumnya, volume, dan putar/jeda.</string>
+	<string name="grant_shizuku">Berikan izin Shizuku</string>
+	<string name="open_accessibility">Buka setelan aksesibilitas</string>
+	<string name="refresh">Muat ulang</string>
+	<string name="shizuku_not_running">tidak berjalan</string>
+	<string name="shizuku_no_permission">berjalan, izin belum diberikan</string>
+	<string name="shizuku_ready">siap</string>
+	<string name="grab_not_connected">tidak terhubung</string>
+	<string name="state_on">aktif</string>
+	<string name="state_off">nonaktif</string>
+	<string name="status_text">Shizuku: %1$s\nLayanan penangkap: %2$s\nCadangan aksesibilitas: %3$s\n\nSelama layanan penangkap berjalan, tombol arah remote berfungsi tanpa menampilkan kursor. Jika tidak, cadangan aksesibilitas yang menanganinya, tetapi kursor tetap muncul.</string>
+</resources>

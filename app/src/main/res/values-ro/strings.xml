@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Transformă butoanele de glisare ale telecomenzii Beauty-R1 în următorul, anteriorul, volum și redare/pauză.</string>
+	<string name="grant_shizuku">Acordă permisiunea Shizuku</string>
+	<string name="open_accessibility">Deschide setările de accesibilitate</string>
+	<string name="refresh">Reîmprospătează</string>
+	<string name="shizuku_not_running">nu rulează</string>
+	<string name="shizuku_no_permission">rulează, permisiunea nu a fost acordată</string>
+	<string name="shizuku_ready">pregătit</string>
+	<string name="grab_not_connected">neconectat</string>
+	<string name="state_on">activat</string>
+	<string name="state_off">dezactivat</string>
+	<string name="status_text">Shizuku: %1$s\nServiciu de captură: %2$s\nAlternativă prin accesibilitate: %3$s\n\nCât timp serviciul de captură rulează, butoanele direcționale ale telecomenzii funcționează fără a afișa un cursor. Altfel, alternativa prin accesibilitate le gestionează, dar cursorul apare în continuare.</string>
+</resources>

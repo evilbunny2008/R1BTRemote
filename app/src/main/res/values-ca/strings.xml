@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Converteix els botons de lliscament del comandament Beauty-R1 en següent, anterior, volum i reproduir/pausa.</string>
+	<string name="grant_shizuku">Concedeix el permís de Shizuku</string>
+	<string name="open_accessibility">Obre la configuració d’accessibilitat</string>
+	<string name="refresh">Actualitza</string>
+	<string name="shizuku_not_running">no s’està executant</string>
+	<string name="shizuku_no_permission">s’està executant, permís no concedit</string>
+	<string name="shizuku_ready">a punt</string>
+	<string name="grab_not_connected">no connectat</string>
+	<string name="state_on">activat</string>
+	<string name="state_off">desactivat</string>
+	<string name="status_text">Shizuku: %1$s\nServei de captura: %2$s\nAlternativa d’accessibilitat: %3$s\n\nMentre el servei de captura s’executa, la creu direccional del comandament funciona sense mostrar cap cursor. Altrament, l’alternativa d’accessibilitat se n’encarrega, però el cursor continua apareixent.</string>
+</resources>

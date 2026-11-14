@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Gör om Beauty-R1-fjärrkontrollens svepknappar till nästa, föregående, volym och spela upp/pausa.</string>
+	<string name="grant_shizuku">Ge Shizuku-behörighet</string>
+	<string name="open_accessibility">Öppna tillgänglighetsinställningar</string>
+	<string name="refresh">Uppdatera</string>
+	<string name="shizuku_not_running">körs inte</string>
+	<string name="shizuku_no_permission">körs, behörighet inte beviljad</string>
+	<string name="shizuku_ready">redo</string>
+	<string name="grab_not_connected">inte ansluten</string>
+	<string name="state_on">på</string>
+	<string name="state_off">av</string>
+	<string name="status_text">Shizuku: %1$s\nFångsttjänst: %2$s\nReservlösning via tillgänglighet: %3$s\n\nMedan fångsttjänsten körs fungerar fjärrkontrollens riktningsknappar utan att någon markör visas. Annars hanterar reservlösningen via tillgänglighet det, men markören visas fortfarande.</string>
+</resources>

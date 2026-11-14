@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 リモコンのスワイプボタンを、次へ、前へ、音量、再生/一時停止に変換します。</string>
+	<string name="grant_shizuku">Shizuku の権限を付与</string>
+	<string name="open_accessibility">ユーザー補助の設定を開く</string>
+	<string name="refresh">更新</string>
+	<string name="shizuku_not_running">実行されていません</string>
+	<string name="shizuku_no_permission">実行中、権限が付与されていません</string>
+	<string name="shizuku_ready">準備完了</string>
+	<string name="grab_not_connected">未接続</string>
+	<string name="state_on">オン</string>
+	<string name="state_off">オフ</string>
+	<string name="status_text">Shizuku: %1$s\nキャプチャサービス: %2$s\nユーザー補助による代替: %3$s\n\nキャプチャサービスの実行中は、リモコンの十字キーがカーソルを表示せずに動作します。それ以外の場合はユーザー補助による代替が処理しますが、カーソルは表示されたままになります。</string>
+</resources>

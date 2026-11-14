@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Transfurma ils buttuns da stritgar dal telecumond Beauty-R1 en proxim, precedent, volumen e reproducir/pausa.</string>
+	<string name="grant_shizuku">Conceder la permissiun Shizuku</string>
+	<string name="open_accessibility">Avrir ils parameters d’accessibladad</string>
+	<string name="refresh">Actualisar</string>
+	<string name="shizuku_not_running">betg activ</string>
+	<string name="shizuku_no_permission">activ, permissiun betg concedida</string>
+	<string name="shizuku_ready">pront</string>
+	<string name="grab_not_connected">betg collià</string>
+	<string name="state_on">activà</string>
+	<string name="state_off">deactivà</string>
+	<string name="status_text">Shizuku: %1$s\nServetsch da captura: %2$s\nAlternativa d’accessibladad: %3$s\n\nDurant ch’il servetsch da captura è activ, funcziunan ils buttuns da direcziun dal telecumond senza mussar in cursur. Uschiglio sa fatschenta l’alternativa d’accessibladad cun quai, ma il cursur cumpara tuttina.</string>
+</resources>

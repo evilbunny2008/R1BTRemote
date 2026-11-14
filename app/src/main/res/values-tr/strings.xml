@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 kumandasının kaydırma düğmelerini sonraki, önceki, ses ve oynat/duraklat düğmelerine dönüştürür.</string>
+	<string name="grant_shizuku">Shizuku izni ver</string>
+	<string name="open_accessibility">Erişilebilirlik ayarlarını aç</string>
+	<string name="refresh">Yenile</string>
+	<string name="shizuku_not_running">çalışmıyor</string>
+	<string name="shizuku_no_permission">çalışıyor, izin verilmedi</string>
+	<string name="shizuku_ready">hazır</string>
+	<string name="grab_not_connected">bağlı değil</string>
+	<string name="state_on">açık</string>
+	<string name="state_off">kapalı</string>
+	<string name="status_text">Shizuku: %1$s\nYakalama hizmeti: %2$s\nErişilebilirlik yedeği: %3$s\n\nYakalama hizmeti çalışırken kumandanın yön tuşları imleç göstermeden çalışır. Aksi takdirde erişilebilirlik yedeği bunu üstlenir, ancak imleç yine de görünür.</string>
+</resources>

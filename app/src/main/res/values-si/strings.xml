@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 දුරස්ථ පාලකයේ ස්වයිප් බොත්තම් ඊළඟ, පෙර, හඬ පරිමාව සහ වාදනය/විරාමය බවට පරිවර්තනය කරයි.</string>
+	<string name="grant_shizuku">Shizuku අවසරය දෙන්න</string>
+	<string name="open_accessibility">ප්‍රවේශ්‍යතා සැකසීම් විවෘත කරන්න</string>
+	<string name="refresh">නැවුම් කරන්න</string>
+	<string name="shizuku_not_running">ක්‍රියාත්මක නොවේ</string>
+	<string name="shizuku_no_permission">ක්‍රියාත්මකයි, අවසරය ලබා දී නැත</string>
+	<string name="shizuku_ready">සූදානම්</string>
+	<string name="grab_not_connected">සම්බන්ධ නැත</string>
+	<string name="state_on">ක්‍රියාත්මකයි</string>
+	<string name="state_off">අක්‍රියයි</string>
+	<string name="status_text">Shizuku: %1$s\nග්‍රහණ සේවාව: %2$s\nප්‍රවේශ්‍යතා විකල්පය: %3$s\n\nග්‍රහණ සේවාව ක්‍රියාත්මක වන අතරතුර දුරස්ථ පාලකයේ දිශා බොත්තම් කර්සරයක් නොපෙන්වා ක්‍රියා කරයි. එසේ නොමැති නම් ප්‍රවේශ්‍යතා විකල්පය එය හසුරුවයි, නමුත් කර්සරය තවමත් දිස්වේ.</string>
+</resources>

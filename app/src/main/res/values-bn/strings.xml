@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 রিমোটের সোয়াইপ বোতামগুলোকে পরবর্তী, পূর্ববর্তী, ভলিউম এবং চালান/বিরতিতে পরিণত করে।</string>
+	<string name="grant_shizuku">Shizuku অনুমতি দিন</string>
+	<string name="open_accessibility">অ্যাক্সেসিবিলিটি সেটিংস খুলুন</string>
+	<string name="refresh">রিফ্রেশ করুন</string>
+	<string name="shizuku_not_running">চলছে না</string>
+	<string name="shizuku_no_permission">চলছে, অনুমতি দেওয়া হয়নি</string>
+	<string name="shizuku_ready">প্রস্তুত</string>
+	<string name="grab_not_connected">সংযুক্ত নয়</string>
+	<string name="state_on">চালু</string>
+	<string name="state_off">বন্ধ</string>
+	<string name="status_text">Shizuku: %1$s\nগ্র্যাব পরিষেবা: %2$s\nঅ্যাক্সেসিবিলিটি বিকল্প: %3$s\n\nগ্র্যাব পরিষেবা চলার সময় রিমোটের দিকনির্দেশক বোতামগুলো কোনো কার্সর না দেখিয়েই কাজ করে। অন্যথায় অ্যাক্সেসিবিলিটি বিকল্প এটি পরিচালনা করে, তবে কার্সরটি তখনও দেখা যায়।</string>
+</resources>

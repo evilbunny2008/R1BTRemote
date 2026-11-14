@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Muuttaa Beauty-R1-kaukosäätimen pyyhkäisypainikkeet seuraavaksi, edelliseksi, äänenvoimakkuudeksi ja toista/tauko-painikkeeksi.</string>
+	<string name="grant_shizuku">Myönnä Shizuku-lupa</string>
+	<string name="open_accessibility">Avaa esteettömyysasetukset</string>
+	<string name="refresh">Päivitä</string>
+	<string name="shizuku_not_running">ei käynnissä</string>
+	<string name="shizuku_no_permission">käynnissä, lupaa ei myönnetty</string>
+	<string name="shizuku_ready">valmis</string>
+	<string name="grab_not_connected">ei yhdistetty</string>
+	<string name="state_on">päällä</string>
+	<string name="state_off">pois</string>
+	<string name="status_text">Shizuku: %1$s\nKaappauspalvelu: %2$s\nEsteettömyysvararatkaisu: %3$s\n\nKun kaappauspalvelu on käynnissä, kaukosäätimen suuntapainikkeet toimivat ilman osoitinta. Muussa tapauksessa esteettömyysvararatkaisu hoitaa ne, mutta osoitin tulee silti näkyviin.</string>
+</resources>

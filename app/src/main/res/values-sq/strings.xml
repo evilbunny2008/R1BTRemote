@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">I kthen butonat e rrëshqitjes së telekomandës Beauty-R1 në tjetri, i mëparshmi, volumi dhe luaj/pauzë.</string>
+	<string name="grant_shizuku">Jep lejen e Shizuku</string>
+	<string name="open_accessibility">Hap cilësimet e qasshmërisë</string>
+	<string name="refresh">Rifresko</string>
+	<string name="shizuku_not_running">nuk po ekzekutohet</string>
+	<string name="shizuku_no_permission">po ekzekutohet, leja nuk është dhënë</string>
+	<string name="shizuku_ready">gati</string>
+	<string name="grab_not_connected">nuk është lidhur</string>
+	<string name="state_on">aktiv</string>
+	<string name="state_off">joaktiv</string>
+	<string name="status_text">Shizuku: %1$s\nShërbimi i kapjes: %2$s\nAlternativa e qasshmërisë: %3$s\n\nNdërsa shërbimi i kapjes po ekzekutohet, butonat e drejtimit të telekomandës funksionojnë pa shfaqur kursor. Përndryshe, alternativa e qasshmërisë i trajton ato, por kursori shfaqet përsëri.</string>
+</resources>

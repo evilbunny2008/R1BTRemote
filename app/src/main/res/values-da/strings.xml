@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Gør Beauty-R1-fjernbetjeningens swipe-knapper til næste, forrige, lydstyrke og afspil/pause.</string>
+	<string name="grant_shizuku">Giv Shizuku-tilladelse</string>
+	<string name="open_accessibility">Åbn indstillinger for hjælpefunktioner</string>
+	<string name="refresh">Opdater</string>
+	<string name="shizuku_not_running">kører ikke</string>
+	<string name="shizuku_no_permission">kører, tilladelse ikke givet</string>
+	<string name="shizuku_ready">klar</string>
+	<string name="grab_not_connected">ikke forbundet</string>
+	<string name="state_on">til</string>
+	<string name="state_off">fra</string>
+	<string name="status_text">Shizuku: %1$s\nOpfangningstjeneste: %2$s\nReserveløsning via hjælpefunktioner: %3$s\n\nMens opfangningstjenesten kører, fungerer fjernbetjeningens retningsknapper uden at vise en markør. Ellers håndterer reserveløsningen via hjælpefunktioner det, men markøren vises stadig.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Muudab Beauty-R1 puldi pühkimisnupud järgmiseks, eelmiseks, helitugevuseks ja esita/peata nupuks.</string>
+	<string name="grant_shizuku">Anna Shizuku luba</string>
+	<string name="open_accessibility">Ava juurdepääsetavuse seaded</string>
+	<string name="refresh">Värskenda</string>
+	<string name="shizuku_not_running">ei tööta</string>
+	<string name="shizuku_no_permission">töötab, luba pole antud</string>
+	<string name="shizuku_ready">valmis</string>
+	<string name="grab_not_connected">pole ühendatud</string>
+	<string name="state_on">sees</string>
+	<string name="state_off">väljas</string>
+	<string name="status_text">Shizuku: %1$s\nHaaramisteenus: %2$s\nJuurdepääsetavuse varulahendus: %3$s\n\nKui haaramisteenus töötab, toimivad puldi suunanupud ilma kursorit kuvamata. Muul juhul tegeleb sellega juurdepääsetavuse varulahendus, kuid kursor ilmub ikkagi.</string>
+</resources>

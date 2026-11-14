@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Iguqula izinkinobho zokuswayipha zerimothi ye-Beauty-R1 zibe okulandelayo, okwangaphambili, ivolumu nokudlala/ukumisa okwesikhashana.</string>
+	<string name="grant_shizuku">Nikeza imvume ye-Shizuku</string>
+	<string name="open_accessibility">Vula amasethingi okufinyeleleka</string>
+	<string name="refresh">Vuselela</string>
+	<string name="shizuku_not_running">ayisebenzi</string>
+	<string name="shizuku_no_permission">iyasebenza, imvume ayinikeziwe</string>
+	<string name="shizuku_ready">ilungile</string>
+	<string name="grab_not_connected">akuxhunyiwe</string>
+	<string name="state_on">kuvuliwe</string>
+	<string name="state_off">kuvaliwe</string>
+	<string name="status_text">Shizuku: %1$s\nIsevisi yokubamba: %2$s\nOkunye okufinyelelekayo: %3$s\n\nNgenkathi isevisi yokubamba isebenza, izinkinobho zokuqondisa zerimothi zisebenza ngaphandle kokubonisa ikhesa. Uma kungenjalo, okunye okufinyelelekayo kuyakuphatha, kodwa ikhesa isavela.</string>
+</resources>

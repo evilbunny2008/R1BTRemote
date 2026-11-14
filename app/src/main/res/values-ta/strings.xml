@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 ரிமோட்டின் ஸ்வைப் பட்டன்களை அடுத்தது, முந்தையது, ஒலியளவு மற்றும் இயக்கு/இடைநிறுத்து என மாற்றுகிறது.</string>
+	<string name="grant_shizuku">Shizuku அனுமதியை வழங்கு</string>
+	<string name="open_accessibility">அணுகல்தன்மை அமைப்புகளைத் திற</string>
+	<string name="refresh">புதுப்பி</string>
+	<string name="shizuku_not_running">இயங்கவில்லை</string>
+	<string name="shizuku_no_permission">இயங்குகிறது, அனுமதி வழங்கப்படவில்லை</string>
+	<string name="shizuku_ready">தயார்</string>
+	<string name="grab_not_connected">இணைக்கப்படவில்லை</string>
+	<string name="state_on">இயக்கத்தில்</string>
+	<string name="state_off">முடக்கத்தில்</string>
+	<string name="status_text">Shizuku: %1$s\nகிராப் சேவை: %2$s\nஅணுகல்தன்மை மாற்றுவழி: %3$s\n\nகிராப் சேவை இயங்கும்போது ரிமோட்டின் திசைப் பட்டன்கள் கர்சரைக் காட்டாமல் செயல்படும். இல்லையெனில் அணுகல்தன்மை மாற்றுவழி அதைக் கையாளும், ஆனால் கர்சர் தொடர்ந்து தோன்றும்.</string>
+</resources>

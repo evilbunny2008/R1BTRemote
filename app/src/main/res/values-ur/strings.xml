@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 ریموٹ کے سوائپ بٹنوں کو اگلا، پچھلا، والیوم اور چلائیں/روکیں میں بدل دیتا ہے۔</string>
+	<string name="grant_shizuku">Shizuku اجازت دیں</string>
+	<string name="open_accessibility">ایکسیسبیلٹی ترتیبات کھولیں</string>
+	<string name="refresh">ریفریش کریں</string>
+	<string name="shizuku_not_running">نہیں چل رہا</string>
+	<string name="shizuku_no_permission">چل رہا ہے، اجازت نہیں دی گئی</string>
+	<string name="shizuku_ready">تیار</string>
+	<string name="grab_not_connected">منسلک نہیں</string>
+	<string name="state_on">آن</string>
+	<string name="state_off">آف</string>
+	<string name="status_text">Shizuku: %1$s\nگریب سروس: %2$s\nایکسیسبیلٹی متبادل: %3$s\n\nجب گریب سروس چل رہی ہو تو ریموٹ کے سمت والے بٹن کرسر دکھائے بغیر کام کرتے ہیں۔ بصورت دیگر ایکسیسبیلٹی متبادل اسے سنبھالتا ہے، لیکن کرسر پھر بھی ظاہر ہوتا ہے۔</string>
+</resources>

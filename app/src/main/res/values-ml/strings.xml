@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 റിമോട്ടിന്റെ സ്വൈപ്പ് ബട്ടണുകളെ അടുത്തത്, മുമ്പത്തേത്, വോളിയം, പ്ലേ/താൽക്കാലികമായി നിർത്തുക എന്നിവയാക്കി മാറ്റുന്നു.</string>
+	<string name="grant_shizuku">Shizuku അനുമതി നൽകുക</string>
+	<string name="open_accessibility">ഉപയോഗസഹായി ക്രമീകരണം തുറക്കുക</string>
+	<string name="refresh">പുതുക്കുക</string>
+	<string name="shizuku_not_running">പ്രവർത്തിക്കുന്നില്ല</string>
+	<string name="shizuku_no_permission">പ്രവർത്തിക്കുന്നു, അനുമതി നൽകിയിട്ടില്ല</string>
+	<string name="shizuku_ready">തയ്യാർ</string>
+	<string name="grab_not_connected">കണക്റ്റ് ചെയ്തിട്ടില്ല</string>
+	<string name="state_on">ഓൺ</string>
+	<string name="state_off">ഓഫ്</string>
+	<string name="status_text">Shizuku: %1$s\nഗ്രാബ് സേവനം: %2$s\nഉപയോഗസഹായി ബദൽ: %3$s\n\nഗ്രാബ് സേവനം പ്രവർത്തിക്കുമ്പോൾ റിമോട്ടിന്റെ ദിശാ ബട്ടണുകൾ കഴ്‌സർ കാണിക്കാതെ പ്രവർത്തിക്കുന്നു. അല്ലാത്തപക്ഷം ഉപയോഗസഹായി ബദൽ അത് കൈകാര്യം ചെയ്യുന്നു, പക്ഷേ കഴ്‌സർ ഇപ്പോഴും ദൃശ്യമാകും.</string>
+</resources>

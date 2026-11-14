@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Превръща бутоните за плъзгане на дистанционното Beauty-R1 в следващ, предишен, сила на звука и възпроизвеждане/пауза.</string>
+	<string name="grant_shizuku">Даване на разрешение за Shizuku</string>
+	<string name="open_accessibility">Отваряне на настройките за достъпност</string>
+	<string name="refresh">Опресняване</string>
+	<string name="shizuku_not_running">не работи</string>
+	<string name="shizuku_no_permission">работи, разрешението не е дадено</string>
+	<string name="shizuku_ready">готово</string>
+	<string name="grab_not_connected">няма връзка</string>
+	<string name="state_on">вкл.</string>
+	<string name="state_off">изкл.</string>
+	<string name="status_text">Shizuku: %1$s\nУслуга за прихващане: %2$s\nРезервен вариант чрез достъпност: %3$s\n\nДокато услугата за прихващане работи, бутоните за посока на дистанционното работят, без да се показва курсор. В противен случай резервният вариант чрез достъпност ги обработва, но курсорът все пак се появява.</string>
+</resources>

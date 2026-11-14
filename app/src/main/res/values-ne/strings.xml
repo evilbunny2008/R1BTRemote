@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 रिमोटका स्वाइप बटनहरूलाई अर्को, अघिल्लो, भोल्युम र प्ले/पज मा बदल्छ।</string>
+	<string name="grant_shizuku">Shizuku अनुमति दिनुहोस्</string>
+	<string name="open_accessibility">पहुँचयोग्यता सेटिङ खोल्नुहोस्</string>
+	<string name="refresh">रिफ्रेस गर्नुहोस्</string>
+	<string name="shizuku_not_running">चलिरहेको छैन</string>
+	<string name="shizuku_no_permission">चलिरहेको छ, अनुमति दिइएको छैन</string>
+	<string name="shizuku_ready">तयार</string>
+	<string name="grab_not_connected">जडान गरिएको छैन</string>
+	<string name="state_on">अन</string>
+	<string name="state_off">अफ</string>
+	<string name="status_text">Shizuku: %1$s\nग्र्याब सेवा: %2$s\nपहुँचयोग्यता विकल्प: %3$s\n\nग्र्याब सेवा चलिरहेको बेला रिमोटका दिशा बटनहरू कर्सर नदेखाई काम गर्छन्। अन्यथा पहुँचयोग्यता विकल्पले यसलाई सम्हाल्छ, तर कर्सर अझै देखिन्छ।</string>
+</resources>

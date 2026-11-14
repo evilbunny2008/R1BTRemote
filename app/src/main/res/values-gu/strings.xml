@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 રિમોટના સ્વાઇપ બટનોને આગળ, પાછળ, વૉલ્યૂમ અને ચલાવો/થોભાવોમાં ફેરવે છે.</string>
+	<string name="grant_shizuku">Shizuku પરવાનગી આપો</string>
+	<string name="open_accessibility">ઍક્સેસિબિલિટી સેટિંગ્સ ખોલો</string>
+	<string name="refresh">રિફ્રેશ કરો</string>
+	<string name="shizuku_not_running">ચાલી રહ્યું નથી</string>
+	<string name="shizuku_no_permission">ચાલી રહ્યું છે, પરવાનગી આપી નથી</string>
+	<string name="shizuku_ready">તૈયાર</string>
+	<string name="grab_not_connected">કનેક્ટ થયેલું નથી</string>
+	<string name="state_on">ચાલુ</string>
+	<string name="state_off">બંધ</string>
+	<string name="status_text">Shizuku: %1$s\nગ્રેબ સેવા: %2$s\nઍક્સેસિબિલિટી વિકલ્પ: %3$s\n\nગ્રેબ સેવા ચાલી રહી હોય ત્યારે રિમોટના દિશા બટનો કર્સર બતાવ્યા વિના કામ કરે છે. અન્યથા ઍક્સેસિબિલિટી વિકલ્પ તેને સંભાળે છે, પરંતુ કર્સર હજુ પણ દેખાય છે.</string>
+</resources>

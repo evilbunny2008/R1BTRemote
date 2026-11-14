@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">يحوّل أزرار السحب في جهاز التحكم Beauty-R1 إلى التالي والسابق ومستوى الصوت والتشغيل/الإيقاف المؤقت.</string>
+	<string name="grant_shizuku">منح إذن Shizuku</string>
+	<string name="open_accessibility">فتح إعدادات تسهيل الاستخدام</string>
+	<string name="refresh">تحديث</string>
+	<string name="shizuku_not_running">غير قيد التشغيل</string>
+	<string name="shizuku_no_permission">قيد التشغيل، لم يُمنح الإذن</string>
+	<string name="shizuku_ready">جاهز</string>
+	<string name="grab_not_connected">غير متصل</string>
+	<string name="state_on">مفعّل</string>
+	<string name="state_off">متوقف</string>
+	<string name="status_text">Shizuku: %1$s\nخدمة الالتقاط: %2$s\nالبديل عبر تسهيل الاستخدام: %3$s\n\nأثناء تشغيل خدمة الالتقاط، تعمل أزرار الاتجاهات في جهاز التحكم دون إظهار مؤشر. وإلا فسيتولى البديل عبر تسهيل الاستخدام ذلك، لكن المؤشر سيظل يظهر.</string>
+</resources>

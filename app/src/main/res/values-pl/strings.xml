@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Zamienia przyciski przesuwania pilota Beauty-R1 na następny, poprzedni, głośność i odtwórz/wstrzymaj.</string>
+	<string name="grant_shizuku">Przyznaj uprawnienie Shizuku</string>
+	<string name="open_accessibility">Otwórz ustawienia ułatwień dostępu</string>
+	<string name="refresh">Odśwież</string>
+	<string name="shizuku_not_running">nie działa</string>
+	<string name="shizuku_no_permission">działa, brak uprawnienia</string>
+	<string name="shizuku_ready">gotowe</string>
+	<string name="grab_not_connected">nie połączono</string>
+	<string name="state_on">wł.</string>
+	<string name="state_off">wył.</string>
+	<string name="status_text">Shizuku: %1$s\nUsługa przechwytywania: %2$s\nRozwiązanie zapasowe ułatwień dostępu: %3$s\n\nGdy usługa przechwytywania działa, przyciski kierunkowe pilota działają bez wyświetlania kursora. W przeciwnym razie obsługuje je rozwiązanie zapasowe ułatwień dostępu, ale kursor nadal się pojawia.</string>
+</resources>

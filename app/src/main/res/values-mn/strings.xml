@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 удирдлагын шудрах товчлууруудыг дараагийн, өмнөх, дууны түвшин болон тоглуулах/түр зогсоох болгон хувиргана.</string>
+	<string name="grant_shizuku">Shizuku-н зөвшөөрөл олгох</string>
+	<string name="open_accessibility">Хүртээмжийн тохиргоог нээх</string>
+	<string name="refresh">Шинэчлэх</string>
+	<string name="shizuku_not_running">ажиллаагүй байна</string>
+	<string name="shizuku_no_permission">ажиллаж байна, зөвшөөрөл олгоогүй</string>
+	<string name="shizuku_ready">бэлэн</string>
+	<string name="grab_not_connected">холбогдоогүй</string>
+	<string name="state_on">асаалттай</string>
+	<string name="state_off">унтраалттай</string>
+	<string name="status_text">Shizuku: %1$s\nБарих үйлчилгээ: %2$s\nХүртээмжийн нөөц арга: %3$s\n\nБарих үйлчилгээ ажиллаж байх үед удирдлагын чиглэлийн товчлуурууд курсор харуулахгүйгээр ажиллана. Эс бөгөөс хүртээмжийн нөөц арга үүнийг гүйцэтгэх боловч курсор харагдсаар байна.</string>
+</resources>

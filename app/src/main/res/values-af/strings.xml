@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Verander die Beauty-R1-afstandbeheer se veegknoppies in volgende, vorige, volume en speel/onderbreek.</string>
+	<string name="grant_shizuku">Verleen Shizuku-toestemming</string>
+	<string name="open_accessibility">Maak toeganklikheidinstellings oop</string>
+	<string name="refresh">Herlaai</string>
+	<string name="shizuku_not_running">loop nie</string>
+	<string name="shizuku_no_permission">loop, toestemming nie verleen nie</string>
+	<string name="shizuku_ready">gereed</string>
+	<string name="grab_not_connected">nie gekoppel nie</string>
+	<string name="state_on">aan</string>
+	<string name="state_off">af</string>
+	<string name="status_text">Shizuku: %1$s\nVangdiens: %2$s\nToeganklikheid-rugsteun: %3$s\n\nTerwyl die vangdiens loop, werk die afstandbeheer se rigtingknoppies sonder om ’n wyser te wys. Andersins hanteer die toeganklikheid-rugsteun dit, maar die wyser verskyn steeds.</string>
+</resources>

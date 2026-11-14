@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 ರಿಮೋಟ್‌ನ ಸ್ವೈಪ್ ಬಟನ್‌ಗಳನ್ನು ಮುಂದಿನ, ಹಿಂದಿನ, ವಾಲ್ಯೂಮ್ ಮತ್ತು ಪ್ಲೇ/ವಿರಾಮವಾಗಿ ಬದಲಾಯಿಸುತ್ತದೆ.</string>
+	<string name="grant_shizuku">Shizuku ಅನುಮತಿ ನೀಡಿ</string>
+	<string name="open_accessibility">ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+	<string name="refresh">ರಿಫ್ರೆಶ್ ಮಾಡಿ</string>
+	<string name="shizuku_not_running">ಚಾಲನೆಯಲ್ಲಿಲ್ಲ</string>
+	<string name="shizuku_no_permission">ಚಾಲನೆಯಲ್ಲಿದೆ, ಅನುಮತಿ ನೀಡಿಲ್ಲ</string>
+	<string name="shizuku_ready">ಸಿದ್ಧವಾಗಿದೆ</string>
+	<string name="grab_not_connected">ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ</string>
+	<string name="state_on">ಆನ್</string>
+	<string name="state_off">ಆಫ್</string>
+	<string name="status_text">Shizuku: %1$s\nಗ್ರ್ಯಾಬ್ ಸೇವೆ: %2$s\nಪ್ರವೇಶಿಸುವಿಕೆ ಪರ್ಯಾಯ: %3$s\n\nಗ್ರ್ಯಾಬ್ ಸೇವೆ ಚಾಲನೆಯಲ್ಲಿರುವಾಗ ರಿಮೋಟ್‌ನ ದಿಕ್ಕಿನ ಬಟನ್‌ಗಳು ಕರ್ಸರ್ ತೋರಿಸದೆ ಕೆಲಸ ಮಾಡುತ್ತವೆ. ಇಲ್ಲದಿದ್ದರೆ ಪ್ರವೇಶಿಸುವಿಕೆ ಪರ್ಯಾಯವು ಅದನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ, ಆದರೆ ಕರ್ಸರ್ ಇನ್ನೂ ಕಾಣಿಸುತ್ತದೆ.</string>
+</resources>

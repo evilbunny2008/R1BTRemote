@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Beauty-R1 रिमोट के स्वाइप बटनों को अगला, पिछला, वॉल्यूम और चलाएँ/रोकें में बदल देता है।</string>
+	<string name="grant_shizuku">Shizuku अनुमति दें</string>
+	<string name="open_accessibility">सुलभता सेटिंग खोलें</string>
+	<string name="refresh">रीफ़्रेश करें</string>
+	<string name="shizuku_not_running">नहीं चल रहा</string>
+	<string name="shizuku_no_permission">चल रहा है, अनुमति नहीं दी गई</string>
+	<string name="shizuku_ready">तैयार</string>
+	<string name="grab_not_connected">कनेक्ट नहीं है</string>
+	<string name="state_on">चालू</string>
+	<string name="state_off">बंद</string>
+	<string name="status_text">Shizuku: %1$s\nग्रैब सेवा: %2$s\nसुलभता विकल्प: %3$s\n\nजब ग्रैब सेवा चल रही होती है, तो रिमोट के दिशा बटन बिना कर्सर दिखाए काम करते हैं। अन्यथा सुलभता विकल्प इसे संभालता है, लेकिन कर्सर फिर भी दिखाई देता है।</string>
+</resources>

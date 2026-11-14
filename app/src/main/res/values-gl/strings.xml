@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_description">Converte os botóns de pasar o dedo do mando Beauty-R1 en seguinte, anterior, volume e reproducir/pausa.</string>
+	<string name="grant_shizuku">Conceder permiso de Shizuku</string>
+	<string name="open_accessibility">Abrir a configuración de accesibilidade</string>
+	<string name="refresh">Actualizar</string>
+	<string name="shizuku_not_running">non se está executando</string>
+	<string name="shizuku_no_permission">en execución, permiso non concedido</string>
+	<string name="shizuku_ready">listo</string>
+	<string name="grab_not_connected">non conectado</string>
+	<string name="state_on">activado</string>
+	<string name="state_off">desactivado</string>
+	<string name="status_text">Shizuku: %1$s\nServizo de captura: %2$s\nAlternativa de accesibilidade: %3$s\n\nMentres o servizo de captura está en execución, a cruceta do mando funciona sen mostrar ningún cursor. Doutro xeito, encárgase a alternativa de accesibilidade, pero o cursor segue aparecendo.</string>
+</resources>
