@@ -1,0 +1,3 @@
+• Shizuku grab service takes exclusive control of the remote so no cursor appears
+• Accessibility fallback for when Shizuku isn't running
+• Translated into 71 languages
