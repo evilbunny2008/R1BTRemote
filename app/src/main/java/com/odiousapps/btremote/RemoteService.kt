@@ -4,6 +4,7 @@ import android.accessibilityservice.AccessibilityService
 import android.media.AudioManager
 import android.util.Log
 import android.view.InputDevice
+import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.accessibility.AccessibilityEvent
 
@@ -36,6 +37,18 @@ class RemoteService : AccessibilityService() {
             }
             MotionEvent.ACTION_UP -> RemoteActions.onGesture(output, event.x - startX, event.y - startY, TAP_SLOP_PX)
         }
+    }
+
+    override fun onKeyEvent(event: KeyEvent): Boolean {
+        // Only the remote's held LEFT/RIGHT, which arrive as volume keys from its second device
+        if (event.device?.name != GrabService.KEYS_DEVICE_NAME) return false
+        val forward = when (event.keyCode) {
+            KeyEvent.KEYCODE_VOLUME_UP -> true
+            KeyEvent.KEYCODE_VOLUME_DOWN -> false
+            else -> return false
+        }
+        if (event.action == KeyEvent.ACTION_DOWN) RemoteActions.onHold(output, forward)
+        return true
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent) {}

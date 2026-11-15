@@ -14,6 +14,8 @@ instead, so you can play, pause, skip tracks and change the volume.
 | Centre      | Play / pause       |
 | Right       | Next track         |
 | Left        | Previous track     |
+| Hold right  | Fast forward       |
+| Hold left   | Rewind             |
 | Up          | Volume up          |
 | Down        | Volume down        |
 

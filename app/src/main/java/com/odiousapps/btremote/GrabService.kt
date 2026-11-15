@@ -31,6 +31,8 @@ class GrabService(context: Context) : IGrabService.Stub() {
             val key = when (keyCode) {
                 KeyEvent.KEYCODE_MEDIA_NEXT -> "next"
                 KeyEvent.KEYCODE_MEDIA_PREVIOUS -> "previous"
+                KeyEvent.KEYCODE_MEDIA_FAST_FORWARD -> "fast-forward"
+                KeyEvent.KEYCODE_MEDIA_REWIND -> "rewind"
                 else -> "play-pause"
             }
             commands.execute {
@@ -51,7 +53,10 @@ class GrabService(context: Context) : IGrabService.Stub() {
     private var status = "starting"
 
     init {
-        thread(name = "grab", isDaemon = true) { run() }
+        // The remote is two input devices: presses are fake swipes on one, while holding
+        // LEFT/RIGHT repeats volume keys on the other. Each needs its own blocking reader.
+        thread(name = "grab", isDaemon = true) { watch(DEVICE_NAME, ::PointerReader) }
+        thread(name = "grab-keys", isDaemon = true) { watch(KEYS_DEVICE_NAME, ::KeyReader) }
     }
 
     override fun destroy() {
@@ -60,14 +65,17 @@ class GrabService(context: Context) : IGrabService.Stub() {
 
     override fun status(): String = status
 
-    private fun run() {
+    /** Grabs [name] whenever it's connected, decoding its events with a fresh [newReader]. */
+    private fun watch(name: String, newReader: () -> EventReader) {
+        // The status line reports the swipe device, which carries every normal press
+        val primary = name == DEVICE_NAME
         while (true) {
-            val node = findDevice()
+            val node = findDevice(name)
             if (node == null) {
-                status = "waiting for $DEVICE_NAME to connect"
+                if (primary) status = "waiting for $DEVICE_NAME to connect"
             } else {
                 try {
-                    grab(node)
+                    grab(node, primary, newReader())
                 } catch (e: Exception) {
                     // The node vanishes when the remote disconnects
                     Log.w(TAG, "lost $node", e)
@@ -77,65 +85,86 @@ class GrabService(context: Context) : IGrabService.Stub() {
         }
     }
 
-    private fun findDevice(): File? =
+    private fun findDevice(name: String): File? =
         File("/dev/input").listFiles { f -> f.name.startsWith("event") }
-            ?.firstOrNull { deviceName(it.path) == DEVICE_NAME }
+            ?.firstOrNull { deviceName(it.path) == name }
 
-    private fun grab(node: File) {
+    private fun grab(node: File, primary: Boolean, reader: EventReader) {
         val fd = openGrabbed(node.path)
         if (fd < 0) throw IOException("can't grab $node: errno ${-fd}")
         ParcelFileDescriptor.AutoCloseInputStream(ParcelFileDescriptor.adoptFd(fd)).use { input ->
-            status = "grabbed $node"
-            Log.i(TAG, status)
+            if (primary) status = "grabbed $node"
+            Log.i(TAG, "grabbed $node")
 
             val buf = ByteBuffer.allocate(EVENT_SIZE * 64).order(ByteOrder.LITTLE_ENDIAN)
-            var x = 0
-            var y = 0
-            var touching = false
-            var wasTouching = false
-            var startX = 0
-            var startY = 0
-            var lastX = 0
-            var lastY = 0
-
             while (true) {
                 val n = input.read(buf.array())
                 if (n < 0) throw IOException("EOF")
                 for (off in 0 until n - EVENT_SIZE + 1 step EVENT_SIZE) {
-                    val type = buf.getShort(off + 16).toInt()
-                    val code = buf.getShort(off + 18).toInt()
-                    val value = buf.getInt(off + 20)
-                    when (type) {
-                        EV_ABS -> when (code) {
-                            ABS_X -> x = value
-                            ABS_Y -> y = value
-                        }
-                        EV_KEY -> if (code == BTN_TOUCH) touching = value != 0
-                        EV_SYN -> if (code == SYN_REPORT) {
-                            // Judge whole frames: a frame's key and axis events arrive in any order.
-                            // The release frame can carry the remote's "park" position, so ignore it.
-                            if (touching && !wasTouching) {
-                                startX = x
-                                startY = y
-                            }
-                            if (touching) {
-                                lastX = x
-                                lastY = y
-                            } else if (wasTouching) {
-                                onGesture((lastX - startX).toFloat(), (lastY - startY).toFloat())
-                            }
-                            wasTouching = touching
-                        }
-                    }
+                    reader.onEvent(buf.getShort(off + 16).toInt(), buf.getShort(off + 18).toInt(), buf.getInt(off + 20))
                 }
             }
         }
     }
 
-    private fun onGesture(dx: Float, dy: Float) {
+    private fun interface EventReader {
+        fun onEvent(type: Int, code: Int, value: Int)
+    }
+
+    /** Turns the swipe device's fake touches into presses. */
+    private inner class PointerReader : EventReader {
+        private var x = 0
+        private var y = 0
+        private var touching = false
+        private var wasTouching = false
+        private var startX = 0
+        private var startY = 0
+        private var lastX = 0
+        private var lastY = 0
+
+        override fun onEvent(type: Int, code: Int, value: Int) {
+            when (type) {
+                EV_ABS -> when (code) {
+                    ABS_X -> x = value
+                    ABS_Y -> y = value
+                }
+                EV_KEY -> if (code == BTN_TOUCH) touching = value != 0
+                EV_SYN -> if (code == SYN_REPORT) {
+                    // Judge whole frames: a frame's key and axis events arrive in any order.
+                    // The release frame can carry the remote's "park" position, so ignore it.
+                    if (touching && !wasTouching) {
+                        startX = x
+                        startY = y
+                    }
+                    if (touching) {
+                        lastX = x
+                        lastY = y
+                    } else if (wasTouching) {
+                        act { RemoteActions.onGesture(output, (lastX - startX).toFloat(), (lastY - startY).toFloat(), TAP_SLOP_RAW) }
+                    }
+                    wasTouching = touching
+                }
+            }
+        }
+    }
+
+    /** Turns the keys device's repeated volume presses (a held LEFT/RIGHT) into seeks. */
+    private inner class KeyReader : EventReader {
+        override fun onEvent(type: Int, code: Int, value: Int) {
+            // value 1 is a press; the remote never sends autorepeat (2), it re-presses instead
+            if (type != EV_KEY || value != 1) return
+            when (code) {
+                KEY_VOLUMEUP -> act { RemoteActions.onHold(output, forward = true) }
+                KEY_VOLUMEDOWN -> act { RemoteActions.onHold(output, forward = false) }
+                else -> Log.i(TAG, "ignoring key $code from $KEYS_DEVICE_NAME")
+            }
+        }
+    }
+
+    private fun act(action: () -> Unit) {
         // A failed action mustn't release the grab, or the remote's presses leak to Android
         try {
-            RemoteActions.onGesture(output, dx, dy, TAP_SLOP_RAW)
+            action()
         } catch (e: Exception) {
             Log.w(TAG, "action failed", e)
         }
@@ -154,6 +183,7 @@ class GrabService(context: Context) : IGrabService.Stub() {
 
         private const val TAG = "BTRemote"
         const val DEVICE_NAME = "Beauty-R1"
+        const val KEYS_DEVICE_NAME = "Beauty-R1 Consumer Control"
         private const val SCAN_INTERVAL_MS = 2000L
         // The remote reports 0..4095; its swipes cover ~2000
         private const val TAP_SLOP_RAW = 200f
@@ -167,5 +197,7 @@ class GrabService(context: Context) : IGrabService.Stub() {
         private const val ABS_X = 0x00
         private const val ABS_Y = 0x01
         private const val BTN_TOUCH = 0x14a
+        private const val KEY_VOLUMEDOWN = 114
+        private const val KEY_VOLUMEUP = 115
     }
 }

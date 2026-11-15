@@ -7,6 +7,8 @@ WHAT THE BUTTONS DO
 • Centre: play / pause
 • Right: next track
 • Left: previous track
+• Hold right: fast forward
+• Hold left: rewind
 • Up: volume up
 • Down: volume down
 

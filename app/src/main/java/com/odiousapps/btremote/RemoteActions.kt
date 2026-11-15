@@ -45,6 +45,14 @@ object RemoteActions {
         }
     }
 
+    /**
+     * Holding LEFT or RIGHT sends no swipe; instead the remote's consumer control device
+     * repeats volume down or volume up for as long as it's held. Each repeat seeks a step.
+     */
+    fun onHold(output: Output, forward: Boolean) {
+        mediaKey(output, if (forward) KeyEvent.KEYCODE_MEDIA_FAST_FORWARD else KeyEvent.KEYCODE_MEDIA_REWIND)
+    }
+
     private fun mediaKey(output: Output, keyCode: Int) {
         Log.i(TAG, "media key ${KeyEvent.keyCodeToString(keyCode)}")
         output.mediaKey(keyCode)
