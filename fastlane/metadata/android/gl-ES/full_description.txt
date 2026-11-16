@@ -1,0 +1,33 @@
+Converte un mando Bluetooth Beauty-R1 barato nun mando multimedia para Android.
+
+De fábrica, o Beauty-R1 fai pasar por unha pantalla táctil: cada pulsación é un desprazamento ou un toque simulado, polo que Android mostra un cursor de rato e as pulsacións caen sobre o que haxa debaixo. R1 BT Remote intercepta esas pulsacións e convérteas en controis multimedia para que poidas reproducir, pausar, saltar pistas e cambiar o volume.
+
+QUE FAN OS BOTÓNS
+
+• Centro: reproducir / pausar
+• Dereita: pista seguinte
+• Esquerda: pista anterior
+• Manter dereita: avance rápido
+• Manter esquerda: retroceso
+• Arriba: subir o volume
+• Abaixo: baixar o volume
+
+Os controis funcionan con calquera aplicación que responda aos botóns multimedia estándar, como reprodutores de música, aplicacións de podcasts e reprodutores de audiolibros.
+
+COMO FUNCIONA
+
+• Servizo de captura con Shizuku (recomendado). Con Shizuku en execución, a aplicación inicia un pequeno servizo con privilexios de shell que toma o control exclusivo do dispositivo de entrada do mando. Android nunca ve as pulsacións, así que non aparece ningún cursor. Se o mando se desconecta, o servizo agárdao e vólveo tomar cando se reconecta.
+
+• Alternativa de accesibilidade. Cando Shizuku non está dispoñible, un servizo de accesibilidade intercepta os eventos de punteiro do mando e convérteos en accións multimedia. Funciona sen Shizuku, pero Android segue mostrando o cursor na pantalla.
+
+A pantalla principal mostra o estado de ambos e só mostra os botóns de configuración dos pasos que aínda non fixeches.
+
+REQUISITOS
+
+• Android 14 ou posterior
+• Un mando Bluetooth Beauty-R1 (aparece como «Beauty-R1»)
+• Opcional pero recomendado: Shizuku
+
+SERVIZO DE ACCESIBILIDADE
+
+O servizo de accesibilidade só se usa para ler a entrada do mando Beauty-R1 e convertela en teclas multimedia. Non le o contido da pantalla, e a aplicación non recolle nin envía ningún dato.

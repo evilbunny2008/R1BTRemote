@@ -1,0 +1,33 @@
+Pārvērtiet lētu Beauty-R1 Bluetooth pulti par multivides pulti Android ierīcēm.
+
+Rūpnīcas iestatījumos Beauty-R1 izliekas par skārienekrānu: katrs pogas nospiediens ir viltots vilkšanas vai pieskāriena žests, tāpēc Android rāda peles kursoru, un nospiedieni nonāk uz tā, kas atrodas zem tā. R1 BT Remote pārtver šos nospiedienus un pārvērš tos multivides vadībā, lai jūs varētu atskaņot, pauzēt, pārslēgt ierakstus un mainīt skaļumu.
+
+KO DARA POGAS
+
+• Centrs: atskaņot / pauze
+• Pa labi: nākamais ieraksts
+• Pa kreisi: iepriekšējais ieraksts
+• Turēt pa labi: patīt uz priekšu
+• Turēt pa kreisi: patīt atpakaļ
+• Uz augšu: skaļāk
+• Uz leju: klusāk
+
+Vadība darbojas ar jebkuru lietotni, kas reaģē uz standarta multivides pogām, piemēram, mūzikas atskaņotājiem, aplādes lietotnēm un audiogrāmatu atskaņotājiem.
+
+KĀ TAS DARBOJAS
+
+• Shizuku tveršanas pakalpojums (ieteicams). Kad Shizuku darbojas, lietotne palaiž nelielu pakalpojumu ar čaulas privilēģijām, kas pārņem ekskluzīvu kontroli pār pults ievades ierīci. Android nospiedienus nemaz neredz, tāpēc kursors neparādās. Ja pults atvienojas, pakalpojums gaida un pārņem to atkal, kad tā atkal pievienojas.
+
+• Pieejamības rezerves risinājums. Ja Shizuku nav pieejams, pieejamības pakalpojums pārtver pults rādītāja notikumus un pārvērš tos multivides darbībās. Tas darbojas bez Shizuku, taču Android joprojām rāda kursoru ekrānā.
+
+Galvenais ekrāns rāda abu stāvokli un parāda iestatīšanas pogas tikai tiem soļiem, kurus vēl neesat izpildījis.
+
+PRASĪBAS
+
+• Android 14 vai jaunāka versija
+• Beauty-R1 Bluetooth pults (tiek rādīta kā “Beauty-R1”)
+• Pēc izvēles, bet ieteicams: Shizuku
+
+PIEEJAMĪBAS PAKALPOJUMS
+
+Pieejamības pakalpojums tiek izmantots tikai, lai nolasītu ievadi no Beauty-R1 pults un pārvērstu to multivides taustiņu nospiedienos. Tas nelasa ekrāna saturu, un lietotne nevāc un nesūta nekādus datus.

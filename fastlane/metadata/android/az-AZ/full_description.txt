@@ -1,0 +1,33 @@
+Ucuz Beauty-R1 Bluetooth pultunu Android üçün media pultuna çevirin.
+
+Zavod parametrlərində Beauty-R1 özünü sensor ekran kimi göstərir: hər düymə basılışı saxta sürüşdürmə və ya toxunuşdur, buna görə Android siçan kursoru göstərir və basılışlar onun altında olan şeyin üzərinə düşür. R1 BT Remote bu basılışları tutur və media idarəetməsinə çevirir ki, siz oxuda, fasilə verə, treklər arasında keçə və səs səviyyəsini dəyişə biləsiniz.
+
+DÜYMƏLƏR NƏ EDİR
+
+• Mərkəz: oxut / fasilə
+• Sağ: növbəti trek
+• Sol: əvvəlki trek
+• Sağı basılı saxlayın: irəli çəkmə
+• Solu basılı saxlayın: geri çəkmə
+• Yuxarı: səsi artır
+• Aşağı: səsi azalt
+
+İdarəetmə standart media düymələrinə cavab verən istənilən tətbiqlə işləyir, məsələn, musiqi pleyerləri, podkast tətbiqləri və audiokitab pleyerləri.
+
+NECƏ İŞLƏYİR
+
+• Shizuku ilə tutma xidməti (tövsiyə olunur). Shizuku işləyərkən tətbiq shell imtiyazlarına malik kiçik bir xidmət başladır və bu xidmət pultun giriş cihazı üzərində eksklüziv nəzarəti ələ alır. Android basılışları heç görmür, buna görə kursor görünmür. Pultun bağlantısı kəsilərsə, xidmət gözləyir və yenidən qoşulduqda onu təkrar ələ alır.
+
+• Əlçatanlıq ehtiyat variantı. Shizuku əlçatan olmadıqda, əlçatanlıq xidməti pultun göstərici hadisələrini tutur və onları media əməliyyatlarına çevirir. Bu Shizuku olmadan işləyir, lakin Android kursoru ekranda göstərməyə davam edir.
+
+Əsas ekran hər ikisinin vəziyyətini göstərir və yalnız hələ yerinə yetirmədiyiniz addımlar üçün quraşdırma düymələrini göstərir.
+
+TƏLƏBLƏR
+
+• Android 14 və ya daha yeni
+• Beauty-R1 Bluetooth pultu ("Beauty-R1" kimi görünür)
+• İstəyə bağlı, lakin tövsiyə olunur: Shizuku
+
+ƏLÇATANLIQ XİDMƏTİ
+
+Əlçatanlıq xidməti yalnız Beauty-R1 pultundan gələn girişi oxumaq və onu media düymə basılışlarına çevirmək üçün istifadə olunur. O, ekran məzmununu oxumur və tətbiq heç bir məlumat toplamır və göndərmir.

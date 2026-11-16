@@ -1,0 +1,33 @@
+Transformă o telecomandă Bluetooth Beauty-R1 ieftină într-o telecomandă media pentru Android.
+
+Din fabrică, Beauty-R1 se dă drept ecran tactil: fiecare apăsare de buton este o glisare sau o atingere falsă, așa că Android afișează un cursor de mouse, iar apăsările ajung pe ce se află sub el. R1 BT Remote interceptează aceste apăsări și le transformă în comenzi media, ca să poți reda, întrerupe, sări piese și schimba volumul.
+
+CE FAC BUTOANELE
+
+• Centru: redare / pauză
+• Dreapta: piesa următoare
+• Stânga: piesa anterioară
+• Ține apăsat dreapta: derulare înainte
+• Ține apăsat stânga: derulare înapoi
+• Sus: volum mai tare
+• Jos: volum mai încet
+
+Comenzile funcționează cu orice aplicație care răspunde la butoanele media standard, cum ar fi playere de muzică, aplicații de podcasturi și playere de cărți audio.
+
+CUM FUNCȚIONEAZĂ
+
+• Serviciul de captură prin Shizuku (recomandat). Când Shizuku rulează, aplicația pornește un mic serviciu cu privilegii de shell care preia controlul exclusiv asupra dispozitivului de intrare al telecomenzii. Android nu vede deloc apăsările, așa că nu apare niciun cursor. Dacă telecomanda se deconectează, serviciul o așteaptă și o preia din nou când se reconectează.
+
+• Alternativa prin accesibilitate. Când Shizuku nu este disponibil, un serviciu de accesibilitate interceptează evenimentele de indicator ale telecomenzii și le transformă în acțiuni media. Funcționează fără Shizuku, dar Android afișează în continuare cursorul pe ecran.
+
+Ecranul principal arată starea ambelor și afișează butoanele de configurare doar pentru pașii pe care nu i-ai făcut încă.
+
+CERINȚE
+
+• Android 14 sau o versiune ulterioară
+• O telecomandă Bluetooth Beauty-R1 (apare ca „Beauty-R1”)
+• Opțional, dar recomandat: Shizuku
+
+SERVICIUL DE ACCESIBILITATE
+
+Serviciul de accesibilitate este folosit doar pentru a citi intrarea de la telecomanda Beauty-R1 și a o transforma în apăsări de taste media. Nu citește conținutul ecranului, iar aplicația nu colectează și nu trimite date.

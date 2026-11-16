@@ -1,0 +1,33 @@
+Paverskite pigų Beauty-R1 Bluetooth pultelį medijos pulteliu, skirtu „Android“.
+
+Gamykliškai Beauty-R1 apsimeta jutikliniu ekranu: kiekvienas mygtuko paspaudimas yra netikras perbraukimas ar palietimas, todėl „Android“ rodo pelės žymeklį, o paspaudimai pataiko į tai, kas yra po juo. R1 BT Remote perima šiuos paspaudimus ir paverčia juos medijos valdikliais, kad galėtumėte leisti, pristabdyti, perjungti takelius ir keisti garsumą.
+
+KĄ DARO MYGTUKAI
+
+• Vidurys: leisti / pristabdyti
+• Dešinėn: kitas takelis
+• Kairėn: ankstesnis takelis
+• Laikyti dešinėn: prasukti pirmyn
+• Laikyti kairėn: prasukti atgal
+• Aukštyn: garsiau
+• Žemyn: tyliau
+
+Valdikliai veikia su bet kuria programa, reaguojančia į standartinius medijos mygtukus, pvz., muzikos grotuvais, tinklalaidžių programomis ir garsinių knygų grotuvais.
+
+KAIP TAI VEIKIA
+
+• Shizuku perėmimo paslauga (rekomenduojama). Kai veikia Shizuku, programa paleidžia nedidelę paslaugą su apvalkalo teisėmis, kuri perima išskirtinę pultelio įvesties įrenginio kontrolę. „Android“ paspaudimų visai nemato, todėl žymeklis nepasirodo. Jei pultelis atsijungia, paslauga laukia ir vėl jį perima, kai jis vėl prisijungia.
+
+• Pritaikymo neįgaliesiems atsarginis variantas. Kai Shizuku nepasiekiamas, pritaikymo neįgaliesiems paslauga perima pultelio žymiklio įvykius ir paverčia juos medijos veiksmais. Tai veikia be Shizuku, tačiau „Android“ vis tiek rodo žymeklį ekrane.
+
+Pagrindiniame ekrane rodoma abiejų būsena ir rodomi tik tų veiksmų sąrankos mygtukai, kurių dar neatlikote.
+
+REIKALAVIMAI
+
+• „Android 14“ arba naujesnė versija
+• Beauty-R1 Bluetooth pultelis (rodomas kaip „Beauty-R1“)
+• Pasirinktinai, bet rekomenduojama: Shizuku
+
+PRITAIKYMO NEĮGALIESIEMS PASLAUGA
+
+Pritaikymo neįgaliesiems paslauga naudojama tik Beauty-R1 pultelio įvesčiai nuskaityti ir paversti medijos klavišų paspaudimais. Ji neskaito ekrano turinio, o programa nerenka ir nesiunčia jokių duomenų.

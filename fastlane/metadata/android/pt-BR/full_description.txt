@@ -1,0 +1,33 @@
+Transforme um controle remoto Bluetooth Beauty-R1 barato em um controle de mídia para Android.
+
+De fábrica, o Beauty-R1 finge ser uma tela sensível ao toque: cada botão pressionado é um deslize ou toque falso, então o Android mostra um cursor de mouse e os comandos caem no que estiver embaixo dele. O R1 BT Remote intercepta esses comandos e os transforma em controles de mídia, para você reproduzir, pausar, pular faixas e mudar o volume.
+
+O QUE OS BOTÕES FAZEM
+
+• Centro: reproduzir / pausar
+• Direita: próxima faixa
+• Esquerda: faixa anterior
+• Segurar direita: avançar
+• Segurar esquerda: retroceder
+• Cima: aumentar volume
+• Baixo: diminuir volume
+
+Os controles funcionam com qualquer app que responda aos botões de mídia padrão, como players de música, apps de podcast e players de audiolivros.
+
+COMO FUNCIONA
+
+• Serviço de captura com Shizuku (recomendado). Com o Shizuku em execução, o app inicia um pequeno serviço com privilégios de shell que assume o controle exclusivo do dispositivo de entrada do controle. O Android nunca vê os comandos, então nenhum cursor aparece. Se o controle desconectar, o serviço espera e o retoma quando ele se reconectar.
+
+• Alternativa de acessibilidade. Quando o Shizuku não está disponível, um serviço de acessibilidade intercepta os eventos de ponteiro do controle e os transforma em ações de mídia. Funciona sem o Shizuku, mas o Android continua mostrando o cursor na tela.
+
+A tela principal mostra o estado de ambos e só exibe os botões de configuração das etapas que você ainda não concluiu.
+
+REQUISITOS
+
+• Android 14 ou mais recente
+• Um controle remoto Bluetooth Beauty-R1 (ele aparece como "Beauty-R1")
+• Opcional, mas recomendado: Shizuku
+
+SERVIÇO DE ACESSIBILIDADE
+
+O serviço de acessibilidade é usado apenas para ler a entrada do controle Beauty-R1 e convertê-la em teclas de mídia. Ele não lê o conteúdo da tela, e o app não coleta nem envia nenhum dado.

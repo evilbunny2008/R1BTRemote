@@ -1,0 +1,33 @@
+Tee edullisesta Beauty-R1-Bluetooth-kaukosäätimestä mediasäädin Androidille.
+
+Oletuksena Beauty-R1 esittää kosketusnäyttöä: jokainen painallus on teeskennelty pyyhkäisy tai napautus, joten Android näyttää hiiren osoittimen ja painallukset osuvat siihen, mitä osoittimen alla sattuu olemaan. R1 BT Remote sieppaa painallukset ja muuttaa ne mediaohjaimiksi, joten voit toistaa, keskeyttää, vaihtaa kappaletta ja säätää äänenvoimakkuutta.
+
+PAINIKKEIDEN TOIMINNOT
+
+• Keskellä: toista / tauko
+• Oikea: seuraava kappale
+• Vasen: edellinen kappale
+• Pidä oikeaa: pikakelaus eteenpäin
+• Pidä vasenta: kelaus taaksepäin
+• Ylös: äänenvoimakkuus ylös
+• Alas: äänenvoimakkuus alas
+
+Ohjaimet toimivat kaikissa sovelluksissa, jotka reagoivat tavallisiin mediapainikkeisiin, kuten musiikkisoittimissa, podcast-sovelluksissa ja äänikirjasoittimissa.
+
+NÄIN SE TOIMII
+
+• Shizuku-kaappauspalvelu (suositeltu). Kun Shizuku on käynnissä, sovellus käynnistää pienen shell-oikeuksin toimivan palvelun, joka ottaa kaukosäätimen syöttölaitteen yksinomaiseen hallintaansa. Android ei koskaan näe painalluksia, joten osoitinta ei näy. Jos kaukosäätimen yhteys katkeaa, palvelu odottaa ja ottaa sen uudelleen hallintaan, kun yhteys palaa.
+
+• Esteettömyys varavaihtoehtona. Kun Shizuku ei ole käytettävissä, esteettömyyspalvelu sieppaa kaukosäätimen osoitintapahtumat ja muuttaa ne mediatoiminnoiksi. Tämä toimii ilman Shizukua, mutta Android näyttää osoittimen edelleen näytöllä.
+
+Päänäkymä näyttää molempien tilan ja näyttää asetuspainikkeet vain niille vaiheille, joita et ole vielä tehnyt.
+
+VAATIMUKSET
+
+• Android 14 tai uudempi
+• Beauty-R1-Bluetooth-kaukosäädin (näkyy nimellä ”Beauty-R1”)
+• Valinnainen mutta suositeltu: Shizuku
+
+ESTEETTÖMYYSPALVELU
+
+Esteettömyyspalvelua käytetään vain Beauty-R1-kaukosäätimen syötteen lukemiseen ja muuttamiseen mediapainalluksiksi. Se ei lue näytön sisältöä, eikä sovellus kerää tai lähetä mitään tietoja.

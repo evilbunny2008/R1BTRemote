@@ -1,0 +1,33 @@
+Mach aus einer günstigen Beauty-R1-Bluetooth-Fernbedienung eine Medienfernbedienung für Android.
+
+Ab Werk gibt sich die Beauty-R1 als Touchscreen aus: Jeder Tastendruck ist ein simuliertes Wischen oder Tippen. Android zeigt deshalb einen Mauszeiger an, und die Eingaben landen auf dem, was gerade darunter liegt. R1 BT Remote fängt diese Eingaben ab und wandelt sie in Mediensteuerbefehle um – so kannst du Wiedergabe starten und pausieren, Titel überspringen und die Lautstärke ändern.
+
+DIE TASTEN
+
+• Mitte: Wiedergabe / Pause
+• Rechts: nächster Titel
+• Links: vorheriger Titel
+• Rechts halten: vorspulen
+• Links halten: zurückspulen
+• Oben: lauter
+• Unten: leiser
+
+Die Steuerung funktioniert mit jeder App, die auf Standard-Medientasten reagiert, etwa Musik-Player, Podcast-Apps und Hörbuch-Player.
+
+SO FUNKTIONIERT ES
+
+• Shizuku-Grab-Dienst (empfohlen). Wenn Shizuku läuft, startet die App einen kleinen Dienst mit Shell-Rechten, der das Eingabegerät der Fernbedienung exklusiv übernimmt. Android sieht die Tastendrücke gar nicht, daher erscheint kein Cursor. Trennt sich die Fernbedienung, wartet der Dienst und übernimmt sie wieder, sobald sie sich neu verbindet.
+
+• Bedienungshilfe als Ausweichlösung. Ist Shizuku nicht verfügbar, fängt ein Bedienungshilfe-Dienst die Zeigerereignisse der Fernbedienung ab und wandelt sie in Medienaktionen um. Das funktioniert ohne Shizuku, allerdings zeigt Android den Cursor weiterhin an.
+
+Der Hauptbildschirm zeigt den Status beider Varianten und blendet nur die Einrichtungsschaltflächen für die Schritte ein, die du noch nicht erledigt hast.
+
+VORAUSSETZUNGEN
+
+• Android 14 oder neuer
+• Eine Beauty-R1-Bluetooth-Fernbedienung (sie erscheint als „Beauty-R1“)
+• Optional, aber empfohlen: Shizuku
+
+BEDIENUNGSHILFE-DIENST
+
+Der Bedienungshilfe-Dienst wird ausschließlich verwendet, um Eingaben der Beauty-R1-Fernbedienung zu lesen und in Medientasten umzuwandeln. Er liest keine Bildschirminhalte, und die App erfasst oder sendet keinerlei Daten.

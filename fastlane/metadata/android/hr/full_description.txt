@@ -1,0 +1,33 @@
+Pretvorite jeftini Bluetooth daljinski upravljač Beauty-R1 u medijski daljinski za Android.
+
+Tvornički se Beauty-R1 pretvara da je zaslon osjetljiv na dodir: svaki pritisak gumba lažno je povlačenje ili dodir, pa Android prikazuje pokazivač miša, a pritisci padaju na ono što se nalazi ispod njega. R1 BT Remote presreće te pritiske i pretvara ih u medijske kontrole, pa možete reproducirati, pauzirati, preskakati pjesme i mijenjati glasnoću.
+
+ŠTO RADE GUMBI
+
+• Sredina: reprodukcija / pauza
+• Desno: sljedeća pjesma
+• Lijevo: prethodna pjesma
+• Držite desno: premotavanje naprijed
+• Držite lijevo: premotavanje unatrag
+• Gore: pojačaj
+• Dolje: utišaj
+
+Kontrole rade sa svakom aplikacijom koja reagira na standardne medijske gumbe, poput glazbenih playera, aplikacija za podcaste i playera audioknjiga.
+
+KAKO RADI
+
+• Usluga hvatanja putem Shizukua (preporučeno). Kad Shizuku radi, aplikacija pokreće malu uslugu s ovlastima ljuske koja preuzima isključivu kontrolu nad ulaznim uređajem daljinskog. Android uopće ne vidi pritiske, pa se pokazivač ne pojavljuje. Ako se daljinski odspoji, usluga čeka i ponovno ga preuzima kad se opet poveže.
+
+• Zamjensko rješenje putem pristupačnosti. Kad Shizuku nije dostupan, usluga pristupačnosti presreće događaje pokazivača s daljinskog i pretvara ih u medijske radnje. To radi bez Shizukua, ali Android i dalje prikazuje pokazivač na zaslonu.
+
+Glavni zaslon prikazuje stanje oboje i prikazuje gumbe za postavljanje samo za korake koje još niste obavili.
+
+ZAHTJEVI
+
+• Android 14 ili noviji
+• Bluetooth daljinski upravljač Beauty-R1 (prikazuje se kao „Beauty-R1”)
+• Neobavezno, ali preporučeno: Shizuku
+
+USLUGA PRISTUPAČNOSTI
+
+Usluga pristupačnosti koristi se samo za čitanje unosa s daljinskog Beauty-R1 i njegovo pretvaranje u pritiske medijskih tipki. Ne čita sadržaj zaslona, a aplikacija ne prikuplja niti šalje nikakve podatke.

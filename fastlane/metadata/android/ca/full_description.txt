@@ -1,0 +1,33 @@
+Converteix un comandament Bluetooth Beauty-R1 econòmic en un comandament multimèdia per a Android.
+
+De fàbrica, el Beauty-R1 es fa passar per una pantalla tàctil: cada pulsació és un lliscament o un toc simulat, de manera que Android mostra un cursor de ratolí i les pulsacions cauen sobre el que hi hagi a sota. R1 BT Remote intercepta aquestes pulsacions i les converteix en controls multimèdia perquè puguis reproduir, posar en pausa, saltar pistes i canviar el volum.
+
+QUÈ FAN ELS BOTONS
+
+• Centre: reproduir / pausa
+• Dreta: pista següent
+• Esquerra: pista anterior
+• Mantenir dreta: avançament ràpid
+• Mantenir esquerra: retrocés
+• Amunt: apujar el volum
+• Avall: abaixar el volum
+
+Els controls funcionen amb qualsevol aplicació que respongui als botons multimèdia estàndard, com ara reproductors de música, aplicacions de pòdcasts i reproductors d'audiollibres.
+
+COM FUNCIONA
+
+• Servei de captura amb Shizuku (recomanat). Amb Shizuku en marxa, l'aplicació inicia un petit servei amb privilegis de shell que pren el control exclusiu del dispositiu d'entrada del comandament. Android no veu mai les pulsacions, així que no apareix cap cursor. Si el comandament es desconnecta, el servei l'espera i el torna a agafar quan es reconnecta.
+
+• Alternativa d'accessibilitat. Quan Shizuku no està disponible, un servei d'accessibilitat intercepta els esdeveniments de punter del comandament i els converteix en accions multimèdia. Funciona sense Shizuku, però Android continua mostrant el cursor a la pantalla.
+
+La pantalla principal mostra l'estat de tots dos i només mostra els botons de configuració dels passos que encara no has fet.
+
+REQUISITS
+
+• Android 14 o posterior
+• Un comandament Bluetooth Beauty-R1 (apareix com a «Beauty-R1»)
+• Opcional però recomanat: Shizuku
+
+SERVEI D'ACCESSIBILITAT
+
+El servei d'accessibilitat només s'utilitza per llegir l'entrada del comandament Beauty-R1 i convertir-la en tecles multimèdia. No llegeix el contingut de la pantalla, i l'aplicació no recull ni envia cap dada.

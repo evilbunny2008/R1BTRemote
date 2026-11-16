@@ -1,0 +1,33 @@
+Bihurtu Beauty-R1 Bluetooth urruneko aginte merke bat Androiderako multimedia-aginte.
+
+Fabrikatik, Beauty-R1 ukipen-pantaila bat balitz bezala aurkezten da: botoi-sakatze bakoitza hatza pasatze edo ukitze faltsu bat da, eta, beraz, Androidek saguaren kurtsorea erakusten du eta sakatzeak azpian dagoenaren gainean erortzen dira. R1 BT Remote-k sakatze horiek atzematen ditu eta multimedia-kontrol bihurtzen ditu; horrela, erreproduzitu, pausatu, pistak saltatu eta bolumena alda dezakezu.
+
+ZER EGITEN DUTE BOTOIEK
+
+• Erdia: erreproduzitu / pausatu
+• Eskuina: hurrengo pista
+• Ezkerra: aurreko pista
+• Eskuina sakatuta eutsi: aurrera azkar
+• Ezkerra sakatuta eutsi: atzera
+• Gora: bolumena igo
+• Behera: bolumena jaitsi
+
+Kontrolek multimedia-botoi estandarrei erantzuten dien edozein aplikaziorekin funtzionatzen dute, hala nola musika-erreproduzitzaileekin, podcast-aplikazioekin eta audio-liburuen erreproduzitzaileekin.
+
+NOLA FUNTZIONATZEN DUEN
+
+• Shizuku bidezko harrapatze-zerbitzua (gomendatua). Shizuku martxan dagoenean, aplikazioak shell-baimenak dituen zerbitzu txiki bat abiarazten du, urruneko agintearen sarrera-gailuaren kontrol esklusiboa hartzen duena. Androidek ez ditu inoiz sakatzeak ikusten, eta, beraz, ez da kurtsorerik agertzen. Urruneko agintea deskonektatzen bada, zerbitzuak itxaron egiten du eta berriro hartzen du berriz konektatzen denean.
+
+• Erabilerraztasun-ordezkoa. Shizuku erabilgarri ez dagoenean, erabilerraztasun-zerbitzu batek urruneko agintearen erakusle-gertaerak atzematen ditu eta multimedia-ekintza bihurtzen ditu. Shizukurik gabe funtzionatzen du, baina Androidek kurtsorea pantailan erakusten jarraitzen du.
+
+Pantaila nagusiak bien egoera erakusten du, eta oraindik egin ez dituzun urratsen konfigurazio-botoiak soilik erakusten ditu.
+
+BETEKIZUNAK
+
+• Android 14 edo berriagoa
+• Beauty-R1 Bluetooth urruneko aginte bat ("Beauty-R1" gisa agertzen da)
+• Aukerakoa baina gomendatua: Shizuku
+
+ERABILERRAZTASUN-ZERBITZUA
+
+Erabilerraztasun-zerbitzua Beauty-R1 urruneko agintearen sarrera irakurri eta multimedia-tekla bihurtzeko soilik erabiltzen da. Ez du pantailako edukia irakurtzen, eta aplikazioak ez du daturik biltzen ez bidaltzen.

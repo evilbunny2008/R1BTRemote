@@ -1,0 +1,33 @@
+Transforme um comando Bluetooth Beauty-R1 barato num comando multimédia para Android.
+
+De origem, o Beauty-R1 finge ser um ecrã tátil: cada botão premido é um deslizar ou toque falso, por isso o Android mostra um cursor de rato e os toques vão parar ao que estiver por baixo. O R1 BT Remote interceta esses toques e transforma-os em controlos multimédia, para poder reproduzir, pausar, saltar faixas e alterar o volume.
+
+O QUE FAZEM OS BOTÕES
+
+• Centro: reproduzir / pausar
+• Direita: faixa seguinte
+• Esquerda: faixa anterior
+• Manter direita: avançar rapidamente
+• Manter esquerda: recuar
+• Cima: aumentar volume
+• Baixo: diminuir volume
+
+Os controlos funcionam com qualquer aplicação que responda aos botões multimédia padrão, como leitores de música, aplicações de podcasts e leitores de audiolivros.
+
+COMO FUNCIONA
+
+• Serviço de captura com Shizuku (recomendado). Com o Shizuku em execução, a aplicação inicia um pequeno serviço com privilégios de shell que assume o controlo exclusivo do dispositivo de entrada do comando. O Android nunca vê os toques, por isso não aparece nenhum cursor. Se o comando se desligar, o serviço aguarda e volta a assumi-lo quando se voltar a ligar.
+
+• Alternativa de acessibilidade. Quando o Shizuku não está disponível, um serviço de acessibilidade interceta os eventos de ponteiro do comando e transforma-os em ações multimédia. Funciona sem o Shizuku, mas o Android continua a mostrar o cursor no ecrã.
+
+O ecrã principal mostra o estado de ambos e só apresenta os botões de configuração dos passos que ainda não concluiu.
+
+REQUISITOS
+
+• Android 14 ou posterior
+• Um comando Bluetooth Beauty-R1 (aparece como "Beauty-R1")
+• Opcional, mas recomendado: Shizuku
+
+SERVIÇO DE ACESSIBILIDADE
+
+O serviço de acessibilidade é utilizado apenas para ler a entrada do comando Beauty-R1 e convertê-la em teclas multimédia. Não lê o conteúdo do ecrã, e a aplicação não recolhe nem envia quaisquer dados.

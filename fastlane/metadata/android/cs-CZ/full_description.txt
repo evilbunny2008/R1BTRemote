@@ -1,0 +1,33 @@
+Udělejte z levného ovladače Bluetooth Beauty-R1 multimediální dálkový ovladač pro Android.
+
+Z výroby se Beauty-R1 vydává za dotykovou obrazovku: každé stisknutí tlačítka je falešné přejetí nebo klepnutí, takže Android zobrazí kurzor myši a stisknutí dopadnou na to, co je zrovna pod ním. R1 BT Remote tato stisknutí zachytí a promění je v ovládání médií, takže můžete přehrávat, pozastavit, přeskakovat skladby a měnit hlasitost.
+
+CO DĚLAJÍ TLAČÍTKA
+
+• Střed: přehrát / pozastavit
+• Vpravo: další skladba
+• Vlevo: předchozí skladba
+• Podržet vpravo: přetočit vpřed
+• Podržet vlevo: přetočit zpět
+• Nahoru: zesílit
+• Dolů: zeslabit
+
+Ovládání funguje s každou aplikací, která reaguje na standardní multimediální tlačítka, například s hudebními přehrávači, aplikacemi pro podcasty a přehrávači audioknih.
+
+JAK TO FUNGUJE
+
+• Záchytná služba přes Shizuku (doporučeno). Když běží Shizuku, aplikace spustí malou službu s oprávněními shellu, která převezme výhradní kontrolu nad vstupním zařízením ovladače. Android stisknutí vůbec nevidí, takže se nezobrazí žádný kurzor. Pokud se ovladač odpojí, služba počká a po opětovném připojení ho znovu převezme.
+
+• Záložní řešení přes usnadnění přístupu. Když Shizuku není k dispozici, služba usnadnění přístupu zachytává události ukazatele z ovladače a mění je na akce médií. Funguje to bez Shizuku, ale Android stále zobrazuje kurzor na obrazovce.
+
+Hlavní obrazovka ukazuje stav obou a zobrazuje tlačítka nastavení jen pro kroky, které jste ještě neudělali.
+
+POŽADAVKY
+
+• Android 14 nebo novější
+• Dálkový ovladač Bluetooth Beauty-R1 (zobrazuje se jako „Beauty-R1“)
+• Volitelné, ale doporučené: Shizuku
+
+SLUŽBA USNADNĚNÍ PŘÍSTUPU
+
+Služba usnadnění přístupu se používá pouze ke čtení vstupu z ovladače Beauty-R1 a jeho převodu na stisknutí multimediálních kláves. Nečte obsah obrazovky a aplikace neshromažďuje ani neodesílá žádná data.

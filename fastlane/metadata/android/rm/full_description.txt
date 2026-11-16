@@ -1,0 +1,33 @@
+Transfurmescha in telecomond Bluetooth Beauty-R1 bunmartgà en in telecomond da medias per Android.
+
+Da fabrica sa dat il Beauty-R1 per in visur tactil: mintga smatg sin in buttun è in fauss stritgar u tutgar, uschia che Android mussa in cursur da mieur ed ils smatgs crodan sin quai che sa chatta sut el. R1 BT Remote intercepta quests smatgs e als transfurmescha en controllas da medias, uschia che ti pos reproducir, far pausa, sursiglir tocs e midar il volumen.
+
+TGE CH'ILS BUTTUNS FAN
+
+• Center: reproducir / pausa
+• Dretg: proxim toc
+• Sanester: toc precedent
+• Tegnair dretg: avanzar svelt
+• Tegnair sanester: returnar
+• Ensi: pli ferm
+• Engiu: pli bass
+
+Las controllas funcziunan cun mintga app che reagescha sin ils buttuns da medias standard, sco players da musica, apps da podcasts e players da cudeschs audio.
+
+CO CHE QUAI FUNCZIUNA
+
+• Servetsch da tschiffar cun Shizuku (recumandà). Cun Shizuku activ, lantscha l'app in pitschen servetsch cun privilegis da shell che surpiglia la controlla exclusiva dal apparat d'input dal telecomond. Android na vesa mai ils smatgs, perquai na cumpara nagin cursur. Sch'il telecomond sa disconnectescha, spetga il servetsch e al surpiglia puspè cura ch'el sa connectescha danovamain.
+
+• Alternativa cun l'accessibladad. Cura che Shizuku n'è betg disponibel, intercepta in servetsch d'accessibladad ils eveniments dal punctader dal telecomond e als transfurmescha en acziuns da medias. Quai funcziuna senza Shizuku, ma Android mussa anc adina il cursur sin il visur.
+
+Il visur principal mussa il stadi da omaduas e mussa mo ils buttuns da configuraziun per ils pass che ti n'has anc betg fatg.
+
+PRETENSIUNS
+
+• Android 14 u pli nov
+• In telecomond Bluetooth Beauty-R1 (cumpara sco «Beauty-R1»)
+• Opziunal, ma recumandà: Shizuku
+
+SERVETSCH D'ACCESSIBLADAD
+
+Il servetsch d'accessibladad vegn duvrà mo per leger l'input dal telecomond Beauty-R1 e al transfurmar en smatgs da tastas da medias. El na legia betg il cuntegn dal visur, e l'app na rimna e na trametta naginas datas.

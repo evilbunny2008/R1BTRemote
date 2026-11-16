@@ -1,0 +1,33 @@
+Muuda odav Beauty-R1 Bluetooth-pult Androidi meediapuldiks.
+
+Vaikimisi teeskleb Beauty-R1 puuteekraani: iga nupuvajutus on võlts pühkimine või puudutus, nii et Android näitab hiirekursorit ja vajutused satuvad sellele, mis parasjagu selle all on. R1 BT Remote püüab need vajutused kinni ja muudab need meediajuhtimiseks, et saaksid esitada, peatada, lugusid vahetada ja helitugevust muuta.
+
+MIDA NUPUD TEEVAD
+
+• Keskmine: esita / paus
+• Paremale: järgmine lugu
+• Vasakule: eelmine lugu
+• Hoia paremal: keri edasi
+• Hoia vasakul: keri tagasi
+• Üles: valjemaks
+• Alla: vaiksemaks
+
+Juhtimine töötab kõigi rakendustega, mis reageerivad tavalistele meedianuppudele, näiteks muusikapleierite, taskuhäälingurakenduste ja audioraamatute pleieritega.
+
+KUIDAS SEE TÖÖTAB
+
+• Shizuku haaramisteenus (soovitatav). Kui Shizuku töötab, käivitab rakendus väikese kestaõigustega teenuse, mis võtab puldi sisendseadme ainukontrolli alla. Android ei näe vajutusi üldse, seega kursorit ei ilmu. Kui pult ühenduse katkestab, teenus ootab ja võtab selle uuesti üle, kui see taas ühendub.
+
+• Juurdepääsetavus varulahendusena. Kui Shizuku pole saadaval, püüab juurdepääsetavusteenus puldi kursorisündmused kinni ja muudab need meediatoiminguteks. See töötab ilma Shizukuta, kuid Android näitab ekraanil endiselt kursorit.
+
+Põhikuva näitab mõlema olekut ja kuvab seadistusnupud ainult nende sammude jaoks, mida sa pole veel teinud.
+
+NÕUDED
+
+• Android 14 või uuem
+• Beauty-R1 Bluetooth-pult (kuvatakse nimega „Beauty-R1“)
+• Valikuline, kuid soovitatav: Shizuku
+
+JUURDEPÄÄSETAVUSTEENUS
+
+Juurdepääsetavusteenust kasutatakse ainult Beauty-R1 puldi sisendi lugemiseks ja meediaklahvivajutusteks muutmiseks. See ei loe ekraani sisu ning rakendus ei kogu ega saada mingeid andmeid.

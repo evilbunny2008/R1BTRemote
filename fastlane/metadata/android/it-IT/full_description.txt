@@ -1,0 +1,33 @@
+Trasforma un economico telecomando Bluetooth Beauty-R1 in un telecomando multimediale per Android.
+
+Di serie il Beauty-R1 si finge un touchscreen: ogni pressione di un tasto è uno scorrimento o un tocco simulato, quindi Android mostra un cursore del mouse e le pressioni finiscono su ciò che si trova sotto. R1 BT Remote intercetta queste pressioni e le trasforma in comandi multimediali, così puoi riprodurre, mettere in pausa, saltare i brani e regolare il volume.
+
+COSA FANNO I TASTI
+
+• Centro: riproduci / pausa
+• Destra: brano successivo
+• Sinistra: brano precedente
+• Tieni premuto destra: avanti veloce
+• Tieni premuto sinistra: riavvolgi
+• Su: alza il volume
+• Giù: abbassa il volume
+
+I comandi funzionano con qualsiasi app che risponde ai tasti multimediali standard, come lettori musicali, app di podcast e lettori di audiolibri.
+
+COME FUNZIONA
+
+• Servizio di cattura Shizuku (consigliato). Con Shizuku attivo, l'app avvia un piccolo servizio con privilegi shell che prende il controllo esclusivo del dispositivo di input del telecomando. Android non vede mai le pressioni, quindi non compare alcun cursore. Se il telecomando si disconnette, il servizio lo attende e lo riprende quando si riconnette.
+
+• Soluzione di riserva tramite accessibilità. Quando Shizuku non è disponibile, un servizio di accessibilità intercetta gli eventi del puntatore del telecomando e li trasforma in azioni multimediali. Funziona senza Shizuku, ma Android continua a mostrare il cursore sullo schermo.
+
+La schermata principale mostra lo stato di entrambi e visualizza solo i pulsanti di configurazione per i passaggi che non hai ancora completato.
+
+REQUISITI
+
+• Android 14 o versioni successive
+• Un telecomando Bluetooth Beauty-R1 (compare come "Beauty-R1")
+• Facoltativo ma consigliato: Shizuku
+
+SERVIZIO DI ACCESSIBILITÀ
+
+Il servizio di accessibilità viene usato solo per leggere l'input del telecomando Beauty-R1 e convertirlo in pressioni di tasti multimediali. Non legge il contenuto dello schermo e l'app non raccoglie né invia alcun dato.

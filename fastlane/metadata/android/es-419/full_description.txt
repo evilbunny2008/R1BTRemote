@@ -1,0 +1,33 @@
+Convierte un control remoto Bluetooth Beauty-R1 económico en un control multimedia para Android.
+
+De fábrica, el Beauty-R1 se hace pasar por una pantalla táctil: cada vez que presionas un botón simula un deslizamiento o un toque, así que Android muestra un cursor de mouse y las pulsaciones caen sobre lo que esté debajo. R1 BT Remote intercepta esas pulsaciones y las convierte en controles multimedia para que puedas reproducir, pausar, saltar pistas y cambiar el volumen.
+
+QUÉ HACEN LOS BOTONES
+
+• Centro: reproducir / pausar
+• Derecha: pista siguiente
+• Izquierda: pista anterior
+• Mantener derecha: avance rápido
+• Mantener izquierda: retroceso
+• Arriba: subir volumen
+• Abajo: bajar volumen
+
+Los controles funcionan con cualquier app que responda a los botones multimedia estándar, como reproductores de música, apps de podcasts y reproductores de audiolibros.
+
+CÓMO FUNCIONA
+
+• Servicio de captura con Shizuku (recomendado). Con Shizuku en ejecución, la app inicia un pequeño servicio con privilegios de shell que toma el control exclusivo del dispositivo de entrada del control. Android nunca ve las pulsaciones, así que no aparece ningún cursor. Si el control se desconecta, el servicio lo espera y lo vuelve a tomar cuando se reconecta.
+
+• Alternativa de accesibilidad. Cuando Shizuku no está disponible, un servicio de accesibilidad intercepta los eventos de puntero del control y los convierte en acciones multimedia. Funciona sin Shizuku, pero Android sigue mostrando el cursor en pantalla.
+
+La pantalla principal muestra el estado de ambos y solo muestra los botones de configuración de los pasos que aún no completaste.
+
+REQUISITOS
+
+• Android 14 o posterior
+• Un control remoto Bluetooth Beauty-R1 (aparece como "Beauty-R1")
+• Opcional pero recomendado: Shizuku
+
+SERVICIO DE ACCESIBILIDAD
+
+El servicio de accesibilidad solo se usa para leer la entrada del control Beauty-R1 y convertirla en pulsaciones de teclas multimedia. No lee el contenido de la pantalla, y la app no recopila ni envía ningún dato.

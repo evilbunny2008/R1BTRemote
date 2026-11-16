@@ -1,0 +1,33 @@
+Alakítsa át az olcsó Beauty-R1 Bluetooth távirányítót médiatávirányítóvá Androidra.
+
+Gyárilag a Beauty-R1 érintőképernyőnek adja ki magát: minden gombnyomás egy hamis húzás vagy koppintás, ezért az Android egérmutatót jelenít meg, a nyomások pedig arra kerülnek, ami épp alatta van. Az R1 BT Remote elfogja ezeket a nyomásokat, és médiavezérlővé alakítja őket, így lejátszhat, szüneteltethet, számokat léptethet és hangerőt állíthat.
+
+MIT CSINÁLNAK A GOMBOK
+
+• Közép: lejátszás / szünet
+• Jobbra: következő szám
+• Balra: előző szám
+• Jobbra nyomva tartva: előretekerés
+• Balra nyomva tartva: visszatekerés
+• Fel: hangosabb
+• Le: halkabb
+
+A vezérlők minden olyan alkalmazással működnek, amely reagál a szabványos médiagombokra, például zenelejátszókkal, podcastalkalmazásokkal és hangoskönyv-lejátszókkal.
+
+HOGYAN MŰKÖDIK
+
+• Shizuku-alapú elfogó szolgáltatás (ajánlott). Ha a Shizuku fut, az alkalmazás elindít egy kis, shell-jogosultságú szolgáltatást, amely kizárólagosan átveszi a távirányító beviteli eszközét. Az Android egyáltalán nem látja a nyomásokat, így nem jelenik meg kurzor. Ha a távirányító lecsatlakozik, a szolgáltatás megvárja, és újracsatlakozáskor ismét átveszi.
+
+• Kisegítő lehetőségek tartalékként. Ha a Shizuku nem érhető el, egy kisegítő szolgáltatás elfogja a távirányító mutatóeseményeit, és médiaműveletekké alakítja őket. Ez Shizuku nélkül is működik, de az Android továbbra is megjeleníti a kurzort a képernyőn.
+
+A főképernyő mindkettő állapotát mutatja, és csak azoknak a lépéseknek a beállítógombjait jeleníti meg, amelyeket még nem végzett el.
+
+KÖVETELMÉNYEK
+
+• Android 14 vagy újabb
+• Beauty-R1 Bluetooth távirányító („Beauty-R1” néven jelenik meg)
+• Opcionális, de ajánlott: Shizuku
+
+KISEGÍTŐ SZOLGÁLTATÁS
+
+A kisegítő szolgáltatás kizárólag a Beauty-R1 távirányító bemenetének olvasására és médiagomb-nyomásokká alakítására szolgál. Nem olvassa a képernyő tartalmát, és az alkalmazás semmilyen adatot nem gyűjt és nem küld.

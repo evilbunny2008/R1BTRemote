@@ -1,0 +1,33 @@
+Ktheni një telekomandë të lirë Bluetooth Beauty-R1 në telekomandë mediash për Android.
+
+Nga fabrika, Beauty-R1 shtiret si ekran me prekje: çdo shtypje butoni është një rrëshqitje ose prekje e rreme, ndaj Android shfaq një kursor miu dhe shtypjet bien mbi atë që ndodhet poshtë tij. R1 BT Remote i kap këto shtypje dhe i kthen në kontrolle mediash, që të mund të luani, ndalni përkohësisht, kaloni këngë dhe ndryshoni volumin.
+
+ÇFARË BËJNË BUTONAT
+
+• Qendra: luaj / pauzë
+• Djathtas: kënga tjetër
+• Majtas: kënga e mëparshme
+• Mbaj djathtas: përpara shpejt
+• Mbaj majtas: prapa shpejt
+• Lart: rrit volumin
+• Poshtë: ul volumin
+
+Kontrollet funksionojnë me çdo aplikacion që u përgjigjet butonave standardë të mediave, si luajtës muzike, aplikacione podkastesh dhe luajtës librash audio.
+
+SI FUNKSIONON
+
+• Shërbimi i kapjes me Shizuku (i rekomanduar). Kur Shizuku është në punë, aplikacioni nis një shërbim të vogël me privilegje shell-i që merr kontrollin ekskluziv të pajisjes hyrëse të telekomandës. Android nuk i sheh kurrë shtypjet, ndaj nuk shfaqet asnjë kursor. Nëse telekomanda shkëputet, shërbimi e pret dhe e merr sërish kur rilidhet.
+
+• Alternativa përmes qasshmërisë. Kur Shizuku nuk është i disponueshëm, një shërbim qasshmërie kap ngjarjet e treguesit të telekomandës dhe i kthen në veprime mediash. Kjo funksionon pa Shizuku, por Android vazhdon ta shfaqë kursorin në ekran.
+
+Ekrani kryesor tregon gjendjen e të dyjave dhe shfaq butonat e konfigurimit vetëm për hapat që nuk i keni bërë ende.
+
+KËRKESAT
+
+• Android 14 ose më i ri
+• Një telekomandë Bluetooth Beauty-R1 (shfaqet si "Beauty-R1")
+• Opsionale, por e rekomanduar: Shizuku
+
+SHËRBIMI I QASSHMËRISË
+
+Shërbimi i qasshmërisë përdoret vetëm për të lexuar hyrjen nga telekomanda Beauty-R1 dhe për ta kthyer në shtypje tastesh mediash. Ai nuk lexon përmbajtjen e ekranit dhe aplikacioni nuk mbledh e as nuk dërgon asnjë të dhënë.

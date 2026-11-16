@@ -1,0 +1,33 @@
+Ucuz bir Beauty-R1 Bluetooth kumandayı Android için medya kumandasına dönüştürün.
+
+Beauty-R1 kutudan çıktığı haliyle dokunmatik ekran gibi davranır: her tuşa basış sahte bir kaydırma ya da dokunmadır; bu yüzden Android bir fare imleci gösterir ve basışlar imlecin altındaki şeye denk gelir. R1 BT Remote bu basışları yakalar ve medya kontrollerine dönüştürür; böylece oynatabilir, duraklatabilir, parça atlayabilir ve sesi değiştirebilirsiniz.
+
+TUŞLAR NE YAPAR
+
+• Orta: oynat / duraklat
+• Sağ: sonraki parça
+• Sol: önceki parça
+• Sağı basılı tut: ileri sar
+• Solu basılı tut: geri sar
+• Yukarı: sesi aç
+• Aşağı: sesi kıs
+
+Kontroller, müzik çalarlar, podcast uygulamaları ve sesli kitap oynatıcıları gibi standart medya tuşlarına yanıt veren tüm uygulamalarla çalışır.
+
+NASIL ÇALIŞIR
+
+• Shizuku yakalama hizmeti (önerilen). Shizuku çalışırken uygulama, kabuk yetkilerine sahip küçük bir hizmet başlatır ve bu hizmet kumandanın giriş aygıtının özel denetimini ele alır. Android basışları hiç görmez, bu yüzden imleç görünmez. Kumandanın bağlantısı kesilirse hizmet bekler ve yeniden bağlandığında kumandayı tekrar alır.
+
+• Erişilebilirlik yedeği. Shizuku kullanılamadığında bir erişilebilirlik hizmeti kumandanın işaretçi olaylarını yakalar ve bunları medya işlemlerine dönüştürür. Bu, Shizuku olmadan çalışır ancak Android imleci ekranda göstermeye devam eder.
+
+Ana ekran her ikisinin durumunu gösterir ve yalnızca henüz tamamlamadığınız adımların kurulum düğmelerini gösterir.
+
+GEREKSİNİMLER
+
+• Android 14 veya üzeri
+• Bir Beauty-R1 Bluetooth kumanda ("Beauty-R1" olarak görünür)
+• İsteğe bağlı ancak önerilir: Shizuku
+
+ERİŞİLEBİLİRLİK HİZMETİ
+
+Erişilebilirlik hizmeti yalnızca Beauty-R1 kumandasından gelen girişi okumak ve medya tuşu basışlarına dönüştürmek için kullanılır. Ekran içeriğini okumaz ve uygulama hiçbir veri toplamaz veya göndermez.

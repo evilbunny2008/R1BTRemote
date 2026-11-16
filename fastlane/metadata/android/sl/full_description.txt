@@ -1,0 +1,33 @@
+Spremenite poceni daljinec Bluetooth Beauty-R1 v predstavnostni daljinec za Android.
+
+Tovarniško se Beauty-R1 pretvarja, da je zaslon na dotik: vsak pritisk gumba je lažen poteg ali dotik, zato Android prikaže kazalec miške in pritiski pristanejo na tem, kar je pod njim. R1 BT Remote prestreže te pritiske in jih spremeni v predstavnostne kontrolnike, tako da lahko predvajate, začasno ustavite, preskakujete skladbe in spreminjate glasnost.
+
+KAJ POČNEJO GUMBI
+
+• Sredina: predvajaj / premor
+• Desno: naslednja skladba
+• Levo: prejšnja skladba
+• Pridržite desno: previjanje naprej
+• Pridržite levo: previjanje nazaj
+• Gor: glasneje
+• Dol: tiše
+
+Kontrolniki delujejo z vsako aplikacijo, ki se odziva na standardne predstavnostne gumbe, na primer s predvajalniki glasbe, aplikacijami za podcaste in predvajalniki zvočnih knjig.
+
+KAKO DELUJE
+
+• Storitev za zajem prek Shizuku (priporočeno). Ko Shizuku teče, aplikacija zažene majhno storitev s pravicami lupine, ki prevzame izključni nadzor nad vhodno napravo daljinca. Android pritiskov sploh ne vidi, zato se kazalec ne prikaže. Če se daljinec prekine, storitev počaka in ga ponovno prevzame, ko se znova poveže.
+
+• Nadomestna rešitev prek dostopnosti. Ko Shizuku ni na voljo, storitev dostopnosti prestreže dogodke kazalca daljinca in jih spremeni v predstavnostna dejanja. To deluje brez Shizuku, vendar Android še vedno prikazuje kazalec na zaslonu.
+
+Glavni zaslon prikazuje stanje obeh in prikaže le gumbe za nastavitev korakov, ki jih še niste opravili.
+
+ZAHTEVE
+
+• Android 14 ali novejši
+• Daljinec Bluetooth Beauty-R1 (prikaže se kot »Beauty-R1«)
+• Izbirno, a priporočeno: Shizuku
+
+STORITEV DOSTOPNOSTI
+
+Storitev dostopnosti se uporablja samo za branje vnosa iz daljinca Beauty-R1 in pretvorbo v pritiske predstavnostnih tipk. Ne bere vsebine zaslona, aplikacija pa ne zbira in ne pošilja nobenih podatkov.

@@ -1,0 +1,33 @@
+Maak van een goedkope Beauty-R1 Bluetooth-afstandsbediening een media-afstandsbediening voor Android.
+
+Standaard doet de Beauty-R1 zich voor als touchscreen: elke druk op een knop is een nep-veeg of -tik, dus Android toont een muiscursor en de drukken komen terecht op wat er toevallig onder ligt. R1 BT Remote vangt die drukken op en zet ze om in mediabediening, zodat je kunt afspelen, pauzeren, nummers overslaan en het volume aanpassen.
+
+WAT DE KNOPPEN DOEN
+
+• Midden: afspelen / pauzeren
+• Rechts: volgend nummer
+• Links: vorig nummer
+• Rechts ingedrukt houden: vooruitspoelen
+• Links ingedrukt houden: terugspoelen
+• Omhoog: volume hoger
+• Omlaag: volume lager
+
+De bediening werkt met elke app die reageert op standaard mediaknoppen, zoals muziekspelers, podcast-apps en luisterboekspelers.
+
+HOE HET WERKT
+
+• Shizuku-grabservice (aanbevolen). Als Shizuku draait, start de app een kleine service met shellrechten die exclusief de controle neemt over het invoerapparaat van de afstandsbediening. Android ziet de drukken nooit, dus er verschijnt geen cursor. Als de afstandsbediening de verbinding verliest, wacht de service en pakt hem weer op zodra hij opnieuw verbindt.
+
+• Toegankelijkheid als terugvaloptie. Als Shizuku niet beschikbaar is, onderschept een toegankelijkheidsservice de aanwijzergebeurtenissen van de afstandsbediening en zet ze om in media-acties. Dit werkt zonder Shizuku, maar Android toont de cursor nog wel op het scherm.
+
+Het hoofdscherm toont de status van beide en laat alleen de instelknoppen zien voor de stappen die je nog niet hebt gedaan.
+
+VEREISTEN
+
+• Android 14 of nieuwer
+• Een Beauty-R1 Bluetooth-afstandsbediening (wordt weergegeven als 'Beauty-R1')
+• Optioneel maar aanbevolen: Shizuku
+
+TOEGANKELIJKHEIDSSERVICE
+
+De toegankelijkheidsservice wordt alleen gebruikt om invoer van de Beauty-R1-afstandsbediening te lezen en om te zetten in mediatoetsen. De service leest geen scherminhoud, en de app verzamelt of verstuurt geen gegevens.

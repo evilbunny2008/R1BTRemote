@@ -1,0 +1,33 @@
+Gjør en billig Beauty-R1 Bluetooth-fjernkontroll til en mediefjernkontroll for Android.
+
+Fra fabrikken later Beauty-R1 som om den er en berøringsskjerm: hvert knappetrykk er et falskt sveip eller trykk, så Android viser en musepeker, og trykkene havner på det som ligger under den. R1 BT Remote fanger opp trykkene og gjør dem om til mediekontroller, slik at du kan spille av, sette på pause, hoppe mellom spor og endre volumet.
+
+HVA KNAPPENE GJØR
+
+• Midten: spill av / pause
+• Høyre: neste spor
+• Venstre: forrige spor
+• Hold høyre: spol fremover
+• Hold venstre: spol tilbake
+• Opp: volum opp
+• Ned: volum ned
+
+Kontrollene fungerer med alle apper som reagerer på vanlige medieknapper, for eksempel musikkspillere, podkastapper og lydbokspillere.
+
+SLIK FUNGERER DET
+
+• Shizuku-grabtjeneste (anbefalt). Når Shizuku kjører, starter appen en liten tjeneste med shell-tilgang som tar eksklusiv kontroll over fjernkontrollens inndataenhet. Android ser aldri trykkene, så ingen peker vises. Hvis fjernkontrollen kobles fra, venter tjenesten og tar den over igjen når den kobler til på nytt.
+
+• Tilgjengelighet som reserve. Når Shizuku ikke er tilgjengelig, fanger en tilgjengelighetstjeneste opp pekerhendelsene fra fjernkontrollen og gjør dem om til mediehandlinger. Dette fungerer uten Shizuku, men Android viser fortsatt pekeren på skjermen.
+
+Hovedskjermen viser statusen for begge og viser bare oppsettknappene for trinnene du ikke har fullført ennå.
+
+KRAV
+
+• Android 14 eller nyere
+• En Beauty-R1 Bluetooth-fjernkontroll (den vises som «Beauty-R1»)
+• Valgfritt, men anbefalt: Shizuku
+
+TILGJENGELIGHETSTJENESTE
+
+Tilgjengelighetstjenesten brukes bare til å lese inndata fra Beauty-R1-fjernkontrollen og gjøre dem om til medietastetrykk. Den leser ikke skjerminnhold, og appen samler ikke inn eller sender noen data.

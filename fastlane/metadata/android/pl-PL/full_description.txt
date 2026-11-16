@@ -1,0 +1,33 @@
+Zmień tani pilot Bluetooth Beauty-R1 w pilot multimedialny dla Androida.
+
+Fabrycznie Beauty-R1 udaje ekran dotykowy: każde naciśnięcie przycisku to fałszywe przesunięcie lub dotknięcie, więc Android wyświetla kursor myszy, a naciśnięcia trafiają w to, co akurat jest pod nim. R1 BT Remote przechwytuje te naciśnięcia i zamienia je na sterowanie multimediami, dzięki czemu możesz odtwarzać, wstrzymywać, przełączać utwory i zmieniać głośność.
+
+CO ROBIĄ PRZYCISKI
+
+• Środek: odtwórz / wstrzymaj
+• W prawo: następny utwór
+• W lewo: poprzedni utwór
+• Przytrzymaj w prawo: przewijanie do przodu
+• Przytrzymaj w lewo: przewijanie do tyłu
+• W górę: głośniej
+• W dół: ciszej
+
+Sterowanie działa z każdą aplikacją, która reaguje na standardowe przyciski multimedialne, np. odtwarzaczami muzyki, aplikacjami do podcastów i odtwarzaczami audiobooków.
+
+JAK TO DZIAŁA
+
+• Usługa przechwytywania Shizuku (zalecana). Gdy Shizuku działa, aplikacja uruchamia małą usługę z uprawnieniami powłoki, która przejmuje wyłączną kontrolę nad urządzeniem wejściowym pilota. Android w ogóle nie widzi naciśnięć, więc kursor się nie pojawia. Jeśli pilot się rozłączy, usługa czeka i przejmuje go ponownie po ponownym połączeniu.
+
+• Rozwiązanie zapasowe przez ułatwienia dostępu. Gdy Shizuku jest niedostępne, usługa ułatwień dostępu przechwytuje zdarzenia wskaźnika z pilota i zamienia je na akcje multimedialne. Działa to bez Shizuku, ale Android nadal wyświetla kursor na ekranie.
+
+Ekran główny pokazuje stan obu rozwiązań i wyświetla przyciski konfiguracji tylko dla kroków, których jeszcze nie wykonano.
+
+WYMAGANIA
+
+• Android 14 lub nowszy
+• Pilot Bluetooth Beauty-R1 (widoczny jako „Beauty-R1”)
+• Opcjonalnie, ale zalecane: Shizuku
+
+USŁUGA UŁATWIEŃ DOSTĘPU
+
+Usługa ułatwień dostępu służy wyłącznie do odczytywania sygnałów z pilota Beauty-R1 i zamieniania ich na naciśnięcia klawiszy multimedialnych. Nie odczytuje zawartości ekranu, a aplikacja nie zbiera ani nie wysyła żadnych danych.

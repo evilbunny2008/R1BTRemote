@@ -1,0 +1,33 @@
+Breyttu ódýrri Beauty-R1 Bluetooth-fjarstýringu í miðlafjarstýringu fyrir Android.
+
+Sjálfgefið þykist Beauty-R1 vera snertiskjár: hver hnappaþrýstingur er falskt strok eða ýting, svo Android sýnir músarbendil og ýtingarnar lenda á því sem er undir honum. R1 BT Remote grípur ýtingarnar og breytir þeim í miðlastýringar svo þú getir spilað, gert hlé, sleppt lögum og breytt hljóðstyrk.
+
+HVAÐ HNAPPARNIR GERA
+
+• Miðja: spila / hlé
+• Hægri: næsta lag
+• Vinstri: fyrra lag
+• Halda hægri: spóla áfram
+• Halda vinstri: spóla til baka
+• Upp: hækka hljóð
+• Niður: lækka hljóð
+
+Stýringarnar virka með öllum forritum sem bregðast við venjulegum miðlahnöppum, t.d. tónlistarspilurum, hlaðvarpsforritum og hljóðbókaspilurum.
+
+HVERNIG ÞAÐ VIRKAR
+
+• Shizuku-gripþjónusta (mælt með). Þegar Shizuku er í gangi ræsir forritið litla þjónustu með skeljarheimildum sem tekur einkastjórn á inntakstæki fjarstýringarinnar. Android sér aldrei ýtingarnar, svo enginn bendill birtist. Ef fjarstýringin aftengist bíður þjónustan og tekur hana aftur þegar hún tengist á ný.
+
+• Aðgengisþjónusta til vara. Þegar Shizuku er ekki tiltækt grípur aðgengisþjónusta bendilsatburði fjarstýringarinnar og breytir þeim í miðlaaðgerðir. Þetta virkar án Shizuku, en Android sýnir samt bendilinn á skjánum.
+
+Aðalskjárinn sýnir stöðu beggja og sýnir aðeins uppsetningarhnappa fyrir þau skref sem þú hefur ekki enn lokið.
+
+KRÖFUR
+
+• Android 14 eða nýrra
+• Beauty-R1 Bluetooth-fjarstýring (birtist sem „Beauty-R1“)
+• Valfrjálst en mælt með: Shizuku
+
+AÐGENGISÞJÓNUSTA
+
+Aðgengisþjónustan er eingöngu notuð til að lesa inntak frá Beauty-R1-fjarstýringunni og breyta því í miðlahnappaþrýstinga. Hún les ekki efni skjásins og forritið safnar hvorki né sendir nein gögn.
