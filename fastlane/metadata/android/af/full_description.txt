@@ -1,0 +1,33 @@
+Maak 'n goedkoop Beauty-R1 Bluetooth-afstandbeheer 'n media-afstandbeheer vir Android.
+
+Uit die boks maak die Beauty-R1 asof dit 'n raakskerm is: elke knoppiedruk is 'n vals swiep of tik, dus wys Android 'n muiswyser en die drukke land op wat ook al onder dit is. R1 BT Remote vang daardie drukke op en verander dit in mediakontroles, sodat jy kan speel, onderbreek, snitte oorslaan en die volume verander.
+
+WAT DIE KNOPPIES DOEN
+
+• Middel: speel / onderbreek
+• Regs: volgende snit
+• Links: vorige snit
+• Hou regs: vinnig vorentoe
+• Hou links: terugdraai
+• Op: volume harder
+• Af: volume sagter
+
+Die kontroles werk met enige app wat op standaard mediaknoppies reageer, soos musiekspelers, podsaai-apps en oudioboekspelers.
+
+HOE DIT WERK
+
+• Shizuku-gryp-diens (aanbeveel). Met Shizuku aan die gang begin die app 'n klein diens met dop-regte wat eksklusiewe beheer oor die afstandbeheer se invoertoestel neem. Android sien nooit die drukke nie, dus verskyn geen wyser nie. As die afstandbeheer ontkoppel, wag die diens daarvoor en neem dit weer oor wanneer dit herkoppel.
+
+• Toeganklikheid as terugval. Wanneer Shizuku nie beskikbaar is nie, onderskep 'n toeganklikheidsdiens die afstandbeheer se wysergebeurtenisse en verander dit in media-aksies. Dit werk sonder Shizuku, maar Android wys steeds die wyser op die skerm.
+
+Die hoofskerm wys die status van albei, en wys net die opstelknoppies vir die stappe wat jy nog nie gedoen het nie.
+
+VEREISTES
+
+• Android 14 of nuwer
+• 'n Beauty-R1 Bluetooth-afstandbeheer (dit verskyn as "Beauty-R1")
+• Opsioneel, maar aanbeveel: Shizuku
+
+TOEGANKLIKHEIDSDIENS
+
+Die toeganklikheidsdiens word net gebruik om invoer van die Beauty-R1-afstandbeheer te lees en dit in mediasleuteldrukke te verander. Dit lees nie skerminhoud nie, en die app versamel of stuur geen data nie.

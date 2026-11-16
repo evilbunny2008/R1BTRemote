@@ -1,0 +1,33 @@
+Ubah remote Bluetooth Beauty-R1 yang murah menjadi remote media untuk Android.
+
+Secara bawaan, Beauty-R1 berpura-pura menjadi layar sentuh: setiap tekanan tombol adalah geseran atau ketukan palsu, sehingga Android menampilkan kursor mouse dan tekanan tombol mengenai apa pun yang ada di bawahnya. R1 BT Remote menangkap tekanan tersebut dan mengubahnya menjadi kontrol media, sehingga Anda bisa memutar, menjeda, melewati lagu, dan mengubah volume.
+
+FUNGSI TOMBOL
+
+• Tengah: putar / jeda
+• Kanan: lagu berikutnya
+• Kiri: lagu sebelumnya
+• Tahan kanan: maju cepat
+• Tahan kiri: mundur
+• Atas: naikkan volume
+• Bawah: turunkan volume
+
+Kontrol ini berfungsi dengan aplikasi apa pun yang merespons tombol media standar, seperti pemutar musik, aplikasi podcast, dan pemutar buku audio.
+
+CARA KERJA
+
+• Layanan penangkap Shizuku (disarankan). Saat Shizuku berjalan, aplikasi memulai layanan kecil dengan hak akses shell yang mengambil kendali eksklusif atas perangkat input remote. Android sama sekali tidak melihat tekanan tombol, jadi tidak ada kursor yang muncul. Jika remote terputus, layanan akan menunggu dan mengambilnya kembali saat tersambung lagi.
+
+• Cadangan aksesibilitas. Saat Shizuku tidak tersedia, layanan aksesibilitas mencegat peristiwa penunjuk dari remote dan mengubahnya menjadi tindakan media. Cara ini berfungsi tanpa Shizuku, tetapi Android tetap menampilkan kursor di layar.
+
+Layar utama menampilkan status keduanya, dan hanya menampilkan tombol penyiapan untuk langkah yang belum Anda selesaikan.
+
+PERSYARATAN
+
+• Android 14 atau yang lebih baru
+• Remote Bluetooth Beauty-R1 (muncul sebagai "Beauty-R1")
+• Opsional tetapi disarankan: Shizuku
+
+LAYANAN AKSESIBILITAS
+
+Layanan aksesibilitas hanya digunakan untuk membaca input dari remote Beauty-R1 dan mengubahnya menjadi tekanan tombol media. Layanan ini tidak membaca konten layar, dan aplikasi tidak mengumpulkan atau mengirim data apa pun.

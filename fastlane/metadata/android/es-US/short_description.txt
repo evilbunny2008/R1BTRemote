@@ -1,0 +1,1 @@
+Convierte el control Bluetooth Beauty-R1 en un control multimedia sin cursor

@@ -1,0 +1,33 @@
+Gawing media remote para sa Android ang murang Beauty-R1 Bluetooth remote.
+
+Sa default, nagpapanggap na touchscreen ang Beauty-R1: bawat pindot ng button ay pekeng swipe o tap, kaya nagpapakita ang Android ng mouse cursor at tumatama ang mga pindot sa kung anuman ang nasa ilalim nito. Sinasalo ng R1 BT Remote ang mga pindot na iyon at ginagawang media controls, para makapag-play, makapag-pause, makalipat ng track at makapagpalit ng volume ka.
+
+ANG GINAGAWA NG MGA BUTTON
+
+• Gitna: i-play / i-pause
+• Kanan: susunod na track
+• Kaliwa: nakaraang track
+• Pindutin nang matagal ang kanan: fast forward
+• Pindutin nang matagal ang kaliwa: rewind
+• Taas: lakasan ang volume
+• Baba: hinaan ang volume
+
+Gumagana ang mga control sa anumang app na tumutugon sa mga karaniwang media button, gaya ng mga music player, podcast app at audiobook player.
+
+PAANO ITO GUMAGANA
+
+• Shizuku grab service (inirerekomenda). Kapag tumatakbo ang Shizuku, nagsisimula ang app ng maliit na service na may shell privileges na kumukuha ng eksklusibong kontrol sa input device ng remote. Hindi kailanman nakikita ng Android ang mga pindot, kaya walang lumalabas na cursor. Kapag nadiskonekta ang remote, naghihintay ang service at kinukuha itong muli kapag kumonekta ulit.
+
+• Accessibility fallback. Kapag hindi available ang Shizuku, sinasalo ng isang accessibility service ang mga pointer event ng remote at ginagawang media action. Gumagana ito kahit walang Shizuku, pero ipinapakita pa rin ng Android ang cursor sa screen.
+
+Ipinapakita ng pangunahing screen ang status ng dalawa, at ang mga setup button lang para sa mga hakbang na hindi mo pa nagagawa ang ipinapakita nito.
+
+MGA KINAKAILANGAN
+
+• Android 14 o mas bago
+• Isang Beauty-R1 Bluetooth remote (lumalabas ito bilang "Beauty-R1")
+• Opsyonal pero inirerekomenda: Shizuku
+
+ACCESSIBILITY SERVICE
+
+Ginagamit lang ang accessibility service para basahin ang input mula sa Beauty-R1 remote at gawin itong mga pindot ng media key. Hindi nito binabasa ang nilalaman ng screen, at walang kinokolekta o ipinapadalang data ang app.

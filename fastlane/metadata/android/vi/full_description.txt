@@ -1,0 +1,33 @@
+Biến chiếc điều khiển Bluetooth Beauty-R1 giá rẻ thành điều khiển đa phương tiện cho Android.
+
+Mặc định, Beauty-R1 giả làm màn hình cảm ứng: mỗi lần nhấn nút là một thao tác vuốt hoặc chạm giả, vì vậy Android hiển thị con trỏ chuột và thao tác nhấn rơi vào bất cứ thứ gì nằm bên dưới. R1 BT Remote bắt các thao tác nhấn đó và chuyển chúng thành điều khiển đa phương tiện, để bạn có thể phát, tạm dừng, chuyển bài và thay đổi âm lượng.
+
+CHỨC NĂNG CỦA CÁC NÚT
+
+• Giữa: phát / tạm dừng
+• Phải: bài tiếp theo
+• Trái: bài trước
+• Giữ phải: tua đi
+• Giữ trái: tua lại
+• Lên: tăng âm lượng
+• Xuống: giảm âm lượng
+
+Các điều khiển hoạt động với mọi ứng dụng phản hồi các nút đa phương tiện tiêu chuẩn, chẳng hạn như trình phát nhạc, ứng dụng podcast và trình phát sách nói.
+
+CÁCH HOẠT ĐỘNG
+
+• Dịch vụ chiếm quyền qua Shizuku (khuyên dùng). Khi Shizuku đang chạy, ứng dụng khởi động một dịch vụ nhỏ có quyền shell để chiếm quyền điều khiển độc quyền thiết bị nhập của điều khiển. Android hoàn toàn không thấy các thao tác nhấn nên không có con trỏ nào xuất hiện. Nếu điều khiển bị ngắt kết nối, dịch vụ sẽ chờ và chiếm lại khi nó kết nối lại.
+
+• Phương án dự phòng bằng hỗ trợ tiếp cận. Khi không có Shizuku, một dịch vụ hỗ trợ tiếp cận sẽ chặn các sự kiện con trỏ của điều khiển và chuyển chúng thành thao tác đa phương tiện. Cách này hoạt động mà không cần Shizuku, nhưng Android vẫn hiển thị con trỏ trên màn hình.
+
+Màn hình chính hiển thị trạng thái của cả hai và chỉ hiện các nút thiết lập cho những bước bạn chưa thực hiện.
+
+YÊU CẦU
+
+• Android 14 trở lên
+• Một điều khiển Bluetooth Beauty-R1 (hiển thị với tên "Beauty-R1")
+• Không bắt buộc nhưng khuyên dùng: Shizuku
+
+DỊCH VỤ HỖ TRỢ TIẾP CẬN
+
+Dịch vụ hỗ trợ tiếp cận chỉ được dùng để đọc dữ liệu nhập từ điều khiển Beauty-R1 và chuyển thành thao tác nhấn phím đa phương tiện. Dịch vụ không đọc nội dung màn hình, và ứng dụng không thu thập hay gửi bất kỳ dữ liệu nào.

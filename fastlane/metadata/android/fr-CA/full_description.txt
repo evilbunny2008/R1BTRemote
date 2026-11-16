@@ -1,0 +1,33 @@
+Transformez une télécommande Bluetooth Beauty-R1 bon marché en télécommande multimédia pour Android.
+
+D'origine, la Beauty-R1 se fait passer pour un écran tactile : chaque appui sur un bouton est un faux balayage ou un faux toucher. Android affiche donc un curseur de souris et les appuis atterrissent sur ce qui se trouve dessous. R1 BT Remote intercepte ces appuis et les transforme en commandes multimédias : lecture, pause, piste suivante ou précédente et réglage du volume.
+
+CE QUE FONT LES BOUTONS
+
+• Centre : lecture / pause
+• Droite : piste suivante
+• Gauche : piste précédente
+• Maintenir à droite : avance rapide
+• Maintenir à gauche : retour rapide
+• Haut : volume +
+• Bas : volume −
+
+Les commandes fonctionnent avec toute application qui réagit aux boutons multimédias standard, comme les lecteurs de musique, les applications de podcasts et les lecteurs de livres audio.
+
+FONCTIONNEMENT
+
+• Service de capture Shizuku (recommandé). Lorsque Shizuku est actif, l'application lance un petit service avec les privilèges shell qui prend le contrôle exclusif du périphérique d'entrée de la télécommande. Android ne voit jamais les appuis, donc aucun curseur n'apparaît. Si la télécommande se déconnecte, le service l'attend et la reprend dès qu'elle se reconnecte.
+
+• Solution de repli par l'accessibilité. Lorsque Shizuku n'est pas disponible, un service d'accessibilité intercepte les événements de pointeur de la télécommande et les transforme en actions multimédias. Cela fonctionne sans Shizuku, mais Android affiche toujours le curseur à l'écran.
+
+L'écran principal indique l'état des deux modes et n'affiche les boutons de configuration que pour les étapes que vous n'avez pas encore effectuées.
+
+CONFIGURATION REQUISE
+
+• Android 14 ou version ultérieure
+• Une télécommande Bluetooth Beauty-R1 (elle apparaît sous le nom « Beauty-R1 »)
+• Facultatif mais recommandé : Shizuku
+
+SERVICE D'ACCESSIBILITÉ
+
+Le service d'accessibilité sert uniquement à lire les entrées de la télécommande Beauty-R1 et à les convertir en touches multimédias. Il ne lit pas le contenu de l'écran, et l'application ne collecte ni n'envoie aucune donnée.

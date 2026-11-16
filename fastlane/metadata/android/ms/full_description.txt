@@ -1,0 +1,33 @@
+Jadikan alat kawalan jauh Bluetooth Beauty-R1 yang murah sebagai alat kawalan media untuk Android.
+
+Secara lalai, Beauty-R1 berpura-pura menjadi skrin sentuh: setiap tekanan butang ialah leretan atau ketikan palsu, jadi Android memaparkan kursor tetikus dan tekanan itu terkena apa sahaja yang ada di bawahnya. R1 BT Remote menangkap tekanan tersebut dan menukarnya kepada kawalan media, supaya anda boleh main, jeda, langkau lagu dan menukar kelantangan.
+
+FUNGSI BUTANG
+
+• Tengah: main / jeda
+• Kanan: lagu seterusnya
+• Kiri: lagu sebelumnya
+• Tahan kanan: mara laju
+• Tahan kiri: undur
+• Atas: naikkan kelantangan
+• Bawah: perlahankan kelantangan
+
+Kawalan ini berfungsi dengan mana-mana apl yang bertindak balas kepada butang media standard, seperti pemain muzik, apl podcast dan pemain buku audio.
+
+CARA IA BERFUNGSI
+
+• Perkhidmatan tangkapan Shizuku (disyorkan). Apabila Shizuku berjalan, apl memulakan perkhidmatan kecil dengan keistimewaan shell yang mengambil kawalan eksklusif ke atas peranti input alat kawalan jauh. Android tidak pernah melihat tekanan itu, jadi tiada kursor yang muncul. Jika alat kawalan jauh terputus, perkhidmatan akan menunggu dan mengambilnya semula apabila ia bersambung kembali.
+
+• Sandaran kebolehaksesan. Apabila Shizuku tidak tersedia, perkhidmatan kebolehaksesan memintas peristiwa penuding alat kawalan jauh dan menukarnya kepada tindakan media. Ini berfungsi tanpa Shizuku, tetapi Android masih memaparkan kursor pada skrin.
+
+Skrin utama menunjukkan status kedua-duanya, dan hanya memaparkan butang persediaan bagi langkah yang belum anda lakukan.
+
+KEPERLUAN
+
+• Android 14 atau lebih baharu
+• Alat kawalan jauh Bluetooth Beauty-R1 (dipaparkan sebagai "Beauty-R1")
+• Pilihan tetapi disyorkan: Shizuku
+
+PERKHIDMATAN KEBOLEHAKSESAN
+
+Perkhidmatan kebolehaksesan hanya digunakan untuk membaca input daripada alat kawalan jauh Beauty-R1 dan menukarnya kepada tekanan kekunci media. Ia tidak membaca kandungan skrin, dan apl tidak mengumpul atau menghantar sebarang data.

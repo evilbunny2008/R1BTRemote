@@ -1,0 +1,33 @@
+Geuza rimoti ya bei nafuu ya Bluetooth ya Beauty-R1 kuwa rimoti ya midia kwa Android.
+
+Kwa chaguo-msingi Beauty-R1 hujifanya kuwa skrini ya kugusa: kila kubonyeza kitufe ni kutelezesha au kugusa kwa uongo, kwa hivyo Android huonyesha kishale cha kipanya na mibonyezo hutua juu ya kilicho chini yake. R1 BT Remote hunasa mibonyezo hiyo na kuigeuza kuwa vidhibiti vya midia, ili uweze kucheza, kusitisha, kuruka nyimbo na kubadilisha sauti.
+
+VITUFE HUFANYA NINI
+
+• Katikati: cheza / sitisha
+• Kulia: wimbo unaofuata
+• Kushoto: wimbo uliotangulia
+• Shikilia kulia: songa mbele haraka
+• Shikilia kushoto: rudisha nyuma
+• Juu: ongeza sauti
+• Chini: punguza sauti
+
+Vidhibiti hufanya kazi na programu yoyote inayojibu vitufe vya kawaida vya midia, kama vile vicheza muziki, programu za podikasti na vicheza vitabu vya sauti.
+
+JINSI INAVYOFANYA KAZI
+
+• Huduma ya kunasa kupitia Shizuku (inapendekezwa). Shizuku ikiwa inaendeshwa, programu huanzisha huduma ndogo yenye mamlaka ya shell inayochukua udhibiti wa kipekee wa kifaa cha kuingiza data cha rimoti. Android haioni kamwe mibonyezo, kwa hivyo hakuna kishale kinachoonekana. Rimoti ikikatika, huduma huisubiri na kuichukua tena inapounganishwa upya.
+
+• Mbadala wa ufikivu. Shizuku isipopatikana, huduma ya ufikivu hunasa matukio ya kielekezi ya rimoti na kuyageuza kuwa vitendo vya midia. Hii hufanya kazi bila Shizuku, lakini Android bado huonyesha kishale kwenye skrini.
+
+Skrini kuu huonyesha hali ya zote mbili, na huonyesha tu vitufe vya kuweka mipangilio kwa hatua ambazo bado hujazifanya.
+
+MAHITAJI
+
+• Android 14 au mpya zaidi
+• Rimoti ya Bluetooth ya Beauty-R1 (huonekana kama "Beauty-R1")
+• Si lazima lakini inapendekezwa: Shizuku
+
+HUDUMA YA UFIKIVU
+
+Huduma ya ufikivu hutumika tu kusoma data inayoingizwa kutoka kwa rimoti ya Beauty-R1 na kuigeuza kuwa mibonyezo ya vitufe vya midia. Haisomi maudhui ya skrini, na programu haikusanyi wala haitumi data yoyote.
