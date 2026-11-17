@@ -56,7 +56,8 @@ steps you haven't done yet.
    - Tap **Grant Shizuku permission** and allow it. The status should change to
      *Grab service: grabbed /dev/input/eventN* once the remote is connected.
    - If you're not using Shizuku, or want a fallback for when it isn't running, tap
-     **Open accessibility settings** and turn on **R1 BT Remote**.
+     **Open accessibility settings**, read the explanation of what the service does
+     and tap **Agree**, then turn on **R1 BT Remote**.
 5. Press a button on the remote to check it works.
 
 Shizuku has to be started again after each reboot on unrooted phones. While Shizuku starts,

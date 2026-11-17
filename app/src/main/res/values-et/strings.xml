@@ -11,4 +11,8 @@
 	<string name="state_on">sees</string>
 	<string name="state_off">väljas</string>
 	<string name="status_text">Shizuku: %1$s\nHaaramisteenus: %2$s\nJuurdepääsetavuse varulahendus: %3$s\n\nKui haaramisteenus töötab, toimivad puldi suunanupud ilma kursorit kuvamata. Muul juhul tegeleb sellega juurdepääsetavuse varulahendus, kuid kursor ilmub ikkagi.</string>
+	<string name="accessibility_disclosure_title">Juurdepääsetavusteenuse kasutamine</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote kasutab Androidi AccessibilityService API-t varulahendusena juhuks, kui Shizuku ei tööta.\n\nMiks see on vajalik: Beauty-R1 pult teeskleb puuteekraani, mistõttu iga nupuvajutus saabub võlts pühkimise või puudutusena. Juurdepääsetavusteenus püüab selle kursorisisendi ja puldi all hoitud vasak/parem-vajutused kinni ning muudab need meediajuhtnuppudeks: esita/peata, järgmine ja eelmine lugu, edasikerimine, tagasikerimine ja helitugevus.\n\nKui teenus on sees, läheb hiirekursori sisend teenusele, mitte teistele rakendustele. Teenus ei loe ekraani sisu ega seda, mida sisestate, ning rakendus ei kogu, salvesta ega jaga mingeid andmeid.\n\nPuudutage valikut Nõustun, et avada Androidi juurdepääsetavuse seaded, kus saate R1 BT Remote’i sisse lülitada. Saate selle seal igal ajal välja lülitada.</string>
+	<string name="accessibility_disclosure_agree">Nõustun</string>
+	<string name="accessibility_disclosure_decline">Ei, aitäh</string>
 </resources>

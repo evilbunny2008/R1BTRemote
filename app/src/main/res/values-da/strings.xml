@@ -11,4 +11,8 @@
 	<string name="state_on">til</string>
 	<string name="state_off">fra</string>
 	<string name="status_text">Shizuku: %1$s\nOpfangningstjeneste: %2$s\nReserveløsning via hjælpefunktioner: %3$s\n\nMens opfangningstjenesten kører, fungerer fjernbetjeningens retningsknapper uden at vise en markør. Ellers håndterer reserveløsningen via hjælpefunktioner det, men markøren vises stadig.</string>
+	<string name="accessibility_disclosure_title">Brug af hjælpefunktionstjenesten</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote bruger Androids AccessibilityService API som reserveløsning, når Shizuku ikke kører.\n\nHvorfor det er nødvendigt: Beauty-R1-fjernbetjeningen udgiver sig for at være en touchskærm, så hvert knaptryk kommer frem som et falsk swipe eller tryk. Hjælpefunktionstjenesten opfanger dette markørinput og fjernbetjeningens holdte venstre/højre-tryk og laver dem om til mediestyring: afspil/pause, næste og forrige nummer, spol frem, spol tilbage og lydstyrke.\n\nMens den er slået til, går input fra musemarkøren til tjenesten i stedet for til andre apps. Tjenesten læser ikke skærmindhold eller det, du skriver, og appen indsamler, gemmer eller deler ingen data.\n\nTryk på Accepter for at åbne Androids indstillinger for hjælpefunktioner, hvor du kan slå R1 BT Remote til. Du kan slå den fra der når som helst.</string>
+	<string name="accessibility_disclosure_agree">Accepter</string>
+	<string name="accessibility_disclosure_decline">Nej tak</string>
 </resources>

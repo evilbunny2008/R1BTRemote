@@ -11,4 +11,8 @@
 	<string name="state_on">ieslēgts</string>
 	<string name="state_off">izslēgts</string>
 	<string name="status_text">Shizuku: %1$s\nTveršanas pakalpojums: %2$s\nPieejamības rezerves risinājums: %3$s\n\nKamēr darbojas tveršanas pakalpojums, pults virziena pogas darbojas, nerādot kursoru. Pretējā gadījumā tās apstrādā pieejamības rezerves risinājums, taču kursors joprojām parādās.</string>
+	<string name="accessibility_disclosure_title">Pieejamības pakalpojuma izmantošana</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote izmanto Android AccessibilityService API kā rezerves risinājumu gadījumiem, kad Shizuku nedarbojas.\n\nKāpēc tas ir vajadzīgs: Beauty-R1 tālvadības pults izliekas par skārienekrānu, tāpēc katrs pogas nospiediens tiek saņemts kā viltots vilkšanas žests vai pieskāriens. Pieejamības pakalpojums pārtver šo rādītāja ievadi un pults turētos pa kreisi/pa labi nospiedienus un pārvērš tos multivides vadīklās: atskaņot/pauzēt, nākamais un iepriekšējais ieraksts, ātri uz priekšu, attīšana atpakaļ un skaļums.\n\nKamēr tas ir ieslēgts, peles rādītāja ievade tiek nodota pakalpojumam, nevis citām lietotnēm. Pakalpojums nelasa ekrāna saturu vai to, ko rakstāt, un lietotne nevāc, neglabā un nekopīgo nekādus datus.\n\nPieskarieties Piekrītu, lai atvērtu Android pieejamības iestatījumus, kur varat ieslēgt R1 BT Remote. Tur to jebkurā laikā varat izslēgt.</string>
+	<string name="accessibility_disclosure_agree">Piekrītu</string>
+	<string name="accessibility_disclosure_decline">Nē, paldies</string>
 </resources>

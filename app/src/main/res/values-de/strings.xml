@@ -11,4 +11,8 @@
 	<string name="state_on">an</string>
 	<string name="state_off">aus</string>
 	<string name="status_text">Shizuku: %1$s\nErfassungsdienst: %2$s\nBedienungshilfen-Fallback: %3$s\n\nSolange der Erfassungsdienst läuft, funktioniert das Steuerkreuz der Fernbedienung, ohne einen Cursor anzuzeigen. Andernfalls übernimmt der Bedienungshilfen-Fallback, aber der Cursor erscheint weiterhin.</string>
+	<string name="accessibility_disclosure_title">Nutzung des Bedienungshilfendienstes</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote nutzt die AccessibilityService API von Android als Fallback, wenn Shizuku nicht läuft.\n\nWarum das nötig ist: Die Beauty-R1-Fernbedienung gibt sich als Touchscreen aus, daher kommt jeder Tastendruck als vorgetäuschtes Wischen oder Tippen an. Der Bedienungshilfendienst fängt diese Zeigereingaben sowie das gehaltene Links/Rechts der Fernbedienung ab und wandelt sie in Mediensteuerung um: Wiedergabe/Pause, nächster und vorheriger Titel, Vorspulen, Zurückspulen und Lautstärke.\n\nSolange er aktiv ist, gehen Mauszeiger-Eingaben an den Dienst statt an andere Apps. Der Dienst liest weder Bildschirminhalte noch das, was du eingibst, und die App erfasst, speichert oder teilt keinerlei Daten.\n\nTippe auf „Zustimmen“, um die Bedienungshilfen-Einstellungen von Android zu öffnen, wo du R1 BT Remote aktivieren kannst. Dort kannst du ihn jederzeit wieder deaktivieren.</string>
+	<string name="accessibility_disclosure_agree">Zustimmen</string>
+	<string name="accessibility_disclosure_decline">Nein danke</string>
 </resources>

@@ -11,4 +11,8 @@
 	<string name="state_on">オン</string>
 	<string name="state_off">オフ</string>
 	<string name="status_text">Shizuku: %1$s\nキャプチャサービス: %2$s\nユーザー補助による代替: %3$s\n\nキャプチャサービスの実行中は、リモコンの十字キーがカーソルを表示せずに動作します。それ以外の場合はユーザー補助による代替が処理しますが、カーソルは表示されたままになります。</string>
+	<string name="accessibility_disclosure_title">ユーザー補助サービスの使用について</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote は、Shizuku が実行されていないときの代替手段として Android の AccessibilityService API を使用します。\n\n必要な理由：Beauty-R1 リモコンはタッチスクリーンのふりをするため、ボタンを押すたびに偽のスワイプやタップとして届きます。ユーザー補助サービスは、このポインタ入力とリモコンの左右の長押しを横取りし、メディア操作（再生/一時停止、次の曲と前の曲、早送り、巻き戻し、音量）に変換します。\n\nオンの間、マウスポインタの入力は他のアプリではなくこのサービスに送られます。このサービスは画面の内容や入力した文字を読み取らず、アプリはデータを一切収集、保存、共有しません。\n\n「同意する」をタップすると Android のユーザー補助の設定が開き、R1 BT Remote をオンにできます。いつでもそこからオフにできます。</string>
+	<string name="accessibility_disclosure_agree">同意する</string>
+	<string name="accessibility_disclosure_decline">同意しない</string>
 </resources>

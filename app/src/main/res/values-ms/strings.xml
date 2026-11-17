@@ -11,4 +11,8 @@
 	<string name="state_on">hidup</string>
 	<string name="state_off">mati</string>
 	<string name="status_text">Shizuku: %1$s\nPerkhidmatan tangkapan: %2$s\nSandaran kebolehaksesan: %3$s\n\nSemasa perkhidmatan tangkapan berjalan, butang arah alat kawalan jauh berfungsi tanpa menunjukkan kursor. Jika tidak, sandaran kebolehaksesan akan mengendalikannya, tetapi kursor masih muncul.</string>
+	<string name="accessibility_disclosure_title">Penggunaan perkhidmatan kebolehaksesan</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote menggunakan AccessibilityService API Android sebagai sandaran apabila Shizuku tidak berjalan.\n\nSebab ia diperlukan: alat kawalan jauh Beauty-R1 berpura-pura menjadi skrin sentuh, jadi setiap tekanan butang tiba sebagai leretan atau ketikan palsu. Perkhidmatan kebolehaksesan memintas input penuding ini, serta tekanan tahan kiri/kanan alat kawalan jauh, dan menukarkannya kepada kawalan media: main/jeda, lagu seterusnya dan sebelumnya, mara laju, undur dan kelantangan.\n\nSemasa ia dihidupkan, input penuding tetikus pergi ke perkhidmatan ini dan bukannya ke apl lain. Perkhidmatan ini tidak membaca kandungan skrin atau apa yang anda taip, dan apl tidak mengumpul, menyimpan atau berkongsi sebarang data.\n\nKetik Setuju untuk membuka tetapan kebolehaksesan Android, tempat anda boleh menghidupkan R1 BT Remote. Anda boleh mematikannya di sana pada bila-bila masa.</string>
+	<string name="accessibility_disclosure_agree">Setuju</string>
+	<string name="accessibility_disclosure_decline">Tidak, terima kasih</string>
 </resources>

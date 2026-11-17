@@ -11,4 +11,8 @@
     <string name="state_on">on</string>
     <string name="state_off">off</string>
     <string name="status_text">Shizuku: %1$s\nGrab service: %2$s\nAccessibility fallback: %3$s\n\nWhile the grab service is running the remote’s d-pad works without showing a cursor. Otherwise, the accessibility fallback handles it, but the cursor still appears.</string>
+    <string name="accessibility_disclosure_title">Use of the accessibility service</string>
+    <string name="accessibility_disclosure_message">R1 BT Remote uses Android’s AccessibilityService API as a fallback for when Shizuku isn’t running.\n\nWhy it’s needed: the Beauty-R1 remote pretends to be a touchscreen, so each button press arrives as a fake swipe or tap. The accessibility service intercepts this pointer input, and the remote’s held left/right presses, and turns them into media controls: play/pause, next and previous track, fast forward, rewind and volume.\n\nWhile it’s on, mouse-pointer input goes to the service rather than to other apps. The service doesn’t read screen content or what you type, and the app doesn’t collect, store or share any data.\n\nTap Agree to open Android’s accessibility settings, where you can turn on R1 BT Remote. You can turn it off there at any time.</string>
+    <string name="accessibility_disclosure_agree">Agree</string>
+    <string name="accessibility_disclosure_decline">No thanks</string>
 </resources>

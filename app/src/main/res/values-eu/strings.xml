@@ -11,4 +11,8 @@
 	<string name="state_on">aktibatuta</string>
 	<string name="state_off">desaktibatuta</string>
 	<string name="status_text">Shizuku: %1$s\nHarrapatze-zerbitzua: %2$s\nErabilerraztasunaren ordezkoa: %3$s\n\nHarrapatze-zerbitzua martxan dagoen bitartean, urruneko kontrolaren norabide-botoiek kurtsorerik erakutsi gabe funtzionatzen dute. Bestela, erabilerraztasunaren ordezkoak kudeatzen du, baina kurtsorea agertzen da oraindik.</string>
+	<string name="accessibility_disclosure_title">Erabilerraztasun-zerbitzuaren erabilera</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote-k Android-en AccessibilityService API erabiltzen du ordezko gisa, Shizuku martxan ez dagoenean.\n\nZergatik behar den: Beauty-R1 urruneko agintea ukipen-pantaila bat balitz bezala aurkezten da; beraz, botoi-sakatze bakoitza hatza pasatze edo sakatze faltsu gisa iristen da. Erabilerraztasun-zerbitzuak erakuslearen sarrera hori eta urruneko agintearen ezker/eskuin sakatze luzeak atzematen ditu, eta multimedia-kontrol bihurtzen ditu: erreproduzitu/pausatu, hurrengo eta aurreko pista, aurrera azkar, atzera eta bolumena.\n\nAktibatuta dagoen bitartean, saguaren erakuslearen sarrera zerbitzura doa, eta ez beste aplikazioetara. Zerbitzuak ez du pantailako edukia edo idazten duzuna irakurtzen, eta aplikazioak ez du daturik biltzen, gordetzen edo partekatzen.\n\nSakatu Ados Android-en erabilerraztasun-ezarpenak irekitzeko; han R1 BT Remote aktiba dezakezu. Edozein unetan desaktiba dezakezu bertan.</string>
+	<string name="accessibility_disclosure_agree">Ados</string>
+	<string name="accessibility_disclosure_decline">Ez, eskerrik asko</string>
 </resources>

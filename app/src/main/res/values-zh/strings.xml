@@ -11,4 +11,8 @@
 	<string name="state_on">开启</string>
 	<string name="state_off">关闭</string>
 	<string name="status_text">Shizuku: %1$s\n捕获服务: %2$s\n无障碍备用方案: %3$s\n\n捕获服务运行时，遥控器的方向键可在不显示光标的情况下工作。否则由无障碍备用方案处理，但光标仍会出现。</string>
+	<string name="accessibility_disclosure_title">无障碍服务使用说明</string>
+	<string name="accessibility_disclosure_message">当 Shizuku 未运行时，R1 BT Remote 会使用 Android 的 AccessibilityService API 作为备用方案。\n\n为何需要：Beauty-R1 遥控器会伪装成触摸屏，因此每次按下按钮都会以虚假的滑动或点按形式传入。无障碍服务会拦截这些指针输入，以及遥控器长按左/右的操作，并将其转换为媒体控制：播放/暂停、下一首和上一首、快进、快退及音量。\n\n服务开启期间，鼠标指针输入会发送给此服务，而不是其他应用。此服务不会读取屏幕内容或您输入的文字，应用也不会收集、存储或分享任何数据。\n\n点按“同意”即可打开 Android 的无障碍设置，并在其中开启 R1 BT Remote。您随时可以在那里将其关闭。</string>
+	<string name="accessibility_disclosure_agree">同意</string>
+	<string name="accessibility_disclosure_decline">不用了，谢谢</string>
 </resources>

@@ -11,4 +11,8 @@
 	<string name="state_on">ativado</string>
 	<string name="state_off">desativado</string>
 	<string name="status_text">Shizuku: %1$s\nServiço de captura: %2$s\nAlternativa de acessibilidade: %3$s\n\nEnquanto o serviço de captura está em execução, o direcional do controle funciona sem mostrar um cursor. Caso contrário, a alternativa de acessibilidade cuida disso, mas o cursor ainda aparece.</string>
+	<string name="accessibility_disclosure_title">Uso do serviço de acessibilidade</string>
+	<string name="accessibility_disclosure_message">O R1 BT Remote usa a AccessibilityService API do Android como alternativa quando o Shizuku não está em execução.\n\nPor que é necessário: o controle Beauty-R1 finge ser uma tela sensível ao toque, então cada pressionamento de botão chega como um deslize ou toque falso. O serviço de acessibilidade intercepta essa entrada de ponteiro, e os pressionamentos longos para esquerda/direita do controle, e os transforma em controles de mídia: reproduzir/pausar, faixa seguinte e anterior, avançar, retroceder e volume.\n\nEnquanto está ativado, a entrada do ponteiro do mouse vai para o serviço em vez de ir para outros apps. O serviço não lê o conteúdo da tela nem o que você digita, e o app não coleta, armazena nem compartilha nenhum dado.\n\nToque em Concordo para abrir as configurações de acessibilidade do Android, onde você pode ativar o R1 BT Remote. Você pode desativá-lo lá a qualquer momento.</string>
+	<string name="accessibility_disclosure_agree">Concordo</string>
+	<string name="accessibility_disclosure_decline">Não, obrigado</string>
 </resources>

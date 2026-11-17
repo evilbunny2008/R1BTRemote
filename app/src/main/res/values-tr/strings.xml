@@ -11,4 +11,8 @@
 	<string name="state_on">açık</string>
 	<string name="state_off">kapalı</string>
 	<string name="status_text">Shizuku: %1$s\nYakalama hizmeti: %2$s\nErişilebilirlik yedeği: %3$s\n\nYakalama hizmeti çalışırken kumandanın yön tuşları imleç göstermeden çalışır. Aksi takdirde erişilebilirlik yedeği bunu üstlenir, ancak imleç yine de görünür.</string>
+	<string name="accessibility_disclosure_title">Erişilebilirlik hizmetinin kullanımı</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote, Shizuku çalışmadığında yedek çözüm olarak Android’in AccessibilityService API’sini kullanır.\n\nNeden gerekli: Beauty-R1 kumandası kendini dokunmatik ekran gibi gösterir, bu yüzden her tuş basışı sahte bir kaydırma veya dokunma olarak gelir. Erişilebilirlik hizmeti bu işaretçi girişini ve kumandanın basılı tutulan sol/sağ basışlarını yakalar ve bunları medya kontrollerine dönüştürür: oynat/duraklat, sonraki ve önceki parça, ileri sarma, geri sarma ve ses düzeyi.\n\nAçıkken fare işaretçisi girişi diğer uygulamalar yerine bu hizmete gider. Hizmet ekran içeriğini veya yazdıklarınızı okumaz, uygulama da hiçbir veri toplamaz, saklamaz veya paylaşmaz.\n\nAndroid’in erişilebilirlik ayarlarını açmak için Kabul ediyorum’a dokunun; orada R1 BT Remote’u açabilirsiniz. İstediğiniz zaman oradan kapatabilirsiniz.</string>
+	<string name="accessibility_disclosure_agree">Kabul ediyorum</string>
+	<string name="accessibility_disclosure_decline">Hayır, teşekkürler</string>
 </resources>

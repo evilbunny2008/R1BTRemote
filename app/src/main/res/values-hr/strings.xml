@@ -11,4 +11,8 @@
 	<string name="state_on">uklj.</string>
 	<string name="state_off">isklj.</string>
 	<string name="status_text">Shizuku: %1$s\nUsluga hvatanja: %2$s\nRezervna opcija pristupačnosti: %3$s\n\nDok usluga hvatanja radi, smjerne tipke daljinskog upravljača rade bez prikaza pokazivača. U suprotnom ih obrađuje rezervna opcija pristupačnosti, ali se pokazivač i dalje pojavljuje.</string>
+	<string name="accessibility_disclosure_title">Upotreba usluge pristupačnosti</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote koristi Androidov AccessibilityService API kao rezervno rješenje kada Shizuku nije pokrenut.\n\nZašto je to potrebno: daljinski upravljač Beauty-R1 pretvara se da je zaslon osjetljiv na dodir, pa svaki pritisak gumba stiže kao lažno prelaženje prstom ili dodir. Usluga pristupačnosti presreće taj unos pokazivača, kao i zadržane pritiske lijevo/desno na upravljaču, i pretvara ih u kontrole medija: reprodukcija/pauza, sljedeća i prethodna pjesma, brzo naprijed, premotavanje unatrag i glasnoća.\n\nDok je uključena, unos pokazivača miša ide usluzi umjesto drugim aplikacijama. Usluga ne čita sadržaj zaslona ni ono što upisujete, a aplikacija ne prikuplja, ne pohranjuje i ne dijeli nikakve podatke.\n\nDodirnite Slažem se da biste otvorili Androidove postavke pristupačnosti, gdje možete uključiti R1 BT Remote. Tamo ga možete isključiti u bilo kojem trenutku.</string>
+	<string name="accessibility_disclosure_agree">Slažem se</string>
+	<string name="accessibility_disclosure_decline">Ne, hvala</string>
 </resources>

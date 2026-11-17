@@ -11,4 +11,8 @@
 	<string name="state_on">zap.</string>
 	<string name="state_off">vyp.</string>
 	<string name="status_text">Shizuku: %1$s\nSlužba zachytávania: %2$s\nZáložné riešenie cez dostupnosť: %3$s\n\nKým je služba zachytávania spustená, smerové tlačidlá diaľkového ovládača fungujú bez zobrazenia kurzora. Inak ich obsluhuje záložné riešenie cez dostupnosť, ale kurzor sa stále zobrazuje.</string>
+	<string name="accessibility_disclosure_title">Používanie služby dostupnosti</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote používa rozhranie AccessibilityService API systému Android ako záložné riešenie pre prípad, že Shizuku nebeží.\n\nPrečo je to potrebné: diaľkový ovládač Beauty-R1 predstiera, že je dotyková obrazovka, takže každé stlačenie tlačidla prichádza ako falošné potiahnutie alebo klepnutie. Služba dostupnosti tento vstup ukazovateľa aj podržané stlačenia vľavo/vpravo na ovládači zachytí a premení ich na ovládanie médií: prehrať/pozastaviť, ďalšia a predchádzajúca skladba, pretáčanie dopredu, pretáčanie dozadu a hlasitosť.\n\nKým je zapnutá, vstup z ukazovateľa myši ide do tejto služby namiesto iných aplikácií. Služba nečíta obsah obrazovky ani to, čo píšete, a aplikácia nezhromažďuje, neukladá ani nezdieľa žiadne údaje.\n\nKlepnutím na Súhlasím otvoríte nastavenia dostupnosti systému Android, kde môžete R1 BT Remote zapnúť. Kedykoľvek ju tam môžete vypnúť.</string>
+	<string name="accessibility_disclosure_agree">Súhlasím</string>
+	<string name="accessibility_disclosure_decline">Nie, ďakujem</string>
 </resources>

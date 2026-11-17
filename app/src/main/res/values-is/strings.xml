@@ -11,4 +11,8 @@
 	<string name="state_on">kveikt</string>
 	<string name="state_off">slökkt</string>
 	<string name="status_text">Shizuku: %1$s\nGripþjónusta: %2$s\nAðgengisvaraleið: %3$s\n\nÁ meðan gripþjónustan keyrir virka stefnuhnappar fjarstýringarinnar án þess að bendill birtist. Annars sér aðgengisvaraleiðin um þá, en bendillinn birtist samt.</string>
+	<string name="accessibility_disclosure_title">Notkun aðgengisþjónustunnar</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote notar AccessibilityService API í Android sem varaleið þegar Shizuku er ekki í gangi.\n\nAf hverju þess þarf: Beauty-R1 fjarstýringin þykist vera snertiskjár, svo hver hnappsýting berst sem fölsk stroka eða ýting. Aðgengisþjónustan grípur þetta bendilsinntak, og haldnar vinstri/hægri ýtingar fjarstýringarinnar, og breytir þeim í margmiðlunarstýringar: spila/gera hlé, næsta og fyrra lag, spóla áfram, spóla til baka og hljóðstyrk.\n\nÁ meðan kveikt er á henni fer inntak frá músarbendli til þjónustunnar í stað annarra forrita. Þjónustan les hvorki efni skjásins né það sem þú skrifar, og forritið safnar hvorki, geymir né deilir neinum gögnum.\n\nÝttu á Samþykkja til að opna aðgengisstillingar Android, þar sem þú getur kveikt á R1 BT Remote. Þú getur slökkt á því þar hvenær sem er.</string>
+	<string name="accessibility_disclosure_agree">Samþykkja</string>
+	<string name="accessibility_disclosure_decline">Nei takk</string>
 </resources>

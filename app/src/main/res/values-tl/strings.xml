@@ -11,4 +11,8 @@
 	<string name="state_on">naka-on</string>
 	<string name="state_off">naka-off</string>
 	<string name="status_text">Shizuku: %1$s\nSerbisyo sa pag-grab: %2$s\nFallback ng accessibility: %3$s\n\nHabang tumatakbo ang serbisyo sa pag-grab, gumagana ang mga direction button ng remote nang hindi nagpapakita ng cursor. Kung hindi, ang fallback ng accessibility ang hahawak dito, pero lalabas pa rin ang cursor.</string>
+	<string name="accessibility_disclosure_title">Paggamit ng serbisyo sa accessibility</string>
+	<string name="accessibility_disclosure_message">Ginagamit ng R1 BT Remote ang AccessibilityService API ng Android bilang pamalit kapag hindi tumatakbo ang Shizuku.\n\nBakit ito kailangan: nagpapanggap na touchscreen ang Beauty-R1 remote, kaya bawat pindot ng button ay dumarating bilang pekeng swipe o tap. Hinaharang ng serbisyo sa accessibility ang pointer input na ito, at ang mga pinipindot nang matagal na kaliwa/kanan ng remote, at ginagawa itong mga kontrol ng media: i-play/i-pause, susunod at nakaraang track, i-fast forward, i-rewind at volume.\n\nHabang naka-on ito, napupunta sa serbisyo ang input ng mouse pointer sa halip na sa ibang app. Hindi binabasa ng serbisyo ang nilalaman ng screen o ang tina-type mo, at hindi nangongolekta, nag-iimbak o nagbabahagi ang app ng anumang data.\n\nI-tap ang Sang-ayon upang buksan ang mga setting ng accessibility ng Android, kung saan maaari mong i-on ang R1 BT Remote. Maaari mo itong i-off doon anumang oras.</string>
+	<string name="accessibility_disclosure_agree">Sang-ayon</string>
+	<string name="accessibility_disclosure_decline">Huwag na, salamat</string>
 </resources>

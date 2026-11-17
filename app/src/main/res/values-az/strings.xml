@@ -11,4 +11,8 @@
 	<string name="state_on">aktiv</string>
 	<string name="state_off">deaktiv</string>
 	<string name="status_text">Shizuku: %1$s\nTutma xidməti: %2$s\nƏlçatımlılıq ehtiyatı: %3$s\n\nTutma xidməti işlədiyi müddətdə pultun istiqamət düymələri kursor göstərmədən işləyir. Əks halda bunu əlçatımlılıq ehtiyatı idarə edir, lakin kursor yenə də görünür.</string>
+	<string name="accessibility_disclosure_title">Əlçatımlılıq xidmətinin istifadəsi</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote Shizuku işləmədikdə ehtiyat variant kimi Android-in AccessibilityService API-sindən istifadə edir.\n\nNiyə lazımdır: Beauty-R1 pultu özünü toxunma ekranı kimi göstərir, buna görə hər düymə basılışı saxta sürüşdürmə və ya toxunma kimi gəlir. Əlçatımlılıq xidməti bu göstərici daxiletməsini və pultun basılı saxlanılan sol/sağ düymələrini tutur və onları media idarəetmələrinə çevirir: oynat/fasilə, növbəti və əvvəlki trek, sürətli irəli, geri sarıma və səs səviyyəsi.\n\nAktiv olduqda siçan göstəricisi daxiletməsi digər tətbiqlərə deyil, xidmətə gedir. Xidmət ekran məzmununu və ya yazdıqlarınızı oxumur, tətbiq isə heç bir məlumat toplamır, saxlamır və paylaşmır.\n\nAndroid-in əlçatımlılıq ayarlarını açmaq üçün Razıyam düyməsinə toxunun, orada R1 BT Remote-u aktiv edə bilərsiniz. Onu istənilən vaxt oradan söndürə bilərsiniz.</string>
+	<string name="accessibility_disclosure_agree">Razıyam</string>
+	<string name="accessibility_disclosure_decline">Xeyr, təşəkkürlər</string>
 </resources>

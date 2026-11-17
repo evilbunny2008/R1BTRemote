@@ -11,4 +11,8 @@
 	<string name="state_on">켜짐</string>
 	<string name="state_off">꺼짐</string>
 	<string name="status_text">Shizuku: %1$s\n캡처 서비스: %2$s\n접근성 대체 방식: %3$s\n\n캡처 서비스가 실행 중인 동안에는 리모컨의 방향 버튼이 커서를 표시하지 않고 작동합니다. 그렇지 않으면 접근성 대체 방식이 처리하지만 커서가 계속 표시됩니다.</string>
+	<string name="accessibility_disclosure_title">접근성 서비스 사용 안내</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote는 Shizuku가 실행 중이 아닐 때 대체 수단으로 Android의 AccessibilityService API를 사용합니다.\n\n필요한 이유: Beauty-R1 리모컨은 터치스크린인 것처럼 동작하므로 버튼을 누를 때마다 가짜 스와이프나 탭으로 전달됩니다. 접근성 서비스는 이 포인터 입력과 리모컨의 왼쪽/오른쪽 길게 누르기를 가로채 미디어 컨트롤(재생/일시중지, 다음 곡과 이전 곡, 빨리 감기, 되감기, 볼륨)로 바꿉니다.\n\n서비스가 켜져 있는 동안 마우스 포인터 입력은 다른 앱이 아닌 이 서비스로 전달됩니다. 이 서비스는 화면 내용이나 입력한 내용을 읽지 않으며, 앱은 어떤 데이터도 수집, 저장 또는 공유하지 않습니다.\n\n동의를 탭하면 Android 접근성 설정이 열리며, 여기에서 R1 BT Remote를 켤 수 있습니다. 언제든지 그곳에서 끌 수 있습니다.</string>
+	<string name="accessibility_disclosure_agree">동의</string>
+	<string name="accessibility_disclosure_decline">아니요, 괜찮습니다</string>
 </resources>

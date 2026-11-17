@@ -11,4 +11,8 @@
 	<string name="state_on">įj.</string>
 	<string name="state_off">išj.</string>
 	<string name="status_text">Shizuku: %1$s\nPerėmimo paslauga: %2$s\nAtsarginis pritaikymo neįgaliesiems būdas: %3$s\n\nKol veikia perėmimo paslauga, pulto krypčių mygtukai veikia nerodydami žymeklio. Kitu atveju juos apdoroja atsarginis pritaikymo neįgaliesiems būdas, tačiau žymeklis vis tiek pasirodo.</string>
+	<string name="accessibility_disclosure_title">Pritaikymo neįgaliesiems paslaugos naudojimas</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote naudoja Android AccessibilityService API kaip atsarginį sprendimą, kai Shizuku neveikia.\n\nKodėl to reikia: Beauty-R1 nuotolinio valdymo pultas apsimeta jutikliniu ekranu, todėl kiekvienas mygtuko paspaudimas gaunamas kaip netikras perbraukimas ar palietimas. Pritaikymo neįgaliesiems paslauga perima šią žymiklio įvestį ir pulto laikomus kairės/dešinės paspaudimus bei paverčia juos medijos valdikliais: leisti/pristabdyti, kitas ir ankstesnis takelis, greitas persukimas pirmyn, atsukimas atgal ir garsumas.\n\nKol paslauga įjungta, pelės žymiklio įvestis patenka į ją, o ne į kitas programas. Paslauga neskaito ekrano turinio ar to, ką rašote, o programa nerenka, nesaugo ir nebendrina jokių duomenų.\n\nPalieskite Sutinku, kad atidarytumėte Android pritaikymo neįgaliesiems nustatymus, kuriuose galite įjungti R1 BT Remote. Ten ją bet kada galite išjungti.</string>
+	<string name="accessibility_disclosure_agree">Sutinku</string>
+	<string name="accessibility_disclosure_decline">Ne, ačiū</string>
 </resources>

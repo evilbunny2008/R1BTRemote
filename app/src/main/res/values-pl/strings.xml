@@ -11,4 +11,8 @@
 	<string name="state_on">wł.</string>
 	<string name="state_off">wył.</string>
 	<string name="status_text">Shizuku: %1$s\nUsługa przechwytywania: %2$s\nRozwiązanie zapasowe ułatwień dostępu: %3$s\n\nGdy usługa przechwytywania działa, przyciski kierunkowe pilota działają bez wyświetlania kursora. W przeciwnym razie obsługuje je rozwiązanie zapasowe ułatwień dostępu, ale kursor nadal się pojawia.</string>
+	<string name="accessibility_disclosure_title">Korzystanie z usługi ułatwień dostępu</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote używa interfejsu AccessibilityService API Androida jako rozwiązania zapasowego, gdy Shizuku nie działa.\n\nDlaczego jest to potrzebne: pilot Beauty-R1 udaje ekran dotykowy, więc każde naciśnięcie przycisku dociera jako fałszywe przesunięcie lub dotknięcie. Usługa ułatwień dostępu przechwytuje te dane wejściowe wskaźnika oraz przytrzymane naciśnięcia w lewo/prawo na pilocie i zamienia je na sterowanie multimediami: odtwarzanie/pauza, następny i poprzedni utwór, przewijanie do przodu, przewijanie do tyłu i głośność.\n\nGdy jest włączona, dane ze wskaźnika myszy trafiają do usługi zamiast do innych aplikacji. Usługa nie odczytuje zawartości ekranu ani tego, co wpisujesz, a aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych.\n\nKliknij Zgadzam się, aby otworzyć ustawienia ułatwień dostępu Androida, gdzie możesz włączyć R1 BT Remote. W każdej chwili możesz ją tam wyłączyć.</string>
+	<string name="accessibility_disclosure_agree">Zgadzam się</string>
+	<string name="accessibility_disclosure_decline">Nie, dziękuję</string>
 </resources>

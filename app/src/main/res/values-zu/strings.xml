@@ -11,4 +11,8 @@
 	<string name="state_on">kuvuliwe</string>
 	<string name="state_off">kuvaliwe</string>
 	<string name="status_text">Shizuku: %1$s\nIsevisi yokubamba: %2$s\nOkunye okufinyelelekayo: %3$s\n\nNgenkathi isevisi yokubamba isebenza, izinkinobho zokuqondisa zerimothi zisebenza ngaphandle kokubonisa ikhesa. Uma kungenjalo, okunye okufinyelelekayo kuyakuphatha, kodwa ikhesa isavela.</string>
+	<string name="accessibility_disclosure_title">Ukusetshenziswa kwesevisi yokufinyeleleka</string>
+	<string name="accessibility_disclosure_message">I-R1 BT Remote isebenzisa i-AccessibilityService API ye-Android njengenye indlela uma i-Shizuku ingasebenzi.\n\nKungani kudingeka: irimothi ye-Beauty-R1 izenza isikrini sokuthinta, ngakho konke ukucindezela inkinobho kufika njengokuswayipha noma ukuthepha okungelona iqiniso. Isevisi yokufinyeleleka ibamba lokhu okokufaka kwesikhombi, kanye nokucindezela kwesobunxele/kwesokudla okubanjiwe kwerimothi, ikuguqule kube izilawuli zemidiya: dlala/misa isikhashana, ithrekhi elandelayo neyangaphambilini, ukuya phambili ngokushesha, ukubuyisela emuva kanye nevolumu.\n\nNgesikhathi ivuliwe, okokufaka kwesikhombi semawusi kuya kusevisi esikhundleni sokuya kwamanye ama-app. Isevisi ayifundi okuqukethwe kwesikrini noma lokho okuthayiphayo, futhi i-app ayiqoqi, ayigcini noma yabelane nganoma iyiphi idatha.\n\nThepha okuthi Ngiyavuma ukuze uvule amasethingi okufinyeleleka e-Android, lapho ungavula khona i-R1 BT Remote. Ungayivala lapho nganoma isiphi isikhathi.</string>
+	<string name="accessibility_disclosure_agree">Ngiyavuma</string>
+	<string name="accessibility_disclosure_decline">Cha, ngiyabonga</string>
 </resources>

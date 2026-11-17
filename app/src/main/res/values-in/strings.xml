@@ -11,4 +11,8 @@
 	<string name="state_on">aktif</string>
 	<string name="state_off">nonaktif</string>
 	<string name="status_text">Shizuku: %1$s\nLayanan penangkap: %2$s\nCadangan aksesibilitas: %3$s\n\nSelama layanan penangkap berjalan, tombol arah remote berfungsi tanpa menampilkan kursor. Jika tidak, cadangan aksesibilitas yang menanganinya, tetapi kursor tetap muncul.</string>
+	<string name="accessibility_disclosure_title">Penggunaan layanan aksesibilitas</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote menggunakan AccessibilityService API Android sebagai cadangan saat Shizuku tidak berjalan.\n\nMengapa diperlukan: remote Beauty-R1 berpura-pura menjadi layar sentuh, sehingga setiap penekanan tombol masuk sebagai geseran atau ketukan palsu. Layanan aksesibilitas mencegat input penunjuk ini, serta tekanan tahan kiri/kanan pada remote, lalu mengubahnya menjadi kontrol media: putar/jeda, lagu berikutnya dan sebelumnya, maju cepat, mundur, dan volume.\n\nSelama aktif, input penunjuk mouse diteruskan ke layanan ini, bukan ke aplikasi lain. Layanan ini tidak membaca konten layar atau apa yang Anda ketik, dan aplikasi tidak mengumpulkan, menyimpan, atau membagikan data apa pun.\n\nKetuk Setuju untuk membuka setelan aksesibilitas Android, tempat Anda dapat mengaktifkan R1 BT Remote. Anda dapat menonaktifkannya di sana kapan saja.</string>
+	<string name="accessibility_disclosure_agree">Setuju</string>
+	<string name="accessibility_disclosure_decline">Tidak, terima kasih</string>
 </resources>

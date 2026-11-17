@@ -11,4 +11,8 @@
 	<string name="state_on">päällä</string>
 	<string name="state_off">pois</string>
 	<string name="status_text">Shizuku: %1$s\nKaappauspalvelu: %2$s\nEsteettömyysvararatkaisu: %3$s\n\nKun kaappauspalvelu on käynnissä, kaukosäätimen suuntapainikkeet toimivat ilman osoitinta. Muussa tapauksessa esteettömyysvararatkaisu hoitaa ne, mutta osoitin tulee silti näkyviin.</string>
+	<string name="accessibility_disclosure_title">Saavutettavuuspalvelun käyttö</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote käyttää Androidin AccessibilityService API:a varavaihtoehtona silloin, kun Shizuku ei ole käynnissä.\n\nMiksi sitä tarvitaan: Beauty-R1-kaukosäädin esittää olevansa kosketusnäyttö, joten jokainen painallus saapuu valepyyhkäisynä tai -napautuksena. Saavutettavuuspalvelu sieppaa tämän osoitinsyötteen sekä kaukosäätimen pidetyt vasen/oikea-painallukset ja muuttaa ne mediaohjaimiksi: toista/tauko, seuraava ja edellinen kappale, pikakelaus eteen, taaksepäin kelaus ja äänenvoimakkuus.\n\nKun palvelu on päällä, hiiren osoittimen syöte menee palvelulle eikä muille sovelluksille. Palvelu ei lue näytön sisältöä tai kirjoittamaasi tekstiä, eikä sovellus kerää, tallenna tai jaa mitään tietoja.\n\nAvaa Androidin saavutettavuusasetukset napauttamalla Hyväksyn, niin voit ottaa R1 BT Remoten käyttöön. Voit poistaa sen käytöstä siellä milloin tahansa.</string>
+	<string name="accessibility_disclosure_agree">Hyväksyn</string>
+	<string name="accessibility_disclosure_decline">Ei kiitos</string>
 </resources>

@@ -11,4 +11,8 @@
 	<string name="state_on">imewashwa</string>
 	<string name="state_off">imezimwa</string>
 	<string name="status_text">Shizuku: %1$s\nHuduma ya kunasa: %2$s\nMbadala wa ufikivu: %3$s\n\nWakati huduma ya kunasa inafanya kazi, vitufe vya mwelekeo vya rimoti hufanya kazi bila kuonyesha kiteuzi. Vinginevyo, mbadala wa ufikivu hushughulikia hilo, lakini kiteuzi bado huonekana.</string>
+	<string name="accessibility_disclosure_title">Matumizi ya huduma ya ufikivu</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote hutumia AccessibilityService API ya Android kama mbadala wakati Shizuku haifanyi kazi.\n\nKwa nini inahitajika: rimoti ya Beauty-R1 hujifanya kuwa skrini ya kugusa, kwa hivyo kila kubonyeza kitufe hufika kama kutelezesha au kugusa kwa uongo. Huduma ya ufikivu hunasa ingizo hili la kiashiria, pamoja na kubonyeza kushoto/kulia kwa muda mrefu kwenye rimoti, na kuyageuza kuwa vidhibiti vya maudhui: cheza/sitisha, wimbo unaofuata na uliotangulia, songa mbele haraka, rudisha nyuma na sauti.\n\nIkiwa imewashwa, ingizo la kiashiria cha kipanya huenda kwenye huduma badala ya programu nyingine. Huduma haisomi maudhui ya skrini wala unachoandika, na programu haikusanyi, haihifadhi wala haishiriki data yoyote.\n\nGusa Nakubali ili kufungua mipangilio ya ufikivu ya Android, ambapo unaweza kuwasha R1 BT Remote. Unaweza kuizima hapo wakati wowote.</string>
+	<string name="accessibility_disclosure_agree">Nakubali</string>
+	<string name="accessibility_disclosure_decline">Hapana, asante</string>
 </resources>

@@ -11,4 +11,8 @@
 	<string name="state_on">aan</string>
 	<string name="state_off">af</string>
 	<string name="status_text">Shizuku: %1$s\nVangdiens: %2$s\nToeganklikheid-rugsteun: %3$s\n\nTerwyl die vangdiens loop, werk die afstandbeheer se rigtingknoppies sonder om ’n wyser te wys. Andersins hanteer die toeganklikheid-rugsteun dit, maar die wyser verskyn steeds.</string>
+	<string name="accessibility_disclosure_title">Gebruik van die toeganklikheidsdiens</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote gebruik Android se AccessibilityService API as ’n terugvalopsie vir wanneer Shizuku nie loop nie.\n\nHoekom dit nodig is: die Beauty-R1-afstandbeheer gee voor dat dit ’n raakskerm is, so elke knoppiedruk kom as ’n vals swiep of tik aan. Die toeganklikheidsdiens onderskep hierdie wyserinvoer, en die afstandbeheer se ingehoue links/regs-drukke, en verander dit in mediakontroles: speel/pouse, volgende en vorige snit, vinnig vorentoe, terugspoel en volume.\n\nTerwyl dit aan is, gaan muiswyserinvoer na die diens in plaas van na ander programme. Die diens lees nie skerminhoud of wat jy tik nie, en die program versamel, stoor of deel geen data nie.\n\nTik Stem saam om Android se toeganklikheidsinstellings oop te maak, waar jy R1 BT Remote kan aanskakel. Jy kan dit enige tyd daar afskakel.</string>
+	<string name="accessibility_disclosure_agree">Stem saam</string>
+	<string name="accessibility_disclosure_decline">Nee dankie</string>
 </resources>

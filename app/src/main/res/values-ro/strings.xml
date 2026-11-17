@@ -11,4 +11,8 @@
 	<string name="state_on">activat</string>
 	<string name="state_off">dezactivat</string>
 	<string name="status_text">Shizuku: %1$s\nServiciu de captură: %2$s\nAlternativă prin accesibilitate: %3$s\n\nCât timp serviciul de captură rulează, butoanele direcționale ale telecomenzii funcționează fără a afișa un cursor. Altfel, alternativa prin accesibilitate le gestionează, dar cursorul apare în continuare.</string>
+	<string name="accessibility_disclosure_title">Utilizarea serviciului de accesibilitate</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote folosește AccessibilityService API din Android ca soluție de rezervă atunci când Shizuku nu rulează.\n\nDe ce este necesar: telecomanda Beauty-R1 se dă drept ecran tactil, așa că fiecare apăsare de buton ajunge ca o glisare sau o atingere falsă. Serviciul de accesibilitate interceptează această intrare de la cursor, precum și apăsările lungi stânga/dreapta ale telecomenzii, și le transformă în comenzi media: redare/pauză, piesa următoare și anterioară, derulare înainte, derulare înapoi și volum.\n\nCât timp este activat, intrarea de la cursorul mouse-ului ajunge la serviciu în loc de alte aplicații. Serviciul nu citește conținutul ecranului sau ce tastați, iar aplicația nu colectează, nu stochează și nu distribuie niciun fel de date.\n\nAtingeți Sunt de acord pentru a deschide setările de accesibilitate Android, unde puteți activa R1 BT Remote. Îl puteți dezactiva de acolo oricând.</string>
+	<string name="accessibility_disclosure_agree">Sunt de acord</string>
+	<string name="accessibility_disclosure_decline">Nu, mulțumesc</string>
 </resources>

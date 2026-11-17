@@ -14,6 +14,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import rikka.shizuku.Shizuku
 
 /** Status screen plus the two things the user has to set up by hand. */
@@ -31,9 +32,7 @@ class MainActivity : AppCompatActivity() {
         grantButton = button(R.string.grant_shizuku) {
             if (Shizuku.pingBinder()) Shizuku.requestPermission(REQUEST_SHIZUKU)
         }
-        accessibilityButton = button(R.string.open_accessibility) {
-            startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
-        }
+        accessibilityButton = button(R.string.open_accessibility) { showAccessibilityDisclosure() }
         val layout = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             addView(statusView)
@@ -66,6 +65,22 @@ class MainActivity : AppCompatActivity() {
             setText(text)
             setOnClickListener { onClick() }
         }
+
+    /**
+     * Play's prominent disclosure: explain the accessibility service and get an explicit
+     * yes before sending the user to settings. Back, tapping outside, etc. don't count as consent.
+     */
+    private fun showAccessibilityDisclosure() {
+        MaterialAlertDialogBuilder(this)
+            .setTitle(R.string.accessibility_disclosure_title)
+            .setMessage(R.string.accessibility_disclosure_message)
+            .setCancelable(false)
+            .setPositiveButton(R.string.accessibility_disclosure_agree) { _, _ ->
+                startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
+            }
+            .setNegativeButton(R.string.accessibility_disclosure_decline, null)
+            .show()
+    }
 
     private fun isAccessibilityEnabled(): Boolean {
         val ours = ComponentName(this, RemoteService::class.java)

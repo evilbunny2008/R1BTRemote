@@ -11,4 +11,8 @@
 	<string name="state_on">bật</string>
 	<string name="state_off">tắt</string>
 	<string name="status_text">Shizuku: %1$s\nDịch vụ bắt phím: %2$s\nDự phòng hỗ trợ tiếp cận: %3$s\n\nKhi dịch vụ bắt phím đang chạy, các nút điều hướng của điều khiển hoạt động mà không hiện con trỏ. Nếu không, dự phòng hỗ trợ tiếp cận sẽ xử lý, nhưng con trỏ vẫn xuất hiện.</string>
+	<string name="accessibility_disclosure_title">Sử dụng dịch vụ hỗ trợ tiếp cận</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote sử dụng AccessibilityService API của Android làm phương án dự phòng khi Shizuku không chạy.\n\nTại sao cần: điều khiển Beauty-R1 giả làm màn hình cảm ứng, nên mỗi lần nhấn nút đều đến dưới dạng một thao tác vuốt hoặc chạm giả. Dịch vụ hỗ trợ tiếp cận chặn dữ liệu nhập con trỏ này, cùng với các lần nhấn giữ trái/phải của điều khiển, và chuyển chúng thành các nút điều khiển nội dung đa phương tiện: phát/tạm dừng, bài tiếp theo và bài trước, tua đi, tua lại và âm lượng.\n\nKhi được bật, dữ liệu nhập từ con trỏ chuột sẽ đi đến dịch vụ thay vì các ứng dụng khác. Dịch vụ không đọc nội dung màn hình hoặc những gì bạn nhập, và ứng dụng không thu thập, lưu trữ hay chia sẻ bất kỳ dữ liệu nào.\n\nNhấn Đồng ý để mở phần cài đặt hỗ trợ tiếp cận của Android, nơi bạn có thể bật R1 BT Remote. Bạn có thể tắt dịch vụ này ở đó bất cứ lúc nào.</string>
+	<string name="accessibility_disclosure_agree">Đồng ý</string>
+	<string name="accessibility_disclosure_decline">Không, cảm ơn</string>
 </resources>

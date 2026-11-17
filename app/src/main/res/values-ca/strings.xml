@@ -11,4 +11,8 @@
 	<string name="state_on">activat</string>
 	<string name="state_off">desactivat</string>
 	<string name="status_text">Shizuku: %1$s\nServei de captura: %2$s\nAlternativa d’accessibilitat: %3$s\n\nMentre el servei de captura s’executa, la creu direccional del comandament funciona sense mostrar cap cursor. Altrament, l’alternativa d’accessibilitat se n’encarrega, però el cursor continua apareixent.</string>
+	<string name="accessibility_disclosure_title">Ús del servei d’accessibilitat</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote utilitza l’AccessibilityService API d’Android com a alternativa quan Shizuku no s’està executant.\n\nPer què cal: el comandament Beauty-R1 es fa passar per una pantalla tàctil, de manera que cada pulsació de botó arriba com un lliscament o un toc fals. El servei d’accessibilitat intercepta aquesta entrada de punter, i les pulsacions mantingudes d’esquerra/dreta del comandament, i les converteix en controls multimèdia: reproduir/pausa, pista següent i anterior, avançament ràpid, rebobinat i volum.\n\nMentre està activat, l’entrada del punter del ratolí va al servei en lloc d’anar a altres aplicacions. El servei no llegeix el contingut de la pantalla ni el que escriviu, i l’aplicació no recull, no desa ni comparteix cap dada.\n\nToqueu Accepto per obrir la configuració d’accessibilitat d’Android, on podeu activar R1 BT Remote. Podeu desactivar-lo allà en qualsevol moment.</string>
+	<string name="accessibility_disclosure_agree">Accepto</string>
+	<string name="accessibility_disclosure_decline">No, gràcies</string>
 </resources>

@@ -11,4 +11,8 @@
 	<string name="state_on">be</string>
 	<string name="state_off">ki</string>
 	<string name="status_text">Shizuku: %1$s\nElfogó szolgáltatás: %2$s\nKisegítő tartalékmegoldás: %3$s\n\nAmíg az elfogó szolgáltatás fut, a távirányító irányítógombjai kurzor megjelenítése nélkül működnek. Ellenkező esetben a kisegítő tartalékmegoldás kezeli őket, de a kurzor továbbra is megjelenik.</string>
+	<string name="accessibility_disclosure_title">A kisegítő szolgáltatás használata</string>
+	<string name="accessibility_disclosure_message">Az R1 BT Remote az Android AccessibilityService API-ját használja tartalékmegoldásként arra az esetre, ha a Shizuku nem fut.\n\nMiért van rá szükség: a Beauty-R1 távirányító érintőképernyőnek adja ki magát, így minden gombnyomás hamis csúsztatásként vagy koppintásként érkezik. A kisegítő szolgáltatás elfogja ezt a mutatóbevitelt, valamint a távirányító nyomva tartott bal/jobb gombnyomásait, és médiavezérlőkké alakítja őket: lejátszás/szünet, következő és előző szám, előretekerés, visszatekerés és hangerő.\n\nAmíg be van kapcsolva, az egérmutató bevitele a szolgáltatáshoz kerül más alkalmazások helyett. A szolgáltatás nem olvassa a képernyő tartalmát vagy azt, amit begépel, és az alkalmazás semmilyen adatot nem gyűjt, tárol vagy oszt meg.\n\nKoppintson az Elfogadom gombra az Android kisegítő lehetőségek beállításainak megnyitásához, ahol bekapcsolhatja az R1 BT Remote-ot. Ott bármikor ki is kapcsolhatja.</string>
+	<string name="accessibility_disclosure_agree">Elfogadom</string>
+	<string name="accessibility_disclosure_decline">Nem, köszönöm</string>
 </resources>

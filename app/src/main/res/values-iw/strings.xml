@@ -11,4 +11,8 @@
 	<string name="state_on">מופעל</string>
 	<string name="state_off">כבוי</string>
 	<string name="status_text">Shizuku: %1$s\nשירות לכידה: %2$s\nחלופת נגישות: %3$s\n\nכל עוד שירות הלכידה פועל, מקשי הכיוונים של השלט עובדים בלי להציג סמן. אחרת, חלופת הנגישות מטפלת בכך, אבל הסמן עדיין מופיע.</string>
+	<string name="accessibility_disclosure_title">שימוש בשירות הנגישות</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote משתמשת ב-AccessibilityService API של Android כחלופה כאשר Shizuku לא פועל.\n\nלמה זה נחוץ: השלט Beauty-R1 מתחזה למסך מגע, ולכן כל לחיצה על לחצן מגיעה כהחלקה או הקשה מזויפת. שירות הנגישות מיירט את קלט הסמן הזה, ואת הלחיצות הממושכות שמאלה/ימינה בשלט, וממיר אותם לפקדי מדיה: הפעלה/השהיה, הרצועה הבאה והקודמת, הרצה קדימה, הרצה אחורה ועוצמת קול.\n\nבזמן שהוא מופעל, קלט סמן העכבר עובר לשירות במקום לאפליקציות אחרות. השירות לא קורא את תוכן המסך או את מה שאתם מקלידים, והאפליקציה לא אוספת, שומרת או משתפת שום מידע.\n\nהקישו על מסכים/ה כדי לפתוח את הגדרות הנגישות של Android, שבהן אפשר להפעיל את R1 BT Remote. אפשר לכבות אותו שם בכל עת.</string>
+	<string name="accessibility_disclosure_agree">מסכים/ה</string>
+	<string name="accessibility_disclosure_decline">לא, תודה</string>
 </resources>

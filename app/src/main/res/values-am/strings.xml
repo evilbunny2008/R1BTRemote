@@ -11,4 +11,8 @@
 	<string name="state_on">በርቷል</string>
 	<string name="state_off">ጠፍቷል</string>
 	<string name="status_text">Shizuku: %1$s\nየመያዣ አገልግሎት: %2$s\nየተደራሽነት ምትክ: %3$s\n\nየመያዣ አገልግሎቱ እየሰራ እያለ የሪሞቱ አቅጣጫ አዝራሮች ጠቋሚ ሳያሳዩ ይሰራሉ። አለበለዚያ የተደራሽነት ምትኩ ያስተናግደዋል፣ ነገር ግን ጠቋሚው አሁንም ይታያል።</string>
+	<string name="accessibility_disclosure_title">የተደራሽነት አገልግሎት አጠቃቀም</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote Shizuku በማይሰራበት ጊዜ እንደ አማራጭ የAndroidን AccessibilityService API ይጠቀማል።\n\nለምን እንደሚያስፈልግ፦ የBeauty-R1 ሪሞት ንክኪ ማያ ገጽ መስሎ ይቀርባል፣ ስለዚህ እያንዳንዱ የአዝራር መጫን እንደ ሐሰተኛ ማንሸራተት ወይም መታ ማድረግ ይደርሳል። የተደራሽነት አገልግሎቱ ይህን የጠቋሚ ግብዓት እና የሪሞቱን ተይዞ የሚቆይ ግራ/ቀኝ መጫን ይጠልፍና ወደ የሚዲያ መቆጣጠሪያዎች ይቀይራቸዋል፦ አጫውት/ለአፍታ አቁም፣ ቀጣይ እና ቀዳሚ ትራክ፣ በፍጥነት ወደፊት፣ ወደኋላ መመለስ እና ድምፅ።\n\nበርቶ ሳለ የመዳፊት ጠቋሚ ግብዓት ወደ ሌሎች መተግበሪያዎች ሳይሆን ወደ አገልግሎቱ ይሄዳል። አገልግሎቱ የማያ ገጽ ይዘትን ወይም የሚተይቡትን አያነብም፣ እና መተግበሪያው ምንም ውሂብ አይሰበስብም፣ አያከማችም ወይም አያጋራም።\n\nየAndroid የተደራሽነት ቅንብሮችን ለመክፈት እስማማለሁ የሚለውን መታ ያድርጉ፣ እዚያም R1 BT Remoteን ማብራት ይችላሉ። በማንኛውም ጊዜ እዚያው ማጥፋት ይችላሉ።</string>
+	<string name="accessibility_disclosure_agree">እስማማለሁ</string>
+	<string name="accessibility_disclosure_decline">አይ፣ አመሰግናለሁ</string>
 </resources>

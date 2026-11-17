@@ -11,4 +11,8 @@
 	<string name="state_on">aan</string>
 	<string name="state_off">uit</string>
 	<string name="status_text">Shizuku: %1$s\nOpvangservice: %2$s\nToegankelijkheidsterugval: %3$s\n\nZolang de opvangservice actief is, werken de richtingstoetsen van de afstandsbediening zonder dat er een cursor verschijnt. Anders handelt de toegankelijkheidsterugval het af, maar verschijnt de cursor nog steeds.</string>
+	<string name="accessibility_disclosure_title">Gebruik van de toegankelijkheidsservice</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote gebruikt de AccessibilityService API van Android als terugvaloptie wanneer Shizuku niet actief is.\n\nWaarom dit nodig is: de Beauty-R1-afstandsbediening doet zich voor als touchscreen, dus elke druk op een knop komt binnen als een nep-veeg of -tik. De toegankelijkheidsservice onderschept deze aanwijzerinvoer, en het ingedrukt houden van links/rechts op de afstandsbediening, en zet ze om in mediabediening: afspelen/pauzeren, volgende en vorige track, vooruitspoelen, terugspoelen en volume.\n\nZolang de service aanstaat, gaat invoer van de muisaanwijzer naar de service in plaats van naar andere apps. De service leest geen scherminhoud of wat je typt, en de app verzamelt, bewaart of deelt geen gegevens.\n\nTik op Akkoord om de toegankelijkheidsinstellingen van Android te openen, waar je R1 BT Remote kunt inschakelen. Je kunt hem daar op elk moment weer uitschakelen.</string>
+	<string name="accessibility_disclosure_agree">Akkoord</string>
+	<string name="accessibility_disclosure_decline">Nee, bedankt</string>
 </resources>

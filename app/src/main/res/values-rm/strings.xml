@@ -11,4 +11,8 @@
 	<string name="state_on">activà</string>
 	<string name="state_off">deactivà</string>
 	<string name="status_text">Shizuku: %1$s\nServetsch da captura: %2$s\nAlternativa d’accessibladad: %3$s\n\nDurant ch’il servetsch da captura è activ, funcziunan ils buttuns da direcziun dal telecumond senza mussar in cursur. Uschiglio sa fatschenta l’alternativa d’accessibladad cun quai, ma il cursur cumpara tuttina.</string>
+	<string name="accessibility_disclosure_title">Utilisaziun dal servetsch d’accessibladad</string>
+	<string name="accessibility_disclosure_message">R1 BT Remote utilisescha l’AccessibilityService API dad Android sco alternativa, sche Shizuku n’è betg activ.\n\nPertge ch’i dovra quai: il telecumond Beauty-R1 sa dat ora sco visur tactil, uschia che mintga smatg d’in buttun arriva sco in sfruschar u tutgar fingì. Il servetsch d’accessibladad intercepta questas endataziuns dal cursur, ed ils smatgs tegnids a sanestra/a dretga dal telecumond, e las transfurma en commandas da medias: reproducir/pausa, proxim e precedent toc, avanzar svelt, returnar e volumen.\n\nDurant ch’el è activ, van las endataziuns dal cursur da la mieur al servetsch empè dad autras apps. Il servetsch na legia ni il cuntegn dal visur ni quai che Vus tippais, e l’app na rimna, na memorisescha e na parta naginas datas.\n\nTutgai Consentir per avrir ils parameters d’accessibladad dad Android, nua che Vus pudais activar R1 BT Remote. Vus pudais deactivar el là en mintga mument.</string>
+	<string name="accessibility_disclosure_agree">Consentir</string>
+	<string name="accessibility_disclosure_decline">Na, grazia</string>
 </resources>
