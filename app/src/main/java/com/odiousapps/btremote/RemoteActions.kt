@@ -31,11 +31,96 @@ object RemoteActions {
     }
 
     /**
+     * Turns the remote's virtual finger into presses. Positions are in the remote's raw
+     * units (0..4095) and times in milliseconds; callers convert their coordinates to match.
+     *
+     * A press is normally a touch that swipes ~300 units per frame, or barely moves for a tap,
+     * then lifts. Holding UP or DOWN instead creeps ~30 units every ~90 ms and never lifts:
+     * the touch stays down until the next press, which jumps to its own start position.
+     * So a pause in movement, or a jump during a hold, also ends the press.
+     */
+    class PressDecoder(private val output: Output, private val tapSlop: Float) {
+        private var down = false
+        private var holding = false
+        private var moved = false
+        private var startX = 0f
+        private var startY = 0f
+        private var lastX = 0f
+        private var lastY = 0f
+        private var lastTime = 0L
+        private var holdStart = 0L
+        private var holdSteps = 0L
+
+        fun onDown(x: Float, y: Float, time: Long) {
+            if (down) endPress()
+            start(x, y, time)
+        }
+
+        fun onMove(x: Float, y: Float, time: Long) {
+            // Hovering between presses moves nothing on its own
+            if (!down) return
+            val step = maxOf(abs(x - lastX), abs(y - lastY))
+            if (step == 0f) return
+            if (time - lastTime > PRESS_GAP_MS || (holding && step > HOLD_STEP_MAX)) {
+                // The touch never lifted after a hold, so this is the next press starting
+                endPress()
+                start(x, y, time)
+                return
+            }
+            if (!moved) {
+                moved = true
+                holding = step <= HOLD_STEP_MAX && abs(y - lastY) > abs(x - lastX)
+                holdStart = time
+            }
+            if (holding) {
+                // The creep's frames are uneven, so catch up on every step due since the hold began
+                val due = (time - holdStart) / HOLD_REPEAT_MS + 1
+                val direction = if (y > lastY) AudioManager.ADJUST_RAISE else AudioManager.ADJUST_LOWER
+                while (holdSteps < due) {
+                    holdSteps++
+                    volume(output, direction)
+                }
+            }
+            lastX = x
+            lastY = y
+            lastTime = time
+        }
+
+        fun onUp() {
+            if (down) endPress()
+        }
+
+        private fun start(x: Float, y: Float, time: Long) {
+            down = true
+            holding = false
+            moved = false
+            startX = x
+            startY = y
+            lastX = x
+            lastY = y
+            lastTime = time
+            holdSteps = 0L
+        }
+
+        private fun endPress() {
+            down = false
+            // A hold has already done its work while it crept
+            if (!holding) onGesture(output, lastX - startX, lastY - startY, tapSlop)
+        }
+    }
+
+    // Holds creep ~30 units a frame and swipes ~300, with frames ~90 ms (at most ~270 ms) apart
+    private const val HOLD_STEP_MAX = 100f
+    private const val PRESS_GAP_MS = 500L
+    // A volume step every 80 ms takes a 25-step stream (e.g. Pixel media) from silent to full in ~2 s
+    private const val HOLD_REPEAT_MS = 80L
+
+    /**
      * [dx]/[dy] is how far the remote's virtual finger moved; anything within [tapSlop]
      * on both axes is a tap. The remote swipes opposite to the button pressed, e.g.
      * RIGHT swipes leftwards and UP swipes downwards.
      */
-    fun onGesture(output: Output, dx: Float, dy: Float, tapSlop: Float) {
+    private fun onGesture(output: Output, dx: Float, dy: Float, tapSlop: Float) {
         Log.i(TAG, "gesture dx=$dx dy=$dy")
         when {
             abs(dx) < tapSlop && abs(dy) < tapSlop -> mediaKey(output, KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE)

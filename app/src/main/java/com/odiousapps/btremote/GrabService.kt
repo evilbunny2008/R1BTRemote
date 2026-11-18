@@ -101,28 +101,26 @@ class GrabService(context: Context) : IGrabService.Stub() {
                 val n = input.read(buf.array())
                 if (n < 0) throw IOException("EOF")
                 for (off in 0 until n - EVENT_SIZE + 1 step EVENT_SIZE) {
-                    reader.onEvent(buf.getShort(off + 16).toInt(), buf.getShort(off + 18).toInt(), buf.getInt(off + 20))
+                    val time = buf.getLong(off) * 1000 + buf.getLong(off + 8) / 1000
+                    reader.onEvent(time, buf.getShort(off + 16).toInt(), buf.getShort(off + 18).toInt(), buf.getInt(off + 20))
                 }
             }
         }
     }
 
     private fun interface EventReader {
-        fun onEvent(type: Int, code: Int, value: Int)
+        fun onEvent(time: Long, type: Int, code: Int, value: Int)
     }
 
     /** Turns the swipe device's fake touches into presses. */
     private inner class PointerReader : EventReader {
+        private val decoder = RemoteActions.PressDecoder(output, TAP_SLOP_RAW)
         private var x = 0
         private var y = 0
         private var touching = false
         private var wasTouching = false
-        private var startX = 0
-        private var startY = 0
-        private var lastX = 0
-        private var lastY = 0
 
-        override fun onEvent(type: Int, code: Int, value: Int) {
+        override fun onEvent(time: Long, type: Int, code: Int, value: Int) {
             when (type) {
                 EV_ABS -> when (code) {
                     ABS_X -> x = value
@@ -132,15 +130,10 @@ class GrabService(context: Context) : IGrabService.Stub() {
                 EV_SYN -> if (code == SYN_REPORT) {
                     // Judge whole frames: a frame's key and axis events arrive in any order.
                     // The release frame can carry the remote's "park" position, so ignore it.
-                    if (touching && !wasTouching) {
-                        startX = x
-                        startY = y
-                    }
-                    if (touching) {
-                        lastX = x
-                        lastY = y
-                    } else if (wasTouching) {
-                        act { RemoteActions.onGesture(output, (lastX - startX).toFloat(), (lastY - startY).toFloat(), TAP_SLOP_RAW) }
+                    when {
+                        touching && !wasTouching -> act { decoder.onDown(x.toFloat(), y.toFloat(), time) }
+                        touching -> act { decoder.onMove(x.toFloat(), y.toFloat(), time) }
+                        wasTouching -> act { decoder.onUp() }
                     }
                     wasTouching = touching
                 }
@@ -150,7 +143,7 @@ class GrabService(context: Context) : IGrabService.Stub() {
 
     /** Turns the keys device's repeated volume presses (a held LEFT/RIGHT) into seeks. */
     private inner class KeyReader : EventReader {
-        override fun onEvent(type: Int, code: Int, value: Int) {
+        override fun onEvent(time: Long, type: Int, code: Int, value: Int) {
             // value 1 is a press; the remote never sends autorepeat (2), it re-presses instead
             if (type != EV_KEY || value != 1) return
             when (code) {

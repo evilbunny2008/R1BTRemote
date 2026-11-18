@@ -18,10 +18,10 @@ import android.view.accessibility.AccessibilityEvent
 class RemoteService : AccessibilityService() {
 
     private lateinit var output: RemoteActions.Output
+    private lateinit var decoder: RemoteActions.PressDecoder
 
-    // Where the current press started
-    private var startX = 0f
-    private var startY = 0f
+    // Android draws the remote's 0..4095 range across the screen's longer side
+    private var pxPerRaw = 1f
 
     override fun onServiceConnected() {
         if (!(application as BTRemoteApp).accessibilityConsent) {
@@ -35,25 +35,28 @@ class RemoteService : AccessibilityService() {
             disableSelf()
             return
         }
+        val metrics = resources.displayMetrics
+        pxPerRaw = maxOf(metrics.widthPixels, metrics.heightPixels) / RAW_MAX
         output = RemoteActions.AudioOutput(getSystemService(AudioManager::class.java))
+        decoder = RemoteActions.PressDecoder(output, TAP_SLOP_PX / pxPerRaw)
         serviceInfo = serviceInfo.apply { motionEventSources = InputDevice.SOURCE_MOUSE }
         Log.i(TAG, "connected, listening to mouse events")
     }
 
     override fun onMotionEvent(event: MotionEvent) {
-        if (!::output.isInitialized) return
+        if (!::decoder.isInitialized) return
         // Hover events (the side button hovers before tapping) are swallowed without acting
+        val x = event.x / pxPerRaw
+        val y = event.y / pxPerRaw
         when (event.actionMasked) {
-            MotionEvent.ACTION_DOWN -> {
-                startX = event.x
-                startY = event.y
-            }
-            MotionEvent.ACTION_UP -> RemoteActions.onGesture(output, event.x - startX, event.y - startY, TAP_SLOP_PX)
+            MotionEvent.ACTION_DOWN -> decoder.onDown(x, y, event.eventTime)
+            MotionEvent.ACTION_MOVE -> decoder.onMove(x, y, event.eventTime)
+            MotionEvent.ACTION_UP -> decoder.onUp()
         }
     }
 
     override fun onKeyEvent(event: KeyEvent): Boolean {
-        if (!::output.isInitialized) return false
+        if (!::decoder.isInitialized) return false
         // Only the remote's held LEFT/RIGHT, which arrive as volume keys from its second device
         if (event.device?.name != GrabService.KEYS_DEVICE_NAME) return false
         val forward = when (event.keyCode) {
@@ -72,5 +75,6 @@ class RemoteService : AccessibilityService() {
     companion object {
         private const val TAG = "BTRemote"
         private const val TAP_SLOP_PX = 40f
+        private const val RAW_MAX = 4095f
     }
 }
