@@ -10,3 +10,7 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+# Kotlin splits big facades like CollectionsKt into a chain of package-private classes,
+# each extending the last. Optimising kotlin.** lets R8 repackage one link without its
+# parent, which crashes with IllegalAccessError, so keep the links in their package.
+-keepnames class kotlin.**Kt__*
