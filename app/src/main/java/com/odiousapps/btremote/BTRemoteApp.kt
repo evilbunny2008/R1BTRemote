@@ -4,7 +4,10 @@ import android.app.Application
 import android.content.ComponentName
 import android.content.ServiceConnection
 import android.content.pm.PackageManager
+import android.os.Handler
 import android.os.IBinder
+import android.os.Looper
+import android.os.RemoteException
 import android.util.Log
 import androidx.core.content.edit
 import rikka.shizuku.Shizuku
@@ -28,6 +31,21 @@ class BTRemoteApp : Application() {
         get() = prefs.getBoolean(KEY_ACCESSIBILITY_CONSENT, false)
         set(value) = prefs.edit { putBoolean(KEY_ACCESSIBILITY_CONSENT, value) }
 
+    /** Package of the player woken by media keys when no app has a media session, if any. */
+    var preferredPlayer: String?
+        get() = prefs.getString(KEY_PREFERRED_PLAYER, null)
+        set(value) = prefs.edit { putString(KEY_PREFERRED_PLAYER, value) }
+
+    private val mainHandler = Handler(Looper.getMainLooper())
+
+    private val mediaKeyHandler = object : IMediaKeyHandler.Stub() {
+        override fun sendToPreferred(keyCode: Int): Boolean {
+            val player = preferredPlayer?.let { PreferredPlayer.find(this@BTRemoteApp, it) } ?: return false
+            mainHandler.post { player.send(this@BTRemoteApp, keyCode) }
+            return true
+        }
+    }
+
     /** Called on the main thread whenever Shizuku or the grab service changes state. */
     var onStateChanged: (() -> Unit)? = null
 
@@ -42,7 +60,13 @@ class BTRemoteApp : Application() {
 
     private val connection = object : ServiceConnection {
         override fun onServiceConnected(name: ComponentName, binder: IBinder) {
-            grabService = IGrabService.Stub.asInterface(binder)
+            grabService = IGrabService.Stub.asInterface(binder).also {
+                try {
+                    it.setMediaKeyHandler(mediaKeyHandler)
+                } catch (e: RemoteException) {
+                    Log.w(TAG, "couldn't register the media key handler", e)
+                }
+            }
             Log.i(TAG, "grab service connected")
             onStateChanged?.invoke()
         }
@@ -83,5 +107,6 @@ class BTRemoteApp : Application() {
     companion object {
         private const val TAG = "BTRemote"
         private const val KEY_ACCESSIBILITY_CONSENT = "accessibility_consent"
+        private const val KEY_PREFERRED_PLAYER = "preferred_player"
     }
 }

@@ -3,6 +3,7 @@ package com.odiousapps.btremote
 import android.content.Context
 import android.media.AudioManager
 import android.os.ParcelFileDescriptor
+import android.os.RemoteException
 import android.util.Log
 import android.view.KeyEvent
 import java.io.File
@@ -37,11 +38,35 @@ class GrabService(context: Context) : IGrabService.Stub() {
             }
             commands.execute {
                 try {
+                    // With no session to take it, Android hands the key to whichever app last
+                    // played anything (e.g. a messenger's voice note), so use the user's pick
+                    if (!hasMediaButtonSession() && sendToPreferred(keyCode)) return@execute
                     ProcessBuilder("cmd", "media_session", "dispatch", key).start().waitFor()
                 } catch (e: Exception) {
                     Log.w(TAG, "media_session dispatch $key failed", e)
                 }
             }
+        }
+
+        private fun sendToPreferred(keyCode: Int): Boolean =
+            try {
+                mediaKeyHandler?.sendToPreferred(keyCode) == true
+            } catch (e: RemoteException) {
+                // The app process died; it registers a fresh handler when it reconnects
+                Log.w(TAG, "media key handler gone", e)
+                mediaKeyHandler = null
+                false
+            }
+
+        /** Whether a media session would take a dispatched key, rather than the last receiver. */
+        private fun hasMediaButtonSession(): Boolean {
+            val process = ProcessBuilder("cmd", "media_session", "list-sessions").start()
+            val line = process.inputStream.bufferedReader().useLines { lines ->
+                lines.firstOrNull { MEDIA_BUTTON_SESSION in it }
+            }
+            process.waitFor()
+            // If the output's format ever changes, keep Android's own routing
+            return line?.substringAfter(MEDIA_BUTTON_SESSION)?.trim() != "null"
         }
 
         override fun volume(direction: Int) {
@@ -51,6 +76,9 @@ class GrabService(context: Context) : IGrabService.Stub() {
 
     @Volatile
     private var status = "starting"
+
+    @Volatile
+    private var mediaKeyHandler: IMediaKeyHandler? = null
 
     init {
         // The remote is two input devices: presses are fake swipes on one, while holding
@@ -64,6 +92,10 @@ class GrabService(context: Context) : IGrabService.Stub() {
     }
 
     override fun status(): String = status
+
+    override fun setMediaKeyHandler(handler: IMediaKeyHandler?) {
+        mediaKeyHandler = handler
+    }
 
     /** Grabs [name] whenever it's connected, decoding its events with a fresh [newReader]. */
     private fun watch(name: String, newReader: () -> EventReader) {
@@ -178,6 +210,7 @@ class GrabService(context: Context) : IGrabService.Stub() {
         const val DEVICE_NAME = "Beauty-R1"
         const val KEYS_DEVICE_NAME = "Beauty-R1 Consumer Control"
         private const val SCAN_INTERVAL_MS = 2000L
+        private const val MEDIA_BUTTON_SESSION = "Media button session is "
         // The remote reports 0..4095; its swipes cover ~2000
         private const val TAP_SLOP_RAW = 200f
 

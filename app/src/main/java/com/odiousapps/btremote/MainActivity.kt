@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var statusView: TextView
     private lateinit var grantButton: Button
     private lateinit var accessibilityButton: Button
+    private lateinit var playerButton: Button
     private var disclosure: AlertDialog? = null
     private val app get() = application as BTRemoteApp
 
@@ -35,11 +36,13 @@ class MainActivity : AppCompatActivity() {
             if (Shizuku.pingBinder()) Shizuku.requestPermission(REQUEST_SHIZUKU)
         }
         accessibilityButton = button(R.string.open_accessibility) { showAccessibilityDisclosure() }
+        playerButton = button(R.string.choose_player_title) { choosePlayer() }
         val layout = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             addView(statusView)
             addView(grantButton)
             addView(accessibilityButton)
+            addView(playerButton)
             addView(button(R.string.refresh) { refresh() })
         }
         // The app is drawn edge-to-edge, so keep clear of the system and title bars
@@ -107,6 +110,22 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
+    /** Picks the player media keys wake when no app has a media session, or none. */
+    private fun choosePlayer() {
+        val players = PreferredPlayer.all(this)
+        val labels = arrayOf(getString(R.string.player_none)) + players.map { it.label }
+        val checked = players.indexOfFirst { it.packageName == app.preferredPlayer } + 1
+        MaterialAlertDialogBuilder(this)
+            .setTitle(R.string.choose_player_title)
+            .setSingleChoiceItems(labels, checked) { dialog, which ->
+                app.preferredPlayer = players.getOrNull(which - 1)?.packageName
+                dialog.dismiss()
+                refresh()
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
+    }
+
     private fun isAccessibilityEnabled(): Boolean {
         val ours = ComponentName(this, RemoteService::class.java)
         return getSystemService(AccessibilityManager::class.java)
@@ -133,6 +152,9 @@ class MainActivity : AppCompatActivity() {
             R.string.status_text, shizuku, grab,
             getString(if (accessibility) R.string.state_on else R.string.state_off)
         )
+        // An uninstalled player shows as none, matching what the remote will do
+        val player = app.preferredPlayer?.let { PreferredPlayer.find(this, it) }?.label
+        playerButton.text = getString(R.string.choose_player, player ?: getString(R.string.player_none))
 
         // Only offer the setup steps that are still outstanding
         grantButton.visibility = if (shizukuRunning && !app.hasShizukuPermission()) View.VISIBLE else View.GONE

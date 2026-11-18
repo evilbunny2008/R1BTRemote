@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Players the remote can wake, offered as the preferred player -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MEDIA_BUTTON" />
+        </intent>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService" />
+        </intent>
+        <intent>
+            <action android:name="androidx.media3.session.MediaSessionService" />
+        </intent>
+        <intent>
+            <action android:name="androidx.media3.session.MediaLibraryService" />
+        </intent>
+    </queries>
+
     <application
         android:name=".BTRemoteApp"
         android:allowBackup="true"
