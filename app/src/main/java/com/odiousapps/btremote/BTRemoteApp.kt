@@ -6,6 +6,7 @@ import android.content.ServiceConnection
 import android.content.pm.PackageManager
 import android.os.IBinder
 import android.util.Log
+import androidx.core.content.edit
 import rikka.shizuku.Shizuku
 
 /**
@@ -16,6 +17,16 @@ class BTRemoteApp : Application() {
 
     var grabService: IGrabService? = null
         private set
+
+    private val prefs by lazy { getSharedPreferences("settings", MODE_PRIVATE) }
+
+    /** Whether the user has answered the accessibility disclosure at all, yes or no. */
+    val disclosureAnswered get() = prefs.contains(KEY_ACCESSIBILITY_CONSENT)
+
+    /** The user's answer to the accessibility disclosure; [RemoteService] won't run without a yes. */
+    var accessibilityConsent: Boolean
+        get() = prefs.getBoolean(KEY_ACCESSIBILITY_CONSENT, false)
+        set(value) = prefs.edit { putBoolean(KEY_ACCESSIBILITY_CONSENT, value) }
 
     /** Called on the main thread whenever Shizuku or the grab service changes state. */
     var onStateChanged: (() -> Unit)? = null
@@ -71,5 +82,6 @@ class BTRemoteApp : Application() {
 
     companion object {
         private const val TAG = "BTRemote"
+        private const val KEY_ACCESSIBILITY_CONSENT = "accessibility_consent"
     }
 }

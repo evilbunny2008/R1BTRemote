@@ -11,6 +11,7 @@ import android.view.accessibility.AccessibilityManager
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var statusView: TextView
     private lateinit var grantButton: Button
     private lateinit var accessibilityButton: Button
+    private var disclosure: AlertDialog? = null
     private val app get() = application as BTRemoteApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,6 +49,25 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         setContentView(layout)
+
+        // Show the disclosure up front until it's been answered, and keep it across rotation
+        val reopen = savedInstanceState?.getBoolean(KEY_DISCLOSURE_SHOWING) ?: !app.disclosureAnswered
+        if (reopen || intent.getBooleanExtra(EXTRA_SHOW_DISCLOSURE, false)) showAccessibilityDisclosure()
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        if (intent.getBooleanExtra(EXTRA_SHOW_DISCLOSURE, false)) showAccessibilityDisclosure()
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putBoolean(KEY_DISCLOSURE_SHOWING, disclosure?.isShowing == true)
+    }
+
+    override fun onDestroy() {
+        disclosure?.dismiss()
+        super.onDestroy()
     }
 
     override fun onResume() {
@@ -71,14 +92,18 @@ class MainActivity : AppCompatActivity() {
      * yes before sending the user to settings. Back, tapping outside, etc. don't count as consent.
      */
     private fun showAccessibilityDisclosure() {
-        MaterialAlertDialogBuilder(this)
+        if (disclosure?.isShowing == true || (app.accessibilityConsent && isAccessibilityEnabled())) return
+        disclosure = MaterialAlertDialogBuilder(this)
             .setTitle(R.string.accessibility_disclosure_title)
             .setMessage(R.string.accessibility_disclosure_message)
             .setCancelable(false)
             .setPositiveButton(R.string.accessibility_disclosure_agree) { _, _ ->
+                app.accessibilityConsent = true
                 startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
             }
-            .setNegativeButton(R.string.accessibility_disclosure_decline, null)
+            .setNegativeButton(R.string.accessibility_disclosure_decline) { _, _ ->
+                app.accessibilityConsent = false
+            }
             .show()
     }
 
@@ -115,6 +140,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
+        const val EXTRA_SHOW_DISCLOSURE = "show_disclosure"
+        private const val KEY_DISCLOSURE_SHOWING = "disclosure_showing"
         private const val REQUEST_SHIZUKU = 1
     }
 }

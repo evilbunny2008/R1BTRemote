@@ -1,6 +1,7 @@
 package com.odiousapps.btremote
 
 import android.accessibilityservice.AccessibilityService
+import android.content.Intent
 import android.media.AudioManager
 import android.util.Log
 import android.view.InputDevice
@@ -23,12 +24,24 @@ class RemoteService : AccessibilityService() {
     private var startY = 0f
 
     override fun onServiceConnected() {
+        if (!(application as BTRemoteApp).accessibilityConsent) {
+            // Turned on in settings without going through the disclosure: switch off and ask first
+            Log.i(TAG, "no consent yet, disabling and showing the disclosure")
+            startActivity(
+                Intent(this, MainActivity::class.java)
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    .putExtra(MainActivity.EXTRA_SHOW_DISCLOSURE, true)
+            )
+            disableSelf()
+            return
+        }
         output = RemoteActions.AudioOutput(getSystemService(AudioManager::class.java))
         serviceInfo = serviceInfo.apply { motionEventSources = InputDevice.SOURCE_MOUSE }
         Log.i(TAG, "connected, listening to mouse events")
     }
 
     override fun onMotionEvent(event: MotionEvent) {
+        if (!::output.isInitialized) return
         // Hover events (the side button hovers before tapping) are swallowed without acting
         when (event.actionMasked) {
             MotionEvent.ACTION_DOWN -> {
@@ -40,6 +53,7 @@ class RemoteService : AccessibilityService() {
     }
 
     override fun onKeyEvent(event: KeyEvent): Boolean {
+        if (!::output.isInitialized) return false
         // Only the remote's held LEFT/RIGHT, which arrive as volume keys from its second device
         if (event.device?.name != GrabService.KEYS_DEVICE_NAME) return false
         val forward = when (event.keyCode) {
